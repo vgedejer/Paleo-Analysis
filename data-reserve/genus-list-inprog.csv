@@ -102,9 +102,9 @@ Goyocephale,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,
 Tianyulong,Heterodontosauridae,,Basal Ornithischia,Ornithischia,1,Herbivore,168.2,152.2,Bathonian,Kimmeridgian,Middle Jurassic,Upper Jurassic
 Wannanosaurus,,Pachycephalosauria,Neornithischia,Ornithischia,1,Herbivore,72.1,66,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
 Gasparinisaura,Thescelosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,83.6,72.1,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous
-Daurosaurus,Hypsilophodontidae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,168.2,145,Bathonian,Tithonian,Middle Jurassic,Upper Jurassic
-Hypsilophodon,Hypsilophodontidae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,154.8,119.5,Kimmeridgian,Aptian,Upper Jurassic,Lower Cretaceous
-Vectidromeus,Hypsilophodontidae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,145,100.5,Berriasian,Albian,Lower Cretaceous,Lower Cretaceous
+Daurosaurus,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,168.2,145,Bathonian,Tithonian,Middle Jurassic,Upper Jurassic
+Hypsilophodon,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,154.8,119.5,Kimmeridgian,Aptian,Upper Jurassic,Lower Cretaceous
+Vectidromeus,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,145,100.5,Berriasian,Albian,Lower Cretaceous,Lower Cretaceous
 Lophorhothon,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,86.3,72.1,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous
 Barilium,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,139.8,121.4,Valanginian,Barremian,Lower Cretaceous,Lower Cretaceous
 Bolong,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,125.77,119.5,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous
@@ -304,8 +304,8 @@ Cedarpelta,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,121.
 Chuanqilong,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,121.4,113,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
 Datai,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,93.9,86.3,Turonian,Coniacian,Upper Cretaceous,Upper Cretaceous
 Gobisaurus,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,121.4,89.8,Aptian,Turonian,Lower Cretaceous,Upper Cretaceous
-Liaoningosaurus,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,125.77,119.5,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous
-Minmi,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,0,Herbivore,139.8,113,Valanginian,Aptian,Lower Cretaceous,Lower Cretaceous
+Liaoningosaurus,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Carnivore,125.77,119.5,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous
+Minmi,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,139.8,113,Valanginian,Aptian,Lower Cretaceous,Lower Cretaceous
 Shamosaurus,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,121.4,100.5,Aptian,Albian,Lower Cretaceous,Lower Cretaceous
 Europelta,Nodosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,113,109.9,Albian,Albian,Lower Cretaceous,Lower Cretaceous
 Acantholipan,Nodosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,83.6,72.1,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous
@@ -341,10 +341,10 @@ Texasetes,Nodosauridae,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,106.2,1
 Dracopelta,,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,146.3,145,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic
 Kunbarrasaurus,,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,106.2,100.5,Albian,Albian,Lower Cretaceous,Lower Cretaceous
 Sarcolestes,,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,165.3,161.5,Callovian,Callovian,Middle Jurassic,Middle Jurassic
-Sinankylosaurus,,,,,1,Herbivore,83.6,72.1,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous
+Sinankylosaurus,,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,83.6,72.1,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous
 Spicomellus,,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,168.2,161.5,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
 Vectipelta,,Ankylosauria,Thyreophora,Ornithischia,1,Herbivore,140.6,139.8,Berriasian,Berriasian,Lower Cretaceous,Lower Cretaceous
-Dacentrurus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,154.8,121.4,Kimmeridgian,Barremian,Upper Jurassic,Lower Cretaceous
+Dacentrurus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,    ,Herbivore,154.8,121.4,Kimmeridgian,Barremian,Upper Jurassic,Lower Cretaceous
 Miragaia,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,2,Herbivore,154.8,145,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic
 Thyreosaurus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,168.2,161.5,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
 Chungkingosaurus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,168.2,161.5,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
@@ -357,24 +357,24 @@ Loricatosaurus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,16
 Mongolostegus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,121.4,100.5,Aptian,Albian,Lower Cretaceous,Lower Cretaceous
 Stegosaurus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,8,Herbivore,161.5,93.9,Oxfordian,Cenomanian,Upper Jurassic,Upper Cretaceous
 Yingshanosaurus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,168.2,161.5,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
-Adratiklit,,,,,1,Herbivore,168.2,161.5,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
-Baiyinosaurus,,,,,1,Herbivore,168.2,165.3,Bathonian,Bathonian,Middle Jurassic,Middle Jurassic
-Bashanosaurus,,,,,1,Herbivore,168.2,161.5,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
-Huayangosaurus,,,,,1,Herbivore,170.9,154.8,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic
-Isaberrysaura,,,,,1,Herbivore,170.9,168.6,Bajocian,Bajocian,Middle Jurassic,Middle Jurassic
-Kentrosaurus,,,,,1,Herbivore,161.5,145,Oxfordian,Tithonian,Upper Jurassic,Upper Jurassic
-Paranthodon,,,,,1,Herbivore,145,132.6,Berriasian,Valanginian,Lower Cretaceous,Lower Cretaceous
-Tuojiangosaurus,,,,,1,Herbivore,168.2,161.5,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
-Emausaurus,,,,,1,Herbivore,184.2,174.7,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
-Jakapil,,,,,1,Herbivore,100.5,93.9,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
-Scelidosaurus,,,,,1,Herbivore,208.5,174.7,Rhaetian,Toarcian,Upper Triassic,Lower Jurassic
-Scutellosaurus,,,,,1,Herbivore,201.4,184.2,Hettangian,Pliensbachian,Lower Jurassic,Lower Jurassic
-Yuxisaurus,,,,,1,Herbivore,192.9,184.2,Pliensbachian,Pliensbachian,Lower Jurassic,Lower Jurassic
-Agilisaurus,,,,,1,Herbivore,170.9,154.8,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic
-Eocursor,,,,,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Hexinlusaurus,,,,,1,Herbivore,170.9,154.8,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic
+Adratiklit,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,168.2,161.5,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
+Baiyinosaurus,,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,168.2,165.3,Bathonian,Bathonian,Middle Jurassic,Middle Jurassic
+Bashanosaurus,,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,168.2,161.5,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
+Huayangosaurus,Huayangosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,170.9,154.8,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic
+Isaberrysaura,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,170.9,168.6,Bajocian,Bajocian,Middle Jurassic,Middle Jurassic
+Kentrosaurus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,161.5,145,Oxfordian,Tithonian,Upper Jurassic,Upper Jurassic
+Paranthodon,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,145,132.6,Berriasian,Valanginian,Lower Cretaceous,Lower Cretaceous
+Tuojiangosaurus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,1,Herbivore,168.2,161.5,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
+Emausaurus,,Basal Thyreophora,Thyreophora,Ornithischia,1,Herbivore,184.2,174.7,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
+Jakapil,,Basal Thyreophora,Thyreophora,Ornithischia,1,Herbivore,100.5,93.9,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
+Scelidosaurus,Scelidosauridae,Basal Thyreophora,Thyreophora,Ornithischia,1,Herbivore,208.5,174.7,Rhaetian,Toarcian,Upper Triassic,Lower Jurassic
+Scutellosaurus,,Basal Thyreophora,Thyreophora,Ornithischia,1,Herbivore,201.4,184.2,Hettangian,Pliensbachian,Lower Jurassic,Lower Jurassic
+Yuxisaurus,,Basal Thyreophora,Thyreophora,Ornithischia,1,Herbivore,192.9,184.2,Pliensbachian,Pliensbachian,Lower Jurassic,Lower Jurassic
+Agilisaurus,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,170.9,154.8,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic
+Eocursor,,,Basal Ornithischia,Ornithischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Hexinlusaurus,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,170.9,154.8,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic
 Jeholosaurus,Jeholosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,125.77,119.5,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous
-Kulindapteryx,Jeholosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,168.2,145,Bathonian,Tithonian,Middle Jurassic,Upper Jurassic
+Kulindapteryx (Synonymous to Kulindadromeus),Jeholosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,168.2,145,Bathonian,Tithonian,Middle Jurassic,Upper Jurassic
 Albertadromeus,Thescelosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,83.6,72.1,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous
 Koreanosaurus,Thescelosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,83.6,72.1,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous
 Orodromeus,Thescelosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,86.3,66,Santonian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
@@ -385,87 +385,87 @@ Nevadadromeus,Thescelosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivo
 Notohypsilophodon,Thescelosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,100.5,89.8,Cenomanian,Turonian,Upper Cretaceous,Upper Cretaceous
 Parksosaurus,Thescelosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,72.1,66,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
 Haya,Thescelosauridae,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,86.3,72.1,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous
-Kulindadromeus,,,,,1,Herbivore,168.2,145,Bathonian,Tithonian,Middle Jurassic,Upper Jurassic
-Minimocursor,,,,,1,Herbivore,149.2,139.8,Tithonian,Berriasian,Upper Jurassic,Lower Cretaceous
-Sanxiasaurus,,,,,1,Herbivore,184.2,170.9,Toarcian,Aalenian,Lower Jurassic,Middle Jurassic
-Yandusaurus,,,,,1,Herbivore,170.9,168.2,Bajocian,Bajocian,Middle Jurassic,Middle Jurassic
-Gongbusaurus,Fabrosauridae,,Basal Ornithischia,Ornithischia,2,Herbivore,168.2,154.8,Bathonian,Oxfordian,Middle Jurassic,Upper Jurassic
-Xiaosaurus,Fabrosauridae,,Basal Ornithischia,Ornithischia,1,Herbivore,170.9,154.8,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic
-Abrictosaurus,Heterodontosauridae,,Basal Ornithischia,Ornithischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Fruitadens,Heterodontosauridae,,Basal Ornithischia,Ornithischia,1,Herbivore,149.2,145,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic
-Heterodontosaurus,Heterodontosauridae,,Basal Ornithischia,Ornithischia,1,Herbivore,201.4,184.2,Hettangian,Pliensbachian,Lower Jurassic,Lower Jurassic
-Lycorhinus,Heterodontosauridae,,Basal Ornithischia,Ornithischia,2,Herbivore,201.4,184.2,Hettangian,Pliensbachian,Lower Jurassic,Lower Jurassic
-Echinodon,Heterodontosauridae,,Basal Ornithischia,Ornithischia,1,Herbivore,152.2,139.8,Kimmeridgian,Berriasian,Upper Jurassic,Lower Cretaceous
-Manidens,Heterodontosauridae,,Basal Ornithischia,Ornithischia,1,Herbivore,182.9,174.7,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
-Pegomastax,Heterodontosauridae,,Basal Ornithischia,Ornithischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Chilesaurus,,,,,1,Herbivore,149.2,145,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic
-Ferganocephale,,,,,1,Herbivore,165.3,161.5,Callovian,Callovian,Middle Jurassic,Middle Jurassic
-Krzyzanowskisaurus,,,,,1,Herbivore,237,208.5,Carnian,Norian,Upper Triassic,Upper Triassic
-Laquintasaura,,,,,1,Herbivore,201.4,199.5,Hettangian,Hettangian,Lower Jurassic,Lower Jurassic
-Lesothosaurus,,,,,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Pisanosaurus,,,,,1,Herbivore,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
+Kulindadromeus,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,168.2,145,Bathonian,Tithonian,Middle Jurassic,Upper Jurassic
+Minimocursor,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,149.2,139.8,Tithonian,Berriasian,Upper Jurassic,Lower Cretaceous
+Sanxiasaurus,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,184.2,170.9,Toarcian,Aalenian,Lower Jurassic,Middle Jurassic
+Yandusaurus,,Ornithopoda,Neornithischia,Ornithischia,1,Herbivore,170.9,168.2,Bajocian,Bajocian,Middle Jurassic,Middle Jurassic
+Gongbusaurus,,,Neornithischia,Ornithischia,2,Herbivore,168.2,154.8,Bathonian,Oxfordian,Middle Jurassic,Upper Jurassic
+Xiaosaurus,,,Neornithischia,Ornithischia,1,Herbivore,170.9,154.8,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic
+Abrictosaurus,Heterodontosauridae,Basal Neornithischia,Neornithischia,Ornithischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Fruitadens,Heterodontosauridae,Basal Neornithischia,Neornithischia,Ornithischia,1,Herbivore,149.2,145,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic
+Heterodontosaurus,Heterodontosauridae,Basal Neornithischia,Neornithischia,Ornithischia,1,Herbivore,201.4,184.2,Hettangian,Pliensbachian,Lower Jurassic,Lower Jurassic
+Lycorhinus,Heterodontosauridae,Basal Neornithischia,Neornithischia,Ornithischia,2,Herbivore,201.4,184.2,Hettangian,Pliensbachian,Lower Jurassic,Lower Jurassic
+Echinodon,Heterodontosauridae,Basal Neornithischia,Neornithischia,Ornithischia,1,Herbivore,152.2,139.8,Kimmeridgian,Berriasian,Upper Jurassic,Lower Cretaceous
+Manidens,Heterodontosauridae,Basal Neornithischia,Neornithischia,Ornithischia,1,Herbivore,182.9,174.7,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
+Pegomastax,Heterodontosauridae,Basal Neornithischia,Neornithischia,Ornithischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Chilesaurus,,,,Indeterminate,1,,149.2,145,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic
+Ferganocephale,,,,Ornithischia,1,Herbivore,165.3,161.5,Callovian,Callovian,Middle Jurassic,Middle Jurassic
+Krzyzanowskisaurus,Parasuhcidae,Eucrocopoda,Phytosauria,Archosauria,1,Carnivore,237,208.5,Carnian,Norian,Upper Triassic,Upper Triassic
+Laquintasaura,,,Basal Ornithischia,Ornithischia,1,Herbivore,201.4,199.5,Hettangian,Hettangian,Lower Jurassic,Lower Jurassic
+Lesothosaurus,,Basal Neornithischia,Neornithischia,Ornithischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Pisanosaurus,,,,Indeterminate,1,Herbivore,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
 Actiosaurus,Anchisauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,208.5,201.4,Rhaetian,Rhaetian,Upper Triassic,Upper Triassic
 Gyposaurus,Anchisauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,174.7,Hettangian,Toarcian,Lower Jurassic,Lower Jurassic
-Gresslyosaurus,,,,,1,Herbivore,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
-Yimenosaurus,,,,,1,Herbivore,201.4,199.5,Hettangian,Hettangian,Lower Jurassic,Lower Jurassic
-Bagualosaurus,,,,,1,,237,208.5,Carnian,Norian,Upper Triassic,Upper Triassic
-Eucnemesaurus,Riojasauridae,Prosauropoda,Sauropodomorpha,Saurischia,2,,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
-Riojasaurus,Riojasauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Aardonyx,,,,,1,,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Blikanasaurus,,,,,1,,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
-Camelotia,,,,,1,,208.5,201.4,Rhaetian,Rhaetian,Upper Triassic,Upper Triassic
-Gongxianosaurus,,,,,1,,184.2,174.7,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
-Irisosaurus,,,,,1,,192.9,184.2,Pliensbachian,Pliensbachian,Lower Jurassic,Lower Jurassic
-Jingshanosaurus,,,,,1,,201.4,199.5,Hettangian,Hettangian,Lower Jurassic,Lower Jurassic
-Ledumahadi,,,,,1,,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Leonerasaurus,,,,,1,,192.9,184.2,Pliensbachian,Pliensbachian,Lower Jurassic,Lower Jurassic
-Melanorosaurus,,,,,1,,227,192.9,Norian,Sinemurian,Upper Triassic,Lower Jurassic
-Meroktenos,,,,,1,,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
-Mussaurus,,,,,1,,199.5,192.9,Sinemurian,Sinemurian,Lower Jurassic,Lower Jurassic
-Schleitheimia,,,,,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Sefapanosaurus,,,,,1,,227,199.5,Norian,Hettangian,Upper Triassic,Lower Jurassic
-Seitaad,,,,,1,,192.9,174.7,Pliensbachian,Toarcian,Lower Jurassic,Lower Jurassic
-Xingxiulong,,,,,1,,201.4,199.5,Hettangian,Hettangian,Lower Jurassic,Lower Jurassic
-Yizhousaurus,,,,,1,,199.5,192.9,Sinemurian,Sinemurian,Lower Jurassic,Lower Jurassic
-Yunnanosaurus,,,,,3,,201.4,184.2,Hettangian,Pliensbachian,Lower Jurassic,Lower Jurassic
-Adeopapposaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,201.4,174.7,Hettangian,Toarcian,Lower Jurassic,Lower Jurassic
-Coloradisaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Glacialisaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,199.5,184.2,Sinemurian,Pliensbachian,Lower Jurassic,Lower Jurassic
-Ignavusaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Leyesaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,201.4,174.7,Hettangian,Toarcian,Lower Jurassic,Lower Jurassic
-Lufengosaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,3,,201.4,168.2,Hettangian,Bajocian,Lower Jurassic,Middle Jurassic
-Massospondylus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,3,,237,174.7,Carnian,Toarcian,Upper Triassic,Lower Jurassic
-Ngwevu,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Pradhania,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Sarahsaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,199.5,184.2,Sinemurian,Pliensbachian,Lower Jurassic,Lower Jurassic
-Anchisaurus,,,,,1,,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Musankwa,,,,,1,,237,208.5,Carnian,Norian,Upper Triassic,Upper Triassic
-Tuebingosaurus,,,,,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Jaklapallisaurus,Unaysauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
-Macrocollum,Unaysauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Agnosphitys,Guaibasauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
-Guaibasaurus,Guaibasauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Issi,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Plateosauravus,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
+Gresslyosaurus,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
+Yimenosaurus,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,199.5,Hettangian,Hettangian,Lower Jurassic,Lower Jurassic
+Bagualosaurus,,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,237,208.5,Carnian,Norian,Upper Triassic,Upper Triassic
+Eucnemesaurus,Riojasauridae,Prosauropoda,Sauropodomorpha,Saurischia,2,Herbivore,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
+Riojasaurus,Riojasauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Aardonyx,,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Blikanasaurus,Blikanasauridae,Sauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
+Camelotia,Melanorosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,208.5,201.4,Rhaetian,Rhaetian,Upper Triassic,Upper Triassic
+Gongxianosaurus,,Sauropoda,Sauropodomorpha,Saurischia,1,Herbivore,184.2,174.7,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
+Irisosaurus,,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,192.9,184.2,Pliensbachian,Pliensbachian,Lower Jurassic,Lower Jurassic
+Jingshanosaurus,,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,199.5,Hettangian,Hettangian,Lower Jurassic,Lower Jurassic
+Ledumahadi,,Sauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Leonerasaurus,,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,192.9,184.2,Pliensbachian,Pliensbachian,Lower Jurassic,Lower Jurassic
+Melanorosaurus,Melanorosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,192.9,Norian,Sinemurian,Upper Triassic,Lower Jurassic
+Meroktenos,,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
+Mussaurus,Mussauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,199.5,192.9,Sinemurian,Sinemurian,Lower Jurassic,Lower Jurassic
+Schleitheimia,,Sauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Sefapanosaurus,,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,199.5,Norian,Hettangian,Upper Triassic,Lower Jurassic
+Seitaad,,,Sauropodomorpha,Saurischia,1,Herbivore,192.9,174.7,Pliensbachian,Toarcian,Lower Jurassic,Lower Jurassic
+Xingxiulong,,,Sauropodomorpha,Saurischia,1,Herbivore,201.4,199.5,Hettangian,Hettangian,Lower Jurassic,Lower Jurassic
+Yizhousaurus,,,Sauropodomorpha,Saurischia,1,Herbivore,199.5,192.9,Sinemurian,Sinemurian,Lower Jurassic,Lower Jurassic
+Yunnanosaurus,,,Sauropodomorpha,Saurischia,3,Herbivore,201.4,184.2,Hettangian,Pliensbachian,Lower Jurassic,Lower Jurassic
+Adeopapposaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,174.7,Hettangian,Toarcian,Lower Jurassic,Lower Jurassic
+Coloradisaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Glacialisaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,199.5,184.2,Sinemurian,Pliensbachian,Lower Jurassic,Lower Jurassic
+Ignavusaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Leyesaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,174.7,Hettangian,Toarcian,Lower Jurassic,Lower Jurassic
+Lufengosaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,3,Herbivore,201.4,168.2,Hettangian,Bajocian,Lower Jurassic,Middle Jurassic
+Massospondylus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,3,Herbivore,237,174.7,Carnian,Toarcian,Upper Triassic,Lower Jurassic
+Ngwevu,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Pradhania,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Sarahsaurus,Massospondylidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,199.5,184.2,Sinemurian,Pliensbachian,Lower Jurassic,Lower Jurassic
+Anchisaurus,Anchisauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Musankwa,,,Sauropodomorpha,Saurischia,1,Herbivore,237,208.5,Carnian,Norian,Upper Triassic,Upper Triassic
+Tuebingosaurus,,,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Jaklapallisaurus,Unaysauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
+Macrocollum,Unaysauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Agnosphitys,Guaibasauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
+Guaibasaurus,Guaibasauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Issi,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Plateosauravus,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,201.4,Norian,Rhaetian,Upper Triassic,Upper Triassic
 Plateosaurus,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,7,Herbivore,227,199.5,Norian,Hettangian,Upper Triassic,Lower Jurassic
-Ruehleia,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Unaysaurus,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Xixiposaurus,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Chromogisaurus,Saturnaliidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
-Pampadromaeus,Saturnaliidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,237,208.5,Carnian,Norian,Upper Triassic,Upper Triassic
-Panphagia,Saturnaliidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
-Saturnalia,Saturnaliidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,237,208.5,Carnian,Norian,Upper Triassic,Upper Triassic
-Arcusaurus,,,,,1,,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Asylosaurus,,,,,1,,208.5,201.4,Rhaetian,Rhaetian,Upper Triassic,Upper Triassic
-Buriolestes,,,,,1,,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
-Efraasia,,,,,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Eoraptor,,,,,1,,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
-Kholumolumo,,,,,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Mbiresaurus,,,,,1,,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
-Nambalia,,,,,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Pantydraco,,,,,1,,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
-Qianlong,,,,,1,,199.5,192.9,Sinemurian,Sinemurian,Lower Jurassic,Lower Jurassic
-Thecodontosaurus,,,,,2,,247.2,192.9,Anisian,Sinemurian,Middle Triassic,Lower Jurassic
+Ruehleia,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Unaysaurus,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Xixiposaurus,Plateosauridae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Chromogisaurus,Saturnaliidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
+Pampadromaeus,Saturnaliidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,237,208.5,Carnian,Norian,Upper Triassic,Upper Triassic
+Panphagia,Saturnaliidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
+Saturnalia,Saturnaliidae,Prosauropoda,Sauropodomorpha,Saurischia,1,Herbivore,237,208.5,Carnian,Norian,Upper Triassic,Upper Triassic
+Arcusaurus,,,Sauropodomorpha,Saurischia,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
+Asylosaurus,,,Sauropodomorpha,Saurischia,1,Herbivore,208.5,201.4,Rhaetian,Rhaetian,Upper Triassic,Upper Triassic
+Buriolestes,,,Sauropodomorpha,Saurischia,1,Herbivore,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
+Efraasia,,,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Eoraptor,,,Sauropodomorpha,Saurischia,1,Herbivore,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
+Kholumolumo,,,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Mbiresaurus,,,Sauropodomorpha,Saurischia,1,Herbivore,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
+Nambalia,,,Sauropodomorpha,Saurischia,1,Herbivore,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Pantydraco,,,Sauropodomorpha,Saurischia,1,Herbivore,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
+Qianlong,,,Sauropodomorpha,Saurischia,1,Herbivore,199.5,192.9,Sinemurian,Sinemurian,Lower Jurassic,Lower Jurassic
+Thecodontosaurus,,,Sauropodomorpha,Saurischia,2,Herbivore,247.2,192.9,Anisian,Sinemurian,Middle Triassic,Lower Jurassic
 Abrosaurus,Mamenchisauridae,Sauropoda,Sauropodomorpha,Saurischia,1,Herbivore,170.9,154.8,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic
 Analong,Mamenchisauridae,Sauropoda,Sauropodomorpha,Saurischia,1,Herbivore,170.9,168.2,Bajocian,Bajocian,Middle Jurassic,Middle Jurassic
 Anhuilong,Mamenchisauridae,Sauropoda,Sauropodomorpha,Saurischia,1,Herbivore,174.7,161.5,Aalenian,Callovian,Middle Jurassic,Middle Jurassic
@@ -752,37 +752,37 @@ Ohmdenosaurus,,,,,1,Herbivore,182.9,180.4,Toarcian,Toarcian,Lower Jurassic,Lower
 Oplosaurus,,,,,1,Herbivore,139.8,121.4,Valanginian,Barremian,Lower Cretaceous,Lower Cretaceous
 Pulanesaura,,,,,1,Herbivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
 Sanpasaurus,,,,,1,Herbivore,184.2,174.7,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
-Vulcanodon,,,,,1,Herbivore,199.5,184.2,Sinemurian,Pliensbachian,Lower Jurassic,Lower Jurassic
-Alwalkeria,,,,,1,,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
-Nhandumirim,,,,,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
-Crateropteryx,,,,,1,Carnivore,168.2,165.3,Bathonian,Bathonian,Middle Jurassic,Middle Jurassic
-Ichthyornis,,,,,2,Piscivore,100.5,72.1,Cenomanian,Campanian,Upper Cretaceous,Upper Cretaceous
-Janavis,,,,,1,Carnivore,72.1,66,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
-Asiahesperornis,Hesperornithidae,Tetanurae,Therapoda,Saurischia,1,Carnivore,83.6,66,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
-Canadaga,Hesperornithidae,Tetanurae,Therapoda,Saurischia,1,Carnivore,83.6,66,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
-Hesperornis,Hesperornithidae,Tetanurae,Therapoda,Saurischia,11,Piscivore,89.8,66,Coniacian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
-Parahesperornis,Hesperornithidae,Tetanurae,Therapoda,Saurischia,1,Carnivore,89.8,83.6,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous
+Vulcanodon,Vulcanodontidae,Sauropoda,Sauropodomorpha,Saurischia,1,Herbivore,199.5,184.2,Sinemurian,Pliensbachian,Lower Jurassic,Lower Jurassic
+Alwalkeria,,,Basal Saurischia,Saurischia,1,,237,227,Carnian,Carnian,Upper Triassic,Upper Triassic
+Nhandumirim,Saturnaliidae,Prosauropoda,Sauropodomorpha,Saurischia,1,,227,208.5,Norian,Norian,Upper Triassic,Upper Triassic
+Crateropteryx,,Tetanurae,Therapoda,Saurischia,1,Carnivore,168.2,165.3,Bathonian,Bathonian,Middle Jurassic,Middle Jurassic
+Ichthyornis,,Avialae,Therapoda,Saurischia,2,Piscivore,100.5,72.1,Cenomanian,Campanian,Upper Cretaceous,Upper Cretaceous
+Janavis,,Avialae,Therapoda,Saurischia,1,Carnivore,72.1,66,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
+Asiahesperornis,Hesperornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,83.6,66,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
+Canadaga,Hesperornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,83.6,66,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
+Hesperornis,Hesperornithidae,Avialae,Therapoda,Saurischia,11,Piscivore,89.8,66,Coniacian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
+Parahesperornis,Hesperornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,89.8,83.6,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous
 Baptornis,Baptornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,89.8,72.1,Coniacian,Campanian,Upper Cretaceous,Upper Cretaceous
 Judinornis,Baptornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,72.1,66,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
 Brodavis,Brodavidae,Avialae,Therapoda,Saurischia,4,Carnivore,83.6,66,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
-Chupkaornis,,,,,1,Carnivore,89.8,83.6,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous
-Enaliornis,,,,,4,Carnivore,106.2,100.5,Albian,Albian,Lower Cretaceous,Lower Cretaceous
-Fumicollis,,,,,1,Carnivore,89.8,83.6,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous
-Pasquiaornis,,,,,2,Carnivore,100.5,93.9,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
-Potamornis,,,,,1,Carnivore,72.1,66,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
+Chupkaornis,,Avialae,Therapoda,Saurischia,1,Carnivore,89.8,83.6,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous
+Enaliornis,,Avialae,Therapoda,Saurischia,4,Carnivore,106.2,100.5,Albian,Albian,Lower Cretaceous,Lower Cretaceous
+Fumicollis,Hesperornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,89.8,83.6,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous
+Pasquiaornis,,Avialae,Therapoda,Saurischia,2,Carnivore,100.5,93.9,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
+Potamornis,,Avialae,Therapoda,Saurischia,1,Carnivore,72.1,66,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
 Abitusavis,Yanornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,125.77,119.5,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous
 Similiyanornis,Yanornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,121.4,113,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
 Yanornis,Yanornithidae,Avialae,Therapoda,Saurischia,3,Carnivore,125.77,113,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous
 Gargantuavis,Gargantuaviidae,Avialae,Therapoda,Saurischia,1,Carnivore,83.6,66,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
-Apatornis,,,,,2,Carnivore,89.8,83.6,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous
-Archaeovolans,,,,,1,Carnivore,121.4,113,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
-Cerebavis,,,,,1,Carnivore,100.5,93.9,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
-Changzuiornis,,,,,1,Carnivore,121.4,113,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
-Iaceornis,,,,,1,Carnivore,86.3,83.6,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous
-Kookne,,,,,1,Carnivore,72.1,66,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
-Kuszholia,,,,,1,Carnivore,93.9,89.8,Turonian,Turonian,Upper Cretaceous,Upper Cretaceous
-Limenavis,,,,,1,Carnivore,83.6,66,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
-Tingmiatornis,,,,,1,Carnivore,100.5,93.9,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
+Apatornis,,Avialae,Therapoda,Saurischia,2,Carnivore,89.8,83.6,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous
+Archaeovolans,Yanornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,121.4,113,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
+Cerebavis,,Avialae,Therapoda,Saurischia,1,Carnivore,100.5,93.9,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
+Changzuiornis,Gansuidae,Avialae,Therapoda,Saurischia,1,Carnivore,121.4,113,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
+Iaceornis,,Avialae,Therapoda,Saurischia,1,Carnivore,86.3,83.6,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous
+Kookne,,Avialae,Therapoda,Saurischia,1,Carnivore,72.1,66,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
+Kuszholia,Kuszholiidae,Avialae,Therapoda,Saurischia,1,Carnivore,93.9,89.8,Turonian,Turonian,Upper Cretaceous,Upper Cretaceous
+Limenavis,,Avialae,Therapoda,Saurischia,1,Carnivore,83.6,66,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
+Tingmiatornis,,Avialae,Therapoda,Saurischia,1,Carnivore,100.5,93.9,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
 Archaeornithura,Hongshanornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,132.6,125.77,Hauterivian,Hauterivian,Lower Cretaceous,Lower Cretaceous
 Hongshanornis,Hongshanornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,125.77,119.5,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous
 Longicrusavis,Hongshanornithidae,Avialae,Therapoda,Saurischia,1,Carnivore,125.77,119.5,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous
@@ -914,7 +914,7 @@ Xinghaiornis,,,,,1,Carnivore,125.77,119.5,Barremian,Aptian,Lower Cretaceous,Lowe
 Kompsornis,,,,,1,Carnivore,121.4,113,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
 Neimengornis,,,,,1,Carnivore,121.4,113,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
 Alcmonavis,,,,,1,Carnivore,149.2,146.3,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic
-Archaeopteryx,,,,,3,"Piscivore, insectivore",149.2,121.4,Tithonian,Barremian,Upper Jurassic,Lower Cretaceous
+Archaeopteryx,Achaeopterygidae,Avialae,Therapoda,Saurischia,3,"Piscivore, insectivore",149.2,121.4,Tithonian,Barremian,Upper Jurassic,Lower Cretaceous
 Aurornis,,,,,1,Carnivore,168.2,152.2,Bathonian,Kimmeridgian,Middle Jurassic,Upper Jurassic
 Dalianraptor,,,,,1,Carnivore,121.4,113,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
 Fujianvenator,,,,,1,Carnivore,152.2,146.3,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic
@@ -1246,7 +1246,7 @@ Kol,,,,,1,Carnivore,83.6,72.1,Campanian,Campanian,Upper Cretaceous,Upper Cretace
 Lourinhanosaurus,,,,,1,Carnivore,152.2,146.3,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic
 Nedcolbertia,,,,,1,Carnivore,139.8,132.6,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous
 Ngexisaurus,,,,,1,Carnivore,174.7,161.5,Aalenian,Callovian,Middle Jurassic,Middle Jurassic
-Sinosauropteryx,,,,,1,Carnivore,125.77,119.5,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous
+Sinosauropteryx,Compsognathidae,Tetanurae,Therapoda,Saurischia,1,Carnivore,125.77,119.5,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous
 Tanycolagreus,,,,,1,Carnivore,154.8,145,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic
 Trisauropodiscus,,,,,7,Carnivore,201.4,192.9,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
 Xinjiangovenator,,,,,1,Carnivore,119.5,100.5,Aptian,Albian,Lower Cretaceous,Lower Cretaceous
