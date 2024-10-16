@@ -1,33 +1,40 @@
-Name,Family,Infraorder,Suborder,Order,Taxon Size,Diet,Max MYA,Min MYA,Lifespan (MYA),Early Age,Late Age,Early Period,Late Period,Avialae
-Sinankylosaurus,,,,,1,Herbivore,83.6,72.1,11.5,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,False
-Chilesaurus,,,,,1,Herbivore,149.2,145.0,4.199999999999989,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic,False
-Qianlong,,,,,1,,199.5,192.9,6.599999999999994,Sinemurian,Sinemurian,Lower Jurassic,Lower Jurassic,
-Gspsaurus,Gspsauridae,,,,1,Herbivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Ikqaumishan,Gspsauridae,,,,1,Herbivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Saraikimasoom,Gspsauridae,,,,1,Herbivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Imrankhanhero,Pakisauridae,,,,1,Herbivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Sulaimanisaurus,Pakisauridae,,,,1,Herbivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Khetranisaurus,Pakisauridae,,,,1,Herbivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Khanazeem,Pakisauridae,,,,1,Herbivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Pakisaurus,Pakisauridae,,,,1,Herbivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Damalasaurus,,,,,1,Herbivore,201.4,174.7,26.700000000000017,Hettangian,Toarcian,Lower Jurassic,Lower Jurassic,
-Microdontosaurus,,,,,1,Herbivore,174.7,161.5,13.199999999999989,Aalenian,Callovian,Middle Jurassic,Middle Jurassic,
-Crateropteryx,,,,,1,Carnivore,168.2,165.3,2.8999999999999773,Bathonian,Bathonian,Middle Jurassic,Middle Jurassic,
-Bellulornis,,,,,1,Carnivore,121.4,113.0,8.400000000000006,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,
-Alethoalaornis,Alethoalaornithidae,,,,1,Carnivore,121.4,113.0,8.400000000000006,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,
-Fortunguavis,,,,,1,Carnivore,121.4,113.0,8.400000000000006,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,
-Gretcheniao,,,,,1,Carnivore,125.77,119.5,6.269999999999996,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,
-Holbotia,,,,,1,Carnivore,132.6,121.4,11.199999999999989,Hauterivian,Barremian,Lower Cretaceous,Lower Cretaceous,
-Linyiornis,,,,,1,Carnivore,121.4,113.0,8.400000000000006,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,
-Microenantiornis,,,,,1,Carnivore,121.4,113.0,8.400000000000006,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,
-Monoenantiornis,,,,,1,Carnivore,121.4,113.0,8.400000000000006,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,
-Otogornis,,,,,1,Carnivore,125.77,121.4,4.36999999999999,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,
-Pterygornis,,,,,1,Carnivore,121.4,113.0,8.400000000000006,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,
-Shangyang,,,,,1,Carnivore,121.4,113.0,8.400000000000006,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,
-Horezmavis,,,,,1,Carnivore,100.5,93.9,6.599999999999994,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,
-Platanavis,,,,,1,Carnivore,93.9,89.8,4.1000000000000085,Turonian,Turonian,Upper Cretaceous,Upper Cretaceous,
-Teihivenator,,,,,1,Carnivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Ngexisaurus,,,,,1,Carnivore,174.7,161.5,13.199999999999989,Aalenian,Callovian,Middle Jurassic,Middle Jurassic,
-Vitakridrinda,Vitakrisauridae,,,,1,Carnivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Vitakrisaurus,Vitakrisauridae,,,,1,Carnivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,
-Lametasaurus,,,,,1,Carnivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,False
+Name,Family,Order,Informal,Avialae
+Sinankylosaurus,,,False,False
+Changdusaurus,Stegosauridae,,False,False
+Chilesaurus,,,False,False
+Nicksaurus,Saltasauridae,,False,False
+Gspsaurus,Gspsauridae,,False,False
+Ikqaumishan,Gspsauridae,,False,False
+Saraikimasoom,Gspsauridae,,False,False
+Imrankhanhero,Pakisauridae,,False,False
+Sulaimanisaurus,Pakisauridae,,False,False
+Khetranisaurus,Pakisauridae,,False,False
+Khanazeem,Pakisauridae,,False,False
+Pakisaurus,Pakisauridae,,False,False
+Balochisaurus,Balochisauridae,,False,False
+Qaikshaheen,Balochisauridae,,False,False
+Marisaurus,Balochisauridae,,False,False
+Damalasaurus,,,False,False
+Microdontosaurus,,,False,False
+Crateropteryx,,,False,False
+Bellulornis,,,False,False
+Alethoalaornis,Alethoalaornithidae,,False,False
+Eopengornis,Pengornithidae,,False,False
+Fortunguavis,,,False,False
+Gretcheniao,,,False,False
+Holbotia,,,False,False
+Linyiornis,,,False,False
+Microenantiornis,,,False,False
+Monoenantiornis,,,False,False
+Otogornis,,,False,False
+Pterygornis,,,False,False
+Shangyang,,,False,False
+Horezmavis,,,False,False
+Platanavis,,,False,False
+Wulong,Dromaeosauridae,,False,False
+Tiantaisaurus,Therizinosauridae,,False,False
+Teihivenator,,,False,False
+Ngexisaurus,,,False,False
+Vitakridrinda,Vitakrisauridae,,False,False
+Vitakrisaurus,Vitakrisauridae,,False,False
+Lametasaurus,,,False,False
