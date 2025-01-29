@@ -25,7 +25,7 @@ Unescoceratops,Leptoceratopsidae,,,Ornithischia,False,1,Herbivore,83.6,72.1,11.5
 Zhuchengceratops,Leptoceratopsidae,,,Ornithischia,False,1,Herbivore,83.6,72.1,11.5,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous
 Aquilops,,Ceratopsia,Neornithischia,Ornithischia,False,1,Herbivore,109.9,100.5,9.400000000000006,Albian,Albian,Lower Cretaceous,Lower Cretaceous
 Archaeoceratops,Archaeoceratopsidae,Ceratopsia,Neornithischia,Ornithischia,False,2,Herbivore,121.4,109.9,11.5,Aptian,Albian,Lower Cretaceous,Lower Cretaceous
-Asiaceratops,Leptoceratopsidae,,,Ornithischia,False,1,Herbivore,100.5,93.9,6.599999999999994,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
+Asiaceratops,,Ceratopsia,Neornithischia,Ornithischia,False,1,Herbivore,100.5,93.9,6.599999999999994,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
 Auroraceratops,,Ceratopsia,Neornithischia,Ornithischia,False,1,Herbivore,113.0,109.9,3.0999999999999943,Albian,Albian,Lower Cretaceous,Lower Cretaceous
 Beg,,Ceratopsia,Neornithischia,Ornithischia,False,1,Herbivore,106.2,93.9,12.299999999999997,Albian,Cenomanian,Lower Cretaceous,Upper Cretaceous
 Graciliceratops,,Ceratopsia,Neornithischia,Ornithischia,False,1,Herbivore,100.5,83.6,16.900000000000006,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous
@@ -367,6 +367,7 @@ Isaberrysaura,,Stegosauria,Thyreophora,Ornithischia,False,1,Herbivore,170.9,168.
 Kentrosaurus,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,False,1,Herbivore,161.5,145.0,16.5,Oxfordian,Tithonian,Upper Jurassic,Upper Jurassic
 Paranthodon,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,False,1,Herbivore,145.0,132.6,12.400000000000006,Berriasian,Valanginian,Lower Cretaceous,Lower Cretaceous
 Tuojiangosaurus,,Stegosauria,Thyreophora,Ornithischia,False,1,Herbivore,168.2,161.5,6.699999999999989,Bathonian,Callovian,Middle Jurassic,Middle Jurassic
+Yanbeilong,Stegosauridae,Stegosauria,Thyreophora,Ornithischia,False,1,Herbivore,113.0,100.5,12.5,Albian,Albian,Lower Cretaceous,Lower Cretaceous
 Emausaurus,,,Thyreophora,Ornithischia,False,1,Herbivore,184.2,174.7,9.5,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
 Jakapil,,,Thyreophora,Ornithischia,False,1,Herbivore,100.5,93.9,6.599999999999994,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
 Scelidosaurus,,,Thyreophora,Ornithischia,False,1,Herbivore,208.5,174.7,33.80000000000001,Rhaetian,Toarcian,Upper Triassic,Lower Jurassic
@@ -400,7 +401,7 @@ Lycorhinus,Heterodontosauridae,,,Ornithischia,False,2,Herbivore,201.4,184.2,17.2
 Echinodon,Heterodontosauridae,,,Ornithischia,False,1,Herbivore,152.2,139.8,12.399999999999977,Kimmeridgian,Berriasian,Upper Jurassic,Lower Cretaceous
 Manidens,Heterodontosauridae,,,Ornithischia,False,1,Herbivore,182.9,174.7,8.200000000000017,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
 Pegomastax,Heterodontosauridae,,,Ornithischia,False,1,Herbivore,201.4,192.9,8.5,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
-Chilesaurus,,,,,False,1,Herbivore,149.2,145.0,4.199999999999989,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic
+Chilesaurus,,Non-Avian,Theropoda,Saurischia,False,1,Herbivore,149.2,145.0,4.199999999999989,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic
 Ferganocephale,,,,Ornithischia,False,1,Herbivore,165.3,161.5,3.8000000000000114,Callovian,Callovian,Middle Jurassic,Middle Jurassic
 Laquintasaura,,,,Ornithischia,False,1,Herbivore,201.4,199.5,1.9000000000000057,Hettangian,Hettangian,Lower Jurassic,Lower Jurassic
 Lesothosaurus,,,,Ornithischia,False,1,Herbivore,201.4,192.9,8.5,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic
@@ -716,6 +717,7 @@ Tendaguria,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,149.2,145.0,4
 Turiasaurus,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,154.8,145.0,9.800000000000011,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic
 Zby,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,152.2,149.2,3.0,Kimmeridgian,Kimmeridgian,Upper Jurassic,Upper Jurassic
 Chebsaurus,Cetiosauridae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,165.3,161.5,3.8000000000000114,Callovian,Callovian,Middle Jurassic,Middle Jurassic
+Patagosaurus,Cetiosauridae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,182.9,168.6,14.300000000000011,Toarcian,Bajocian,Lower Jurassic,Middle Jurassic
 Protognathosaurus,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,170.9,154.8,16.099999999999994,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic
 Amanzia,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,154.8,152.2,2.6000000000000227,Kimmeridgian,Kimmeridgian,Upper Jurassic,Upper Jurassic
 Bagualia,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,182.9,180.4,2.5,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
@@ -735,7 +737,6 @@ Shunosaurus,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,174.7,154.8,
 Amygdalodon,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,192.9,182.9,10.0,Pliensbachian,Toarcian,Lower Jurassic,Lower Jurassic
 Barapasaurus,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,199.5,184.2,15.300000000000011,Sinemurian,Pliensbachian,Lower Jurassic,Lower Jurassic
 Cetiosaurus,Cetiosauridae,Sauropoda,Sauropodomorpha,Saurischia,False,2,Herbivore,174.7,119.5,55.19999999999999,Aalenian,Aptian,Middle Jurassic,Lower Cretaceous
-Patagosaurus,Cetiosauridae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,182.9,168.6,14.300000000000011,Toarcian,Bajocian,Lower Jurassic,Middle Jurassic
 Spinophorosaurus,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,170.9,165.3,5.599999999999994,Bajocian,Bathonian,Middle Jurassic,Middle Jurassic
 Tazoudasaurus,Vulcanodontidae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,192.9,174.7,18.200000000000017,Pliensbachian,Toarcian,Lower Jurassic,Lower Jurassic
 Volkheimeria,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,182.9,180.4,2.5,Toarcian,Toarcian,Lower Jurassic,Lower Jurassic
@@ -1159,7 +1160,7 @@ Shuvuuia,Alvarezsauridae,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,83.6,7
 Xixianykus,Alvarezsauridae,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,89.8,83.6,6.200000000000003,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous
 Achillesaurus,,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,86.3,83.6,2.700000000000003,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous
 Albertonykus,Alvarezsauridae,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
-Alnashetri,Alvarezsauridae,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,100.5,93.9,6.599999999999994,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
+Alnashetri,,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,100.5,93.9,6.599999999999994,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous
 Alvarezsaurus,Alvarezsauridae,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,86.3,83.6,2.700000000000003,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous
 Elopteryx,,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
 Trierarchuncus,Alvarezsauridae,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,72.1,66.0,6.099999999999994,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous
