@@ -10,18 +10,18 @@ Protoceratops andrewsi,Protoceratops,Protoceratopsidae,,,Ornithischia,False,Herb
  (44.200001, 103.26667) (43.938889, 101.331947)]"
 Protoceratops hellenikorhinus,Protoceratops,Protoceratopsidae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Bayan Mandahu' 'Wulansuhai'],"[(41.74139, 106.745003) (41.741669, 106.746109) (41.797779, 106.736664)
  (41.787777, 106.71833) (41.766666, 106.720001) (39.221943, 101.669998)]"
-Chaoyangsaurus youngi,Chaoyangsaurus,Chaoyangsauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Valanginian,Upper Jurassic,Lower Cretaceous,152.2,132.6,19.599999999999994,['Tuchengzi'],"[(42.9333, 123.966698)]"
-Hualianceratops wucaiwanensis,Hualianceratops,Chaoyangsauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Oxfordian,Oxfordian,Upper Jurassic,Upper Jurassic,161.5,154.8,6.699999999999989,['Shishugou'],"[(45.191288, 88.919884)]"
-Stenopelix valdensis,Stenopelix,Chaoyangsauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Berriasian,Berriasian,Lower Cretaceous,Lower Cretaceous,140.6,139.8,0.799999999999983,['Bückeberg'],"[(52.252357, 9.066053)]"
-Xuanhuaceratops niei,Xuanhuaceratops,Chaoyangsauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Valanginian,Upper Jurassic,Lower Cretaceous,152.2,132.6,19.599999999999994,['Tuchengzi'],"[(40.25222, 115.637497)]"
-Yinlong downsi,Yinlong,Chaoyangsauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Oxfordian,Oxfordian,Upper Jurassic,Upper Jurassic,161.5,154.8,6.699999999999989,['Shishugou'],"[(45.191288, 88.919884)]"
+Chaoyangsaurus youngi,Chaoyangsaurus,Chaoyangsauridae,Ceratopsia,,Ornithischia,False,Herbivore,Kimmeridgian,Valanginian,Upper Jurassic,Lower Cretaceous,152.2,132.6,19.599999999999994,['Tuchengzi'],"[(42.9333, 123.966698)]"
+Hualianceratops wucaiwanensis,Hualianceratops,Chaoyangsauridae,Ceratopsia,,Ornithischia,False,Herbivore,Oxfordian,Oxfordian,Upper Jurassic,Upper Jurassic,161.5,154.8,6.699999999999989,['Shishugou'],"[(45.191288, 88.919884)]"
+Stenopelix valdensis,Stenopelix,Chaoyangsauridae,Ceratopsia,,Ornithischia,False,Herbivore,Berriasian,Berriasian,Lower Cretaceous,Lower Cretaceous,140.6,139.8,0.799999999999983,['Bückeberg'],"[(52.252357, 9.066053)]"
+Xuanhuaceratops niei,Xuanhuaceratops,Chaoyangsauridae,Ceratopsia,,Ornithischia,False,Herbivore,Kimmeridgian,Valanginian,Upper Jurassic,Lower Cretaceous,152.2,132.6,19.599999999999994,['Tuchengzi'],"[(40.25222, 115.637497)]"
+Yinlong downsi,Yinlong,Chaoyangsauridae,Ceratopsia,,Ornithischia,False,Herbivore,Oxfordian,Oxfordian,Upper Jurassic,Upper Jurassic,161.5,154.8,6.699999999999989,['Shishugou'],"[(45.191288, 88.919884)]"
 Cerasinops hodgskissi,Cerasinops,Leptoceratopsidae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Two Medicine'],"[(48.463612, -112.470001) (47.816666, -112.183334)]"
 Ferrisaurus sustutensis,Ferrisaurus,Leptoceratopsidae,,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Tango Creek'],"[(56.324856, -127.09259)]"
 Gremlin slobodorum,Gremlin,Leptoceratopsidae,Ceratopsia,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Oldman'],"[(49.081963, -110.840065)]"
 Gryphoceratops morrisoni,Gryphoceratops,Leptoceratopsidae,,,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Milk River'],"[(49.083698, -111.436096)]"
-Helioceratops brachygnathus,Helioceratops,Archaeoceratopsidae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,100.5,20.900000000000006,['Quantou'],"[(43.585079, 124.894295)]"
+Helioceratops brachygnathus,Helioceratops,Archaeoceratopsidae,Ceratopsia,,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,100.5,20.900000000000006,['Quantou'],"[(43.585079, 124.894295)]"
 Ischioceratops zhuchengensis,Ischioceratops,Leptoceratopsidae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Hongtuya'],"[(35.995598, 119.409943)]"
-Koreaceratops hwaseongensis,Koreaceratops,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,100.5,12.5,['Tando beds'],"[(37.177914, 126.65641)]"
+Koreaceratops hwaseongensis,Koreaceratops,,Ceratopsia,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,100.5,12.5,['Tando beds'],"[(37.177914, 126.65641)]"
 Leptoceratops gracilis,Leptoceratops,Leptoceratopsidae,,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,"['""Lance""' 'Scollard' 'Hell Creek']","[(44.949902, -108.873199) (52.081001, -113.005203)
  (51.819099, -112.981903) (45.459568, -104.157272)
  (45.590557, -104.909866)]"
@@ -30,17 +30,17 @@ Prenoceratops pieganensis,Prenoceratops,Leptoceratopsidae,,,Ornithischia,False,H
 Udanoceratops tschizhovi,Udanoceratops,Leptoceratopsidae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Djadokhta'],"[(42.083332, 102.166664)]"
 Unescoceratops koppelhusae,Unescoceratops,Leptoceratopsidae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.814602, -111.574997)]"
 Zhuchengceratops inexpectus,Zhuchengceratops,Leptoceratopsidae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Hongtuya'],"[(35.995598, 119.409943)]"
-Aquilops americanus,Aquilops,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,109.9,100.5,9.400000000000006,['Cloverly'],"[(45.0, -109.0)]"
-Archaeoceratops oshimai,Archaeoceratops,Archaeoceratopsidae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Zhonggou'],"[(41.575001, 97.583336) (41.724998, 97.616669)]"
-Archaeoceratops yujingziensis,Archaeoceratops,Archaeoceratopsidae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Xiagou'],"[(40.478401, 98.111702)]"
-Asiaceratops salsopaludalis,Asiaceratops,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Khodzhakul'],"[(40.099998, 65.800003) (40.599998, 71.833336) (40.599998, -71.833336)]"
-Auroraceratops rugosus,Auroraceratops,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Zhonggou'],"[(41.583332, 97.666664) (40.478401, 98.111702)]"
-Beg tse,Beg,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Albian,Cenomanian,Lower Cretaceous,Upper Cretaceous,106.2,93.9,12.299999999999997,['Ulaanoosh'],"[(44.441666, 105.108612)]"
-Graciliceratops mongoliensis,Graciliceratops,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous,100.5,83.6,16.900000000000006,['Baynshire'],"[(43.938889, 101.331947)]"
-Liaoceratops yanzigouensis,Liaoceratops,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.603352, 120.913269) (41.366402, 124.683601)]"
-Mosaiceratops azumai,Mosaiceratops,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Turonian,Campanian,Upper Cretaceous,Upper Cretaceous,93.9,72.1,21.80000000000001,['Majiacun'],"[(33.545616, 112.104576)]"
-Sasayamagnomus saegusai,Sasayamagnomus,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Ohyamashimo'],"[(35.092777, 135.17778)]"
-Yamaceratops dorngobiensis,Yamaceratops,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Javkhlant'],"[(44.393677, 109.35318)]"
+Aquilops americanus,Aquilops,,Ceratopsia,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,109.9,100.5,9.400000000000006,['Cloverly'],"[(45.0, -109.0)]"
+Archaeoceratops oshimai,Archaeoceratops,Archaeoceratopsidae,Ceratopsia,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Zhonggou'],"[(41.575001, 97.583336) (41.724998, 97.616669)]"
+Archaeoceratops yujingziensis,Archaeoceratops,Archaeoceratopsidae,Ceratopsia,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Xiagou'],"[(40.478401, 98.111702)]"
+Asiaceratops salsopaludalis,Asiaceratops,,Ceratopsia,,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Khodzhakul'],"[(40.099998, 65.800003) (40.599998, 71.833336) (40.599998, -71.833336)]"
+Auroraceratops rugosus,Auroraceratops,,Ceratopsia,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Zhonggou'],"[(41.583332, 97.666664) (40.478401, 98.111702)]"
+Beg tse,Beg,,Ceratopsia,,Ornithischia,False,Herbivore,Albian,Cenomanian,Lower Cretaceous,Upper Cretaceous,106.2,93.9,12.299999999999997,['Ulaanoosh'],"[(44.441666, 105.108612)]"
+Graciliceratops mongoliensis,Graciliceratops,,Ceratopsia,,Ornithischia,False,Herbivore,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous,100.5,83.6,16.900000000000006,['Baynshire'],"[(43.938889, 101.331947)]"
+Liaoceratops yanzigouensis,Liaoceratops,,Ceratopsia,,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.603352, 120.913269) (41.366402, 124.683601)]"
+Mosaiceratops azumai,Mosaiceratops,,Ceratopsia,,Ornithischia,False,Herbivore,Turonian,Campanian,Upper Cretaceous,Upper Cretaceous,93.9,72.1,21.80000000000001,['Majiacun'],"[(33.545616, 112.104576)]"
+Sasayamagnomus saegusai,Sasayamagnomus,,Ceratopsia,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Ohyamashimo'],"[(35.092777, 135.17778)]"
+Yamaceratops dorngobiensis,Yamaceratops,,Ceratopsia,,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Javkhlant'],"[(44.393677, 109.35318)]"
 Albertaceratops nesmoi,Albertaceratops,Ceratopsidae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Oldman' 'Judith River'],"[(49.120899, -110.862686) (48.945168, -110.562073)]"
 Lokiceratops rangiformis,Lokiceratops,Ceratopsidae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Judith River'],"[(48.887001, -110.742996)]"
 Medusaceratops lokii,Medusaceratops,Ceratopsidae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Judith River'],"[(48.945168, -110.562073)]"
@@ -145,24 +145,24 @@ Utahceratops gettyi,Utahceratops,Ceratopsidae,,,Ornithischia,False,Herbivore,Cam
 Vagaceratops irvinensis,Vagaceratops,Ceratopsidae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' 'Oldman' 'Judith River'],"[(49.950001, -110.26667) (50.733334, -111.300003) (49.141899, -110.415802)
  (49.2001, -110.597504) (49.066666, -110.449997) (50.749241, -111.471733)
  (47.718712, -109.636551)]"
-Albalophosaurus yamaguchiorum,Albalophosaurus,,,Neornithischia,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Kuwajima'],"[(36.166668, 136.633331)]"
-Micropachycephalosaurus hongtuyanensis,Micropachycephalosaurus,,,Neornithischia,Ornithischia,False,Herbivore,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous,89.8,83.6,6.200000000000003,['Jiangjunding'],"[(36.881653, 120.679169)]"
+Albalophosaurus yamaguchiorum,Albalophosaurus,,,,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Kuwajima'],"[(36.166668, 136.633331)]"
+Micropachycephalosaurus hongtuyanensis,Micropachycephalosaurus,,,,Ornithischia,False,Herbivore,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous,89.8,83.6,6.200000000000003,['Jiangjunding'],"[(36.881653, 120.679169)]"
 Notoceratops bonarelli,Notoceratops,,,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Lago Colhué Huapi'],"[(-45.620422, -68.587898)]"
-Psittacosaurus amitabha,Psittacosaurus,Psittacosauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Hauterivian,Barremian,Lower Cretaceous,Lower Cretaceous,132.6,121.4,11.199999999999989,['Andaikhudag'],"[(44.748798, 101.866699)]"
-Psittacosaurus gobiensis,Psittacosaurus,Psittacosauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Bayangobi'],"[(40.994999, 104.065002)]"
-Psittacosaurus lujiatunensis,Psittacosaurus,Psittacosauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.783817, 120.764221) (41.533611, 121.2481) (41.584137, 120.95137)
+Psittacosaurus amitabha,Psittacosaurus,Psittacosauridae,Ceratopsia,,Ornithischia,False,Herbivore,Hauterivian,Barremian,Lower Cretaceous,Lower Cretaceous,132.6,121.4,11.199999999999989,['Andaikhudag'],"[(44.748798, 101.866699)]"
+Psittacosaurus gobiensis,Psittacosaurus,Psittacosauridae,Ceratopsia,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Bayangobi'],"[(40.994999, 104.065002)]"
+Psittacosaurus lujiatunensis,Psittacosaurus,Psittacosauridae,Ceratopsia,,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.783817, 120.764221) (41.533611, 121.2481) (41.584137, 120.95137)
  (41.603352, 120.913269)]"
-Psittacosaurus meileyingensis,Psittacosaurus,Psittacosauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Jiufotang'],"[(41.25, 120.033302)]"
-Psittacosaurus mongoliensis,Psittacosaurus,Psittacosauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,109.9,11.5,[nan 'Öösh' 'Lisangou' 'Döshuul' 'Jiufotang' 'Dushihin' 'Dzunbain'],"[(46.099998, 85.666664) (44.241501, 102.733299) (44.748798, 101.866699)
+Psittacosaurus meileyingensis,Psittacosaurus,Psittacosauridae,Ceratopsia,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Jiufotang'],"[(41.25, 120.033302)]"
+Psittacosaurus mongoliensis,Psittacosaurus,Psittacosauridae,Ceratopsia,,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,109.9,11.5,[nan 'Öösh' 'Lisangou' 'Döshuul' 'Jiufotang' 'Dushihin' 'Dzunbain'],"[(46.099998, 85.666664) (44.241501, 102.733299) (44.748798, 101.866699)
  (41.016666, 110.083336) (41.5, 106.98333) (45.395, 101.733887)
  (41.25, 120.033302) (42.450001, 102.416664)]"
-Psittacosaurus neimongoliensis,Psittacosaurus,Psittacosauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Berriasian,Albian,Lower Cretaceous,Lower Cretaceous,145.0,100.5,44.5,['Ejinhoro' 'Zhidan'],"[(39.1203, 109.976997) (39.660301, 109.743698)]"
-Psittacosaurus sibiricus,Psittacosaurus,Psittacosauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,113.0,12.769999999999996,['Ilek'],"[(55.903332, 87.957779) (55.87611, 87.999168)]"
-Psittacosaurus sinensis,Psittacosaurus,Psittacosauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,100.5,20.900000000000006,['Doushan'],"[(37.0667, 119.666702) (36.9758, 120.7136)]"
-Psittacosaurus xinjiangensis,Psittacosaurus,Psittacosauridae,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Valanginian,Albian,Lower Cretaceous,Lower Cretaceous,139.8,100.5,39.30000000000001,[nan 'Lianmuqin'],"[(46.133331, 86.316666) (46.099998, 85.666702)]"
+Psittacosaurus neimongoliensis,Psittacosaurus,Psittacosauridae,Ceratopsia,,Ornithischia,False,Herbivore,Berriasian,Albian,Lower Cretaceous,Lower Cretaceous,145.0,100.5,44.5,['Ejinhoro' 'Zhidan'],"[(39.1203, 109.976997) (39.660301, 109.743698)]"
+Psittacosaurus sibiricus,Psittacosaurus,Psittacosauridae,Ceratopsia,,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,113.0,12.769999999999996,['Ilek'],"[(55.903332, 87.957779) (55.87611, 87.999168)]"
+Psittacosaurus sinensis,Psittacosaurus,Psittacosauridae,Ceratopsia,,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,100.5,20.900000000000006,['Doushan'],"[(37.0667, 119.666702) (36.9758, 120.7136)]"
+Psittacosaurus xinjiangensis,Psittacosaurus,Psittacosauridae,Ceratopsia,,Ornithischia,False,Herbivore,Valanginian,Albian,Lower Cretaceous,Lower Cretaceous,139.8,100.5,39.30000000000001,[nan 'Lianmuqin'],"[(46.133331, 86.316666) (46.099998, 85.666702)]"
 Serendipaceratops arthurcclarkei,Serendipaceratops,,,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,119.5,113.0,6.5,['Wonthaggi'],"[(-38.548332, 145.457779)]"
-Homalocephale calathocercos,Homalocephale,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Nemegt'],"[(43.491669, 101.275002) (43.50528, 101.044998)]"
-Pachycephalosaurus wyomingensis,Pachycephalosaurus,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Hell Creek' 'Lance' 'Dinosaur Park' 'Ferris'],"[(47.695831, -106.227776) (47.876701, -106.198402)
+Homalocephale calathocercos,Homalocephale,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Nemegt'],"[(43.491669, 101.275002) (43.50528, 101.044998)]"
+Pachycephalosaurus wyomingensis,Pachycephalosaurus,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Hell Creek' 'Lance' 'Dinosaur Park' 'Ferris'],"[(47.695831, -106.227776) (47.876701, -106.198402)
  (45.755199, -104.952904) (45.668301, -101.480698)
  (46.348499, -103.897903) (47.666698, -106.366699)
  (47.533298, -106.916702) (45.849998, -104.833298) (47.96389, -106.455559)
@@ -172,54 +172,54 @@ Pachycephalosaurus wyomingensis,Pachycephalosaurus,Pachycephalosauridae,Pachycep
  (45.096218, -102.090607) (41.799999, -107.0) (45.103661, -104.917351)
  (45.769901, -104.932098) (47.053055, -107.350281)
  (45.000481, -103.188957)]"
-Prenocephale prenes,Prenocephale,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Nemegt'],"[(43.852501, 100.140282) (43.539444, 101.035278)]"
-Stegoceras novomexicanum,Stegoceras,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland' 'Fruitland'],"[(36.485283, -108.568695) (36.294224, -108.227005) (36.280834, -108.46389)
+Prenocephale prenes,Prenocephale,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Nemegt'],"[(43.852501, 100.140282) (43.539444, 101.035278)]"
+Stegoceras novomexicanum,Stegoceras,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland' 'Fruitland'],"[(36.485283, -108.568695) (36.294224, -108.227005) (36.280834, -108.46389)
  (36.120834, -107.78083) (36.100277, -107.785553)]"
-Stegoceras validum,Stegoceras,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' 'Judith River' nan 'Fruitland' 'Oldman'],"[(50.4077, -110.291) (48.9333, -110.583298) (50.400002, -111.099998)
+Stegoceras validum,Stegoceras,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' 'Judith River' nan 'Fruitland' 'Oldman'],"[(50.4077, -110.291) (48.9333, -110.583298) (50.400002, -111.099998)
  (50.688, -111.616669) (48.966702, -110.550003) (48.966702, -110.933296)
  (48.950001, -110.616699) (50.815033, -111.59536) (50.809383, -111.327057)
  (50.823334, -111.603889) (46.242222, -109.591667) (50.830612, -111.6035)
  (50.765556, -111.387497) (50.820557, -111.62722) (50.75, -111.541115)
  (50.799442, -111.59333) (36.294224, -108.227005) (50.775276, -111.572777)
  (50.742401, -110.086197)]"
-Alaskacephale gangloffi,Alaskacephale,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Prince Creek'],"[(69.91745, -151.194565)]"
-Acrotholus audeti,Acrotholus,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Milk River'],"[(49.083698, -111.436096)]"
-Foraminacephale brevis,Foraminacephale,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' nan],"[(50.823334, -111.603889) (50.830612, -111.6035)]"
-Platytholus clemensi,Platytholus,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Hell Creek'],"[(47.683334, -107.183334)]"
-Sphaerotholus buchholtzae,Sphaerotholus,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Hell Creek'],"[(45.7845, -104.952904)]"
-Sphaerotholus edmontonensis,Sphaerotholus,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,[nan],"[(51.939167, -112.942497)]"
-Sphaerotholus goodwini,Sphaerotholus,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland'],"[(36.269444, -108.166946)]"
-Sphaerotholus lyonsi,Sphaerotholus,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.119999, -111.470001)]"
-Sphaerotholus triregnum,Sphaerotholus,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Hell Creek'],"[(47.053055, -107.350281)]"
-Amtocephale gobiensis,Amtocephale,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous,100.5,83.6,16.900000000000006,['Baynshire'],"[(43.564167, 107.911667)]"
-Colepiocephale lambei,Colepiocephale,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Foremost'],"[(49.482777, -111.374168) (49.825558, -111.698608)
+Alaskacephale gangloffi,Alaskacephale,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Prince Creek'],"[(69.91745, -151.194565)]"
+Acrotholus audeti,Acrotholus,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Milk River'],"[(49.083698, -111.436096)]"
+Foraminacephale brevis,Foraminacephale,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' nan],"[(50.823334, -111.603889) (50.830612, -111.6035)]"
+Platytholus clemensi,Platytholus,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Hell Creek'],"[(47.683334, -107.183334)]"
+Sphaerotholus buchholtzae,Sphaerotholus,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Hell Creek'],"[(45.7845, -104.952904)]"
+Sphaerotholus edmontonensis,Sphaerotholus,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,[nan],"[(51.939167, -112.942497)]"
+Sphaerotholus goodwini,Sphaerotholus,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland'],"[(36.269444, -108.166946)]"
+Sphaerotholus lyonsi,Sphaerotholus,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.119999, -111.470001)]"
+Sphaerotholus triregnum,Sphaerotholus,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Hell Creek'],"[(47.053055, -107.350281)]"
+Amtocephale gobiensis,Amtocephale,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous,100.5,83.6,16.900000000000006,['Baynshire'],"[(43.564167, 107.911667)]"
+Colepiocephale lambei,Colepiocephale,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Foremost'],"[(49.482777, -111.374168) (49.825558, -111.698608)
  (49.951111, -111.423058)]"
-Gravitholus albertae,Gravitholus,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Oldman'],"[(50.450001, -111.120003)]"
-Hanssuesia sternbergi,Hanssuesia,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,[nan],"[(50.830612, -111.6035) (50.822498, -111.592781)]"
-Sinocephale bexelli,Sinocephale,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Ulansuhai'],"[(41.433701, 103.538498)]"
-Tylocephale gilmorei,Tylocephale,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Baruungoyot'],"[(43.50032, 101.130188)]"
-Goyocephale lattimorei,Goyocephale,Pachycephalosauridae,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Santonian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,86.3,66.0,20.299999999999997,[nan],"[(48.583332, 102.066666)]"
+Gravitholus albertae,Gravitholus,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Oldman'],"[(50.450001, -111.120003)]"
+Hanssuesia sternbergi,Hanssuesia,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,[nan],"[(50.830612, -111.6035) (50.822498, -111.592781)]"
+Sinocephale bexelli,Sinocephale,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Ulansuhai'],"[(41.433701, 103.538498)]"
+Tylocephale gilmorei,Tylocephale,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Baruungoyot'],"[(43.50032, 101.130188)]"
+Goyocephale lattimorei,Goyocephale,Pachycephalosauridae,Pachycephalosauria,,Ornithischia,False,Herbivore,Santonian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,86.3,66.0,20.299999999999997,[nan],"[(48.583332, 102.066666)]"
 Tianyulong confuciusi,Tianyulong,Heterodontosauridae,,,Ornithischia,False,Herbivore,Bathonian,Kimmeridgian,Middle Jurassic,Upper Jurassic,168.2,152.2,16.0,['Tiaojishan'],"[(40.868057, 119.991112)]"
-Wannanosaurus yansiensis,Wannanosaurus,,Pachycephalosauria,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Xiaoyan'],"[(29.821943, 118.337502)]"
-Gasparinisaura cincosaltensis,Gasparinisaura,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Anacleto'],"[(-38.844536, -68.030663) (-38.844379, -68.030663)
+Wannanosaurus yansiensis,Wannanosaurus,,Pachycephalosauria,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Xiaoyan'],"[(29.821943, 118.337502)]"
+Gasparinisaura cincosaltensis,Gasparinisaura,,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Anacleto'],"[(-38.844536, -68.030663) (-38.844379, -68.030663)
  (-38.809647, -68.081757)]"
 Daurosaurus olovus,Daurosaurus,,,Neornithischia,Ornithischia,False,Herbivore,Bathonian,Tithonian,Middle Jurassic,Upper Jurassic,168.2,145.0,23.19999999999999,['Ukureyskaya'],"[(52.51004, 116.651314)]"
-Hypsilophodon foxii,Hypsilophodon,Hypsilophodontidae,,Neornithischia,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,[nan 'Wessex'],"[(50.07, 1.25) (50.617123, -1.371099)]"
-Vectidromeus insularis,Vectidromeus,Dryosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Berriasian,Albian,Lower Cretaceous,Lower Cretaceous,145.0,100.5,44.5,[nan],"[(50.666668, -1.333333)]"
-Lophorhothon atopus,Lophorhothon,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Mooreville Chalk'],"[(32.41888, -87.184708) (32.600151, -87.681633)]"
-Barilium dawsoni,Barilium,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Valanginian,Barremian,Lower Cretaceous,Lower Cretaceous,139.8,121.4,18.400000000000006,['Wadhurst Clay' 'Tunbridge Wells Sand'],"[(50.865833, -0.560833) (50.874722, 0.566944) (51.014168, -0.1475)]"
-Bolong yixianensis,Bolong,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.601944, 121.128609) (42.319, 119.185997)]"
-Jinzhousaurus yangi,Jinzhousaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.13401, 121.13813)]"
-Altirhinus kurzanovi,Altirhinus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,109.9,100.5,9.400000000000006,['Khuren Dukh'],"[(45.845833, 108.398613)]"
-Hypselospinus fittoni,Hypselospinus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Berriasian,Valanginian,Lower Cretaceous,Lower Cretaceous,140.6,132.6,8.0,['Wadhurst Clay'],"[(50.865833, -0.560833) (50.936321, 0.605132) (50.884998, 0.556111)
+Hypsilophodon foxii,Hypsilophodon,Hypsilophodontidae,,,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,[nan 'Wessex'],"[(50.07, 1.25) (50.617123, -1.371099)]"
+Vectidromeus insularis,Vectidromeus,Dryosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Berriasian,Albian,Lower Cretaceous,Lower Cretaceous,145.0,100.5,44.5,[nan],"[(50.666668, -1.333333)]"
+Lophorhothon atopus,Lophorhothon,,Ornithopoda,,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Mooreville Chalk'],"[(32.41888, -87.184708) (32.600151, -87.681633)]"
+Barilium dawsoni,Barilium,,Ornithopoda,,Ornithischia,False,Herbivore,Valanginian,Barremian,Lower Cretaceous,Lower Cretaceous,139.8,121.4,18.400000000000006,['Wadhurst Clay' 'Tunbridge Wells Sand'],"[(50.865833, -0.560833) (50.874722, 0.566944) (51.014168, -0.1475)]"
+Bolong yixianensis,Bolong,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.601944, 121.128609) (42.319, 119.185997)]"
+Jinzhousaurus yangi,Jinzhousaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.13401, 121.13813)]"
+Altirhinus kurzanovi,Altirhinus,,Ornithopoda,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,109.9,100.5,9.400000000000006,['Khuren Dukh'],"[(45.845833, 108.398613)]"
+Hypselospinus fittoni,Hypselospinus,,Ornithopoda,,Ornithischia,False,Herbivore,Berriasian,Valanginian,Lower Cretaceous,Lower Cretaceous,140.6,132.6,8.0,['Wadhurst Clay'],"[(50.865833, -0.560833) (50.936321, 0.605132) (50.884998, 0.556111)
  (50.859444, 0.4425) (51.859444, 0.4425) (50.8829, 0.5661)]"
-Ouranosaurus nigeriensis,Ouranosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,100.5,20.900000000000006,['Aïn el Guettar' 'Elrhaz'],"[(32.266109, 10.333889) (16.700001, 9.333333) (16.466667, 9.166667)
+Ouranosaurus nigeriensis,Ouranosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,100.5,20.900000000000006,['Aïn el Guettar' 'Elrhaz'],"[(32.266109, 10.333889) (16.700001, 9.333333) (16.466667, 9.166667)
  (16.433332, 9.133333)]"
-Bayannurosaurus perfectus,Bayannurosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,119.5,1.9000000000000057,['Bayingebi'],"[(41.168751, 107.235397)]"
-Camptosaurus aphanoecetes,Camptosaurus,Camptosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic,149.2,146.3,2.8999999999999773,['Morrison'],"[(40.441387, -109.300552)]"
-Camptosaurus dispar,Camptosaurus,Camptosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic,154.8,145.0,9.800000000000011,['Morrison'],"[(41.9077, -105.963402) (38.539501, -105.224701) (38.547501, -105.231598)
+Bayannurosaurus perfectus,Bayannurosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,119.5,1.9000000000000057,['Bayingebi'],"[(41.168751, 107.235397)]"
+Camptosaurus aphanoecetes,Camptosaurus,Camptosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic,149.2,146.3,2.8999999999999773,['Morrison'],"[(40.441387, -109.300552)]"
+Camptosaurus dispar,Camptosaurus,Camptosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic,154.8,145.0,9.800000000000011,['Morrison'],"[(41.9077, -105.963402) (38.539501, -105.224701) (38.547501, -105.231598)
  (36.898899, -102.826103) (42.017776, -106.048615)]"
-Iguanodon bernissartensis,Iguanodon,Iguanodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Tithonian,Aptian,Upper Jurassic,Lower Cretaceous,146.3,119.5,26.80000000000001,"['Sainte-Barbe Clays' nan 'Arcillas de Morella' 'Capas Rojas'
+Iguanodon bernissartensis,Iguanodon,Iguanodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Tithonian,Aptian,Upper Jurassic,Lower Cretaceous,146.3,119.5,26.80000000000001,"['Sainte-Barbe Clays' nan 'Arcillas de Morella' 'Capas Rojas'
  'Argile Ostréenne' 'Grès et Sables Piquetés' 'Weald Clay' 'Wessex'
  'Bückeberg']","[(50.466667, 3.633333) (51.434166, 8.632222) (40.611942, -0.111111)
  (40.604721, -0.118611) (40.591667, -0.143333) (40.641666, -0.115833)
@@ -227,20 +227,20 @@ Iguanodon bernissartensis,Iguanodon,Iguanodontidae,Ornithopoda,Neornithischia,Or
  (48.633301, 4.95) (51.133331, -0.35) (50.665001, -1.13)
  (50.6478, -1.4542) (40.493332, 0.424167) (52.260555, 9.110278)
  (50.625, -1.376389) (52.325211, 9.199823) (50.78104, 1.605115)]"
-Iguanodon galvensis,Iguanodon,Iguanodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Camarillas'],"[(40.645859, -0.883872) (40.116699, -0.8167)]"
-Iguanodon major,Iguanodon,Iguanodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Hauterivian,Barremian,Lower Cretaceous,Lower Cretaceous,132.6,121.4,11.199999999999989,['Weald Clay'],"[(50.620792, -1.954561)]"
-Oblitosaurus bunnueli,Oblitosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic,152.2,145.0,7.199999999999989,['Villar del Arzobispo'],"[(40.12727, -1.133307)]"
-Acristavus gagslarsoni,Acristavus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Two Medicine' 'Wahweap'],"[(47.720959, -112.329094) (37.451607, -111.53196)]"
-Brachylophosaurus canadensis,Brachylophosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Judith River' 'Claggett' 'Oldman'],"[(48.950001, -110.616669) (46.454269, -109.469398)
+Iguanodon galvensis,Iguanodon,Iguanodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Camarillas'],"[(40.645859, -0.883872) (40.116699, -0.8167)]"
+Iguanodon major,Iguanodon,Iguanodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Hauterivian,Barremian,Lower Cretaceous,Lower Cretaceous,132.6,121.4,11.199999999999989,['Weald Clay'],"[(50.620792, -1.954561)]"
+Oblitosaurus bunnueli,Oblitosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic,152.2,145.0,7.199999999999989,['Villar del Arzobispo'],"[(40.12727, -1.133307)]"
+Acristavus gagslarsoni,Acristavus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Two Medicine' 'Wahweap'],"[(47.720959, -112.329094) (37.451607, -111.53196)]"
+Brachylophosaurus canadensis,Brachylophosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Judith River' 'Claggett' 'Oldman'],"[(48.950001, -110.616669) (46.454269, -109.469398)
  (50.752831, -111.514091) (48.562222, -107.778336)
  (48.596294, -107.895042) (49.066666, -110.449997)]"
-Hadrosaurus foulkii,Hadrosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Woodbury' nan],"[(39.909443, -75.028053) (40.351528, -74.272995)]"
-Maiasaura peeblesorum,Maiasaura,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Two Medicine'],"[(48.633301, -113.75) (48.479202, -112.701118) (47.768101, -112.287567)
+Hadrosaurus foulkii,Hadrosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Woodbury' nan],"[(39.909443, -75.028053) (40.351528, -74.272995)]"
+Maiasaura peeblesorum,Maiasaura,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Two Medicine'],"[(48.633301, -113.75) (48.479202, -112.701118) (47.768101, -112.287567)
  (47.713001, -112.235001)]"
-Ornatops incantatus,Ornatops,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Menefee'],"[(36.085999, -108.157997)]"
-Probrachylophosaurus bergei,Probrachylophosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Judith River'],"[(48.998055, -110.540558)]"
-Wulagasaurus dongi,Wulagasaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Yuliangzi'],"[(48.394722, 130.145828)]"
-Edmontosaurus annectens,Edmontosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Hell Creek' 'Lance' 'Frenchman' nan],"[(45.135834, -102.497498) (43.505402, -104.427002)
+Ornatops incantatus,Ornatops,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Menefee'],"[(36.085999, -108.157997)]"
+Probrachylophosaurus bergei,Probrachylophosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Judith River'],"[(48.998055, -110.540558)]"
+Wulagasaurus dongi,Wulagasaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Yuliangzi'],"[(48.394722, 130.145828)]"
+Edmontosaurus annectens,Edmontosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Hell Creek' 'Lance' 'Frenchman' nan],"[(45.135834, -102.497498) (43.505402, -104.427002)
  (49.036098, -106.596603) (51.506302, -112.655502)
  (42.584442, -105.394447) (43.166111, -104.91111) (43.269501, -104.591301)
  (51.610142, -112.75) (45.530899, -101.626297) (48.063099, -105.3992)
@@ -251,49 +251,49 @@ Edmontosaurus annectens,Edmontosaurus,Hadrosauridae,Ornithopoda,Neornithischia,O
  (47.521301, -106.904999) (45.052502, -102.188797)
  (45.000481, -103.188957) (47.188801, -104.970901)
  (49.516666, -108.816666)]"
-Edmontosaurus regalis,Edmontosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Horseshoe Canyon' 'Laramie'],"[(51.651798, -112.911301) (40.285278, -106.860558)
+Edmontosaurus regalis,Edmontosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Horseshoe Canyon' 'Laramie'],"[(51.651798, -112.911301) (40.285278, -106.860558)
  (51.533054, -112.883057) (53.447811, -113.545364)
  (51.455544, -112.673378) (51.455799, -112.728302) (51.5541, -112.876297)]"
-Kerberosaurus manakini,Kerberosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Udurchukan'],"[(50.27, 127.47583) (49.082779, 130.859451)]"
-Shantungosaurus giganteus,Shantungosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Hongtuya'],"[(35.956108, 119.326942) (35.995598, 119.409943) (37.465832, 120.984718)]"
-Ugrunaaluk kuukpikensis,Ugrunaaluk,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Prince Creek'],"[(70.071365, -151.578232)]"
-Gryposaurus latidens,Gryposaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Two Medicine'],"[(48.472202, -112.358383) (48.491943, -112.469185)]"
-Gryposaurus monumentensis,Gryposaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kaiparowits'],"[(37.637222, -111.859169)]"
-Gryposaurus notabilis,Gryposaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.751602, -111.476532) (50.739853, -111.51458) (50.794621, -111.605766)
+Kerberosaurus manakini,Kerberosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Udurchukan'],"[(50.27, 127.47583) (49.082779, 130.859451)]"
+Shantungosaurus giganteus,Shantungosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Hongtuya'],"[(35.956108, 119.326942) (35.995598, 119.409943) (37.465832, 120.984718)]"
+Ugrunaaluk kuukpikensis,Ugrunaaluk,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Prince Creek'],"[(70.071365, -151.578232)]"
+Gryposaurus latidens,Gryposaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Two Medicine'],"[(48.472202, -112.358383) (48.491943, -112.469185)]"
+Gryposaurus monumentensis,Gryposaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kaiparowits'],"[(37.637222, -111.859169)]"
+Gryposaurus notabilis,Gryposaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.751602, -111.476532) (50.739853, -111.51458) (50.794621, -111.605766)
  (50.793125, -111.597366) (50.783001, -111.363739)
  (50.784405, -111.363014) (50.739964, -111.519936)
  (50.749786, -111.478783) (50.666668, -111.601387)]"
-Huallasaurus australis,Huallasaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Los Alamitos'],"[(-42.133331, -66.333336)]"
-Kelumapusaura machi,Kelumapusaura,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Allen'],"[(-39.503334, -67.371941)]"
-Kritosaurus navajovius,Kritosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland' 'Fruitland'],"[(36.269444, -108.166946) (36.486111, -108.513611)
+Huallasaurus australis,Huallasaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Los Alamitos'],"[(-42.133331, -66.333336)]"
+Kelumapusaura machi,Kelumapusaura,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Allen'],"[(-39.503334, -67.371941)]"
+Kritosaurus navajovius,Kritosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland' 'Fruitland'],"[(36.269444, -108.166946) (36.486111, -108.513611)
  (36.256599, -108.173401) (36.183899, -107.887901)
  (36.343887, -108.084167) (36.343887, -108.101944)]"
-Naashoibitosaurus ostromi,Naashoibitosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland'],"[(36.269444, -108.166946)]"
-Secernosaurus koerneri,Secernosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Lago Colhué Huapi'],"[(-45.61972, -68.50972)]"
-Augustynolophus morrisi,Augustynolophus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Moreno'],"[(36.586498, -120.692398)]"
-Bonapartesaurus rionegrensis,Bonapartesaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Allen'],"[(-39.296665, -67.534164)]"
-Prosaurolophus maximus,Prosaurolophus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Two Medicine' 'Dinosaur Park' 'Bearpaw Shale'],"[(48.630001, -113.75) (48.633301, -113.75) (48.910831, -112.640831)
+Naashoibitosaurus ostromi,Naashoibitosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland'],"[(36.269444, -108.166946)]"
+Secernosaurus koerneri,Secernosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Lago Colhué Huapi'],"[(-45.61972, -68.50972)]"
+Augustynolophus morrisi,Augustynolophus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Moreno'],"[(36.586498, -120.692398)]"
+Bonapartesaurus rionegrensis,Bonapartesaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Allen'],"[(-39.296665, -67.534164)]"
+Prosaurolophus maximus,Prosaurolophus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Two Medicine' 'Dinosaur Park' 'Bearpaw Shale'],"[(48.630001, -113.75) (48.633301, -113.75) (48.910831, -112.640831)
  (50.737041, -111.494736) (50.74321, -111.491188) (50.734722, -111.484253)
  (50.74543, -111.46907) (50.746067, -111.493225) (49.3601, -110.485802)
  (49.520199, -112.898003) (48.026382, -110.243889)
  (49.611271, -112.834106) (50.75, -111.5)]"
-Saurolophus angustirostris,Saurolophus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Nemegt'],"[(43.601665, 100.456665) (43.491669, 101.275002) (43.852501, 100.140282)
+Saurolophus angustirostris,Saurolophus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Nemegt'],"[(43.601665, 100.456665) (43.491669, 101.275002) (43.852501, 100.140282)
  (43.482777, 100.359718) (43.501667, 101.050003) (43.597221, 100.457779)
  (43.598057, 100.503891) (43.474724, 99.833054) (43.525276, 101.04583)
  (43.537224, 101.041664) (43.849724, 100.484444) (43.443558, 100.373161)]"
-Saurolophus osborni,Saurolophus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Horseshoe Canyon'],"[(51.819099, -112.981903) (51.746399, -112.958298)]"
-Anasazisaurus horneri,Anasazisaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland'],"[(36.1548, -107.816597)]"
-Kamuysaurus japonicus,Kamuysaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Hakobuchi'],"[(42.856945, 142.140274)]"
-Mandschurosaurus amurensis,Mandschurosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Yuliangzi'],"[(48.857498, 130.243607)]"
-Adynomosaurus arcanus,Adynomosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Conques'],"[(42.157223, 1.034722)]"
-Ajnabia odysseus,Ajnabia,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Couche III'],"[(32.832222, -6.23)]"
-Arenysaurus ardevoli,Arenysaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['La Posa'],"[(42.26667, 0.73333)]"
-Blasisaurus canudoi,Blasisaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Arén'],"[(42.26667, 0.73333)]"
-Canardia garonnensis,Canardia,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,"['Marno-calcaires jaunes de Gensac' ""Marnes d'Auzas""]","[(43.180752, 0.719503) (43.203957, 0.955626)]"
-Minqaria bata,Minqaria,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Couche III'],"[(32.832222, -6.23)]"
-Pararhabdodon isonensis,Pararhabdodon,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Talarn' 'La Posa' 'Conques'],"[(42.155483, 1.055002) (42.082584, 0.802167) (42.161385, 1.054786)
+Saurolophus osborni,Saurolophus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Horseshoe Canyon'],"[(51.819099, -112.981903) (51.746399, -112.958298)]"
+Anasazisaurus horneri,Anasazisaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland'],"[(36.1548, -107.816597)]"
+Kamuysaurus japonicus,Kamuysaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Hakobuchi'],"[(42.856945, 142.140274)]"
+Mandschurosaurus amurensis,Mandschurosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Yuliangzi'],"[(48.857498, 130.243607)]"
+Adynomosaurus arcanus,Adynomosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Conques'],"[(42.157223, 1.034722)]"
+Ajnabia odysseus,Ajnabia,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Couche III'],"[(32.832222, -6.23)]"
+Arenysaurus ardevoli,Arenysaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['La Posa'],"[(42.26667, 0.73333)]"
+Blasisaurus canudoi,Blasisaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Arén'],"[(42.26667, 0.73333)]"
+Canardia garonnensis,Canardia,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,"['Marno-calcaires jaunes de Gensac' ""Marnes d'Auzas""]","[(43.180752, 0.719503) (43.203957, 0.955626)]"
+Minqaria bata,Minqaria,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Couche III'],"[(32.832222, -6.23)]"
+Pararhabdodon isonensis,Pararhabdodon,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Talarn' 'La Posa' 'Conques'],"[(42.155483, 1.055002) (42.082584, 0.802167) (42.161385, 1.054786)
  (42.150116, 1.053796) (42.151897, 1.053935)]"
-Corythosaurus casuarius,Corythosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' nan 'Two Medicine'],"[(50.806301, -111.628029) (50.806023, -111.624336) (50.688, -111.616669)
+Corythosaurus casuarius,Corythosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' nan 'Two Medicine'],"[(50.806301, -111.628029) (50.806023, -111.624336) (50.688, -111.616669)
  (50.823826, -111.604233) (50.748573, -111.490036)
  (50.801422, -111.614983) (50.792442, -111.605812)
  (50.756268, -111.400688) (50.746067, -111.493225)
@@ -301,172 +301,172 @@ Corythosaurus casuarius,Corythosaurus,Hadrosauridae,Ornithopoda,Neornithischia,O
  (50.741951, -111.501373) (50.770535, -111.456673)
  (50.749699, -111.477402) (50.73679, -111.509666) (48.462479, -112.066208)
  (50.836811, -111.180084)]"
-Corythosaurus intermedius,Corythosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.744595, -111.484749) (50.746986, -111.444916)
+Corythosaurus intermedius,Corythosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.744595, -111.484749) (50.746986, -111.444916)
  (50.747425, -111.444145) (50.570576, -111.511131)
  (50.733753, -111.513931) (50.738438, -111.502769)]"
-Hypacrosaurus altispinus,Hypacrosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,[nan 'Horseshoe Canyon'],"[(51.906399, -112.9701) (51.797298, -112.958298) (51.906399, -113.005402)
+Hypacrosaurus altispinus,Hypacrosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,[nan 'Horseshoe Canyon'],"[(51.906399, -112.9701) (51.797298, -112.958298) (51.906399, -113.005402)
  (51.957401, -112.911301) (51.949722, -112.949165)
  (51.819099, -112.981903) (51.746399, -112.958298)
  (51.995834, -112.883331)]"
-Hypacrosaurus stebingeri,Hypacrosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Two Medicine' 'Oldman'],"[(48.633301, -113.75) (48.91082, -112.642014) (48.630001, -113.75)
+Hypacrosaurus stebingeri,Hypacrosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Two Medicine' 'Oldman'],"[(48.633301, -113.75) (48.91082, -112.642014) (48.630001, -113.75)
  (49.283054, -112.199997) (48.483032, -112.583389)
  (48.463612, -112.470001) (48.935501, -112.642403)
  (48.937965, -112.650658)]"
-Lambeosaurus clavinitialis,Lambeosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' 'Oldman'],"[(50.791084, -111.609741) (50.752739, -111.506355)
+Lambeosaurus clavinitialis,Lambeosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' 'Oldman'],"[(50.791084, -111.609741) (50.752739, -111.506355)
  (50.733292, -111.511574) (50.818413, -111.577797)
  (50.599998, -111.620003)]"
-Lambeosaurus lambei,Lambeosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' nan 'Oldman'],"[(50.741657, -111.488022) (50.73, -111.556114) (50.793301, -111.488899)
+Lambeosaurus lambei,Lambeosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park' nan 'Oldman'],"[(50.741657, -111.488022) (50.73, -111.556114) (50.793301, -111.488899)
  (50.74625, -111.474808) (50.762272, -111.426971) (50.820873, -111.631805)
  (50.733223, -111.546585) (50.796066, -111.397041)
  (50.599998, -111.620003)]"
-Lambeosaurus magnicristatus,Lambeosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.741596, -111.559807) (49.351067, -110.558716)]"
-Velafrons coahuilensis,Velafrons,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Cerro del Pueblo'],"[(25.5, -101.400276)]"
-Magnapaulia laticaudus,Magnapaulia,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['El Gallo'],"[(30.066668, -115.73333) (30.0333, -115.733299)]"
-Charonosaurus jiayinensis,Charonosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Yuliangzi'],"[(48.857498, 130.243607)]"
-Parasaurolophus cyrtocristatus,Parasaurolophus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Fruitland' 'Kaiparowits'],"[(35.952778, -108.0) (37.6777, -111.777496) (36.276112, -108.152779)]"
-Parasaurolophus tubicen,Parasaurolophus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland'],"[(36.5, -108.083336) (36.3148, -108.0485) (36.343899, -108.209099)]"
-Parasaurolophus walkeri,Parasaurolophus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.750126, -111.488625) (50.742214, -111.565781)]"
-Tlatolophus galorum,Tlatolophus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Cerro del Pueblo'],"[(25.449722, -101.683334)]"
-Adelolophus hutchisoni,Adelolophus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Wahweap'],"[(37.599998, -111.900002)]"
-Amurosaurus riabinini,Amurosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Udurchukan' 'Yuliangzi'],"[(50.27, 127.47583) (48.394722, 130.145828)]"
-Angulomastacator daviesi,Angulomastacator,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Aguja'],"[(29.301561, -103.504128)]"
-Aralosaurus tuberiferus,Aralosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Bostobe'],"[(45.950001, 64.650002)]"
-Jaxartosaurus aralensis,Jaxartosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous,89.8,83.6,6.200000000000003,['Dabrazhin'],"[(40.692711, 70.701363)]"
-Kazaklambia convincens,Kazaklambia,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous,89.8,83.6,6.200000000000003,['Dabrazhin'],"[(41.7038, 69.390282)]"
-Latirhinus uitstlani,Latirhinus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Cerro del Pueblo'],"[(25.470833, -101.699997)]"
-Nipponosaurus sachalinensis,Nipponosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,[nan],"[(47.167702, 142.5)]"
-Olorotitan arharensis,Olorotitan,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Udurchukan'],"[(49.082779, 130.859451)]"
-Tsintaosaurus spinorhinus,Tsintaosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Jingangkou'],"[(36.886501, 120.658997) (36.886551, 120.658951)]"
-Barsboldia sicinskii,Barsboldia,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Nemegt'],"[(43.529999, 101.040001)]"
-Laiyangosaurus youngi,Laiyangosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Jingangkou'],"[(36.886501, 120.658997)]"
-Rhinorex condrupus,Rhinorex,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Neslen'],"[(38.963001, -109.926003)]"
-Aquilarhinus palimentus,Aquilarhinus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Aguja'],"[(29.239721, -103.614166)]"
-Eotrachodon orientalis,Eotrachodon,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Mooreville Chalk'],"[(32.344601, -86.400299)]"
-Lapampasaurus cholinoi,Lapampasaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Allen'],"[(-38.033333, -67.816666)]"
-Malefica deckerti,Malefica,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Aguja'],"[(29.200001, -103.633331)]"
-Yamatosaurus izanagii,Yamatosaurus,Hadrosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Kita-ama'],"[(34.313, 134.910004)]"
-Bactrosaurus johnsoni,Bactrosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Iren Dabasu' 'Zouyun'],"[(43.740833, 112.178612) (43.741669, 112.183334) (40.040001, 112.420006)]"
-Batyrosaurus rozhdestvenskyi,Batyrosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Bostobe'],"[(46.762547, 64.328972)]"
-Cedrorestes crichtoni,Cedrorestes,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous,139.8,132.6,7.200000000000017,['Cedar Mountain'],"[(38.895531, -109.545151)]"
-Claosaurus agilis,Claosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous,89.8,83.6,6.200000000000003,['Niobrara'],"[(38.893333, -101.102776)]"
-Datonglong tianzhenensis,Datonglong,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Campanian,Upper Cretaceous,Upper Cretaceous,100.5,72.1,28.400000000000006,['Huiquanpu'],"[(40.189999, 114.0439)]"
-Eolambia caroljonesa,Eolambia,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Cenomanian,Lower Cretaceous,Upper Cretaceous,121.4,93.9,27.5,['Cedar Mountain'],"[(38.799999, -111.169998) (39.155956, -110.857689) (39.0, -111.0)
+Lambeosaurus magnicristatus,Lambeosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.741596, -111.559807) (49.351067, -110.558716)]"
+Velafrons coahuilensis,Velafrons,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Cerro del Pueblo'],"[(25.5, -101.400276)]"
+Magnapaulia laticaudus,Magnapaulia,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['El Gallo'],"[(30.066668, -115.73333) (30.0333, -115.733299)]"
+Charonosaurus jiayinensis,Charonosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Yuliangzi'],"[(48.857498, 130.243607)]"
+Parasaurolophus cyrtocristatus,Parasaurolophus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Fruitland' 'Kaiparowits'],"[(35.952778, -108.0) (37.6777, -111.777496) (36.276112, -108.152779)]"
+Parasaurolophus tubicen,Parasaurolophus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland'],"[(36.5, -108.083336) (36.3148, -108.0485) (36.343899, -108.209099)]"
+Parasaurolophus walkeri,Parasaurolophus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Dinosaur Park'],"[(50.750126, -111.488625) (50.742214, -111.565781)]"
+Tlatolophus galorum,Tlatolophus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Cerro del Pueblo'],"[(25.449722, -101.683334)]"
+Adelolophus hutchisoni,Adelolophus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Wahweap'],"[(37.599998, -111.900002)]"
+Amurosaurus riabinini,Amurosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Udurchukan' 'Yuliangzi'],"[(50.27, 127.47583) (48.394722, 130.145828)]"
+Angulomastacator daviesi,Angulomastacator,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Aguja'],"[(29.301561, -103.504128)]"
+Aralosaurus tuberiferus,Aralosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Bostobe'],"[(45.950001, 64.650002)]"
+Jaxartosaurus aralensis,Jaxartosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous,89.8,83.6,6.200000000000003,['Dabrazhin'],"[(40.692711, 70.701363)]"
+Kazaklambia convincens,Kazaklambia,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous,89.8,83.6,6.200000000000003,['Dabrazhin'],"[(41.7038, 69.390282)]"
+Latirhinus uitstlani,Latirhinus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Cerro del Pueblo'],"[(25.470833, -101.699997)]"
+Nipponosaurus sachalinensis,Nipponosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,[nan],"[(47.167702, 142.5)]"
+Olorotitan arharensis,Olorotitan,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Udurchukan'],"[(49.082779, 130.859451)]"
+Tsintaosaurus spinorhinus,Tsintaosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Jingangkou'],"[(36.886501, 120.658997) (36.886551, 120.658951)]"
+Barsboldia sicinskii,Barsboldia,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Nemegt'],"[(43.529999, 101.040001)]"
+Laiyangosaurus youngi,Laiyangosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Jingangkou'],"[(36.886501, 120.658997)]"
+Rhinorex condrupus,Rhinorex,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Neslen'],"[(38.963001, -109.926003)]"
+Aquilarhinus palimentus,Aquilarhinus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Aguja'],"[(29.239721, -103.614166)]"
+Eotrachodon orientalis,Eotrachodon,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Mooreville Chalk'],"[(32.344601, -86.400299)]"
+Lapampasaurus cholinoi,Lapampasaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Allen'],"[(-38.033333, -67.816666)]"
+Malefica deckerti,Malefica,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Aguja'],"[(29.200001, -103.633331)]"
+Yamatosaurus izanagii,Yamatosaurus,Hadrosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Kita-ama'],"[(34.313, 134.910004)]"
+Bactrosaurus johnsoni,Bactrosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Iren Dabasu' 'Zouyun'],"[(43.740833, 112.178612) (43.741669, 112.183334) (40.040001, 112.420006)]"
+Batyrosaurus rozhdestvenskyi,Batyrosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Bostobe'],"[(46.762547, 64.328972)]"
+Cedrorestes crichtoni,Cedrorestes,,Ornithopoda,,Ornithischia,False,Herbivore,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous,139.8,132.6,7.200000000000017,['Cedar Mountain'],"[(38.895531, -109.545151)]"
+Claosaurus agilis,Claosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous,89.8,83.6,6.200000000000003,['Niobrara'],"[(38.893333, -101.102776)]"
+Datonglong tianzhenensis,Datonglong,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Campanian,Upper Cretaceous,Upper Cretaceous,100.5,72.1,28.400000000000006,['Huiquanpu'],"[(40.189999, 114.0439)]"
+Eolambia caroljonesa,Eolambia,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Cenomanian,Lower Cretaceous,Upper Cretaceous,121.4,93.9,27.5,['Cedar Mountain'],"[(38.799999, -111.169998) (39.155956, -110.857689) (39.0, -111.0)
  (38.690239, -111.261536) (38.721001, -111.206001)
  (38.680832, -111.254997) (38.694, -111.061996)]"
-Equijubus normani,Equijubus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Zhonggou'],"[(41.583332, 97.583336)]"
-Fukuisaurus tetoriensis,Fukuisaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Kitadani'],"[(36.121387, 136.544724)]"
-Fylax thyrakolasus,Fylax,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Figuerola'],"[(41.866669, 0.883333)]"
-Gilmoreosaurus mongoliensis,Gilmoreosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Iren Dabasu'],"[(43.772221, 111.929169)]"
-Gobihadros mongoliensis,Gobihadros,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous,100.5,83.6,16.900000000000006,['Baynshire'],"[(43.504166, 107.762497) (43.483334, 107.779167) (43.488056, 107.730003)
+Equijubus normani,Equijubus,,Ornithopoda,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Zhonggou'],"[(41.583332, 97.583336)]"
+Fukuisaurus tetoriensis,Fukuisaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Kitadani'],"[(36.121387, 136.544724)]"
+Fylax thyrakolasus,Fylax,,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Figuerola'],"[(41.866669, 0.883333)]"
+Gilmoreosaurus mongoliensis,Gilmoreosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Iren Dabasu'],"[(43.772221, 111.929169)]"
+Gobihadros mongoliensis,Gobihadros,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous,100.5,83.6,16.900000000000006,['Baynshire'],"[(43.504166, 107.762497) (43.483334, 107.779167) (43.488056, 107.730003)
  (43.495834, 107.708336) (44.183334, 102.791664) (43.479168, 107.783333)]"
-Gongpoquansaurus mazongshanensis,Gongpoquansaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Zhonggou'],"[(41.575001, 97.583336)]"
-Gonkoken nanoi,Gonkoken,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Dorotea'],"[(-50.711666, -72.541389)]"
-Huehuecanauhtlus tiquichensis,Huehuecanauhtlus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Cutzamala'],"[(19.049999, -100.699997) (19.052221, -100.712944)]"
-Jeyawati rugoculus,Jeyawati,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Turonian,Turonian,Upper Cretaceous,Upper Cretaceous,93.9,89.8,4.1000000000000085,['Moreno Hill'],"[(35.066666, -108.849998)]"
-Jintasaurus meniscus,Jintasaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Xiagou'],"[(40.27861, 98.143608)]"
-Koshisaurus katsuyama,Koshisaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Kitadani'],"[(36.116669, 136.550003)]"
-Levnesovia transoxiana,Levnesovia,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Turonian,Turonian,Upper Cretaceous,Upper Cretaceous,93.9,89.8,4.1000000000000085,['Bissekty'],"[(42.117294, 62.655315)]"
-Morelladon beltrani,Morelladon,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Arcillas de Morella'],"[(40.618889, -0.097778)]"
-Nanningosaurus dashiensis,Nanningosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,100.5,66.0,34.5,[nan],"[(22.8167, 108.316704)]"
-Nanyangosaurus zhugeii,Nanyangosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Turonian,Campanian,Upper Cretaceous,Upper Cretaceous,93.9,72.1,21.80000000000001,['Majiacun'],"[(33.49781, 112.879425)]"
-Penelopognathus weishampeli,Penelopognathus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Bayangobi'],"[(41.183334, 106.033333)]"
-Plesiohadros djadokhtaensis,Plesiohadros,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Alagteeg'],"[(44.256943, 103.298889)]"
-Portellsaurus sosbaynati,Portellsaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Mirambel'],"[(40.5858, -0.2787)]"
-Probactrosaurus gobiensis,Probactrosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Albian,Lower Cretaceous,Lower Cretaceous,125.77,100.5,25.269999999999996,['Dashuigou'],"[(40.271702, 105.75)]"
-Protohadros byrdi,Protohadros,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Lewisville'],"[(33.014442, -97.096664) (32.810555, -97.079094)]"
-Ratchasimasaurus suranareae,Ratchasimasaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Khok Kruat'],"[(14.8873, 101.973801)]"
-Shuangmiaosaurus gilmorei,Shuangmiaosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,106.2,100.5,5.700000000000003,['Sunjiawan'],"[(41.772778, 120.792221)]"
-Sirindhorna khoratensis,Sirindhorna,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Khok Kruat'],"[(14.866667, 102.733299)]"
-Tanius chingkankouensis,Tanius,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Jingangkou'],"[(36.886551, 120.658951)]"
-Tanius sinensis,Tanius,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Coniacian,Campanian,Upper Cretaceous,Upper Cretaceous,89.8,72.1,17.700000000000003,['Jiangjunding' 'Jingangkou'],"[(36.920399, 120.622902) (36.597801, 120.767799)]"
-Telmatosaurus transsylvanicus,Telmatosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Densuş-Ciula' 'Sînpetru' 'Şard' nan],"[(45.603615, 22.845142) (45.549999, 22.916668) (46.043896, 23.521614)
+Gongpoquansaurus mazongshanensis,Gongpoquansaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Zhonggou'],"[(41.575001, 97.583336)]"
+Gonkoken nanoi,Gonkoken,,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Dorotea'],"[(-50.711666, -72.541389)]"
+Huehuecanauhtlus tiquichensis,Huehuecanauhtlus,,Ornithopoda,,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Cutzamala'],"[(19.049999, -100.699997) (19.052221, -100.712944)]"
+Jeyawati rugoculus,Jeyawati,,Ornithopoda,,Ornithischia,False,Herbivore,Turonian,Turonian,Upper Cretaceous,Upper Cretaceous,93.9,89.8,4.1000000000000085,['Moreno Hill'],"[(35.066666, -108.849998)]"
+Jintasaurus meniscus,Jintasaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Xiagou'],"[(40.27861, 98.143608)]"
+Koshisaurus katsuyama,Koshisaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Kitadani'],"[(36.116669, 136.550003)]"
+Levnesovia transoxiana,Levnesovia,,Ornithopoda,,Ornithischia,False,Herbivore,Turonian,Turonian,Upper Cretaceous,Upper Cretaceous,93.9,89.8,4.1000000000000085,['Bissekty'],"[(42.117294, 62.655315)]"
+Morelladon beltrani,Morelladon,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Arcillas de Morella'],"[(40.618889, -0.097778)]"
+Nanningosaurus dashiensis,Nanningosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,100.5,66.0,34.5,[nan],"[(22.8167, 108.316704)]"
+Nanyangosaurus zhugeii,Nanyangosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Turonian,Campanian,Upper Cretaceous,Upper Cretaceous,93.9,72.1,21.80000000000001,['Majiacun'],"[(33.49781, 112.879425)]"
+Penelopognathus weishampeli,Penelopognathus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Bayangobi'],"[(41.183334, 106.033333)]"
+Plesiohadros djadokhtaensis,Plesiohadros,,Ornithopoda,,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Alagteeg'],"[(44.256943, 103.298889)]"
+Portellsaurus sosbaynati,Portellsaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Mirambel'],"[(40.5858, -0.2787)]"
+Probactrosaurus gobiensis,Probactrosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Albian,Lower Cretaceous,Lower Cretaceous,125.77,100.5,25.269999999999996,['Dashuigou'],"[(40.271702, 105.75)]"
+Protohadros byrdi,Protohadros,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Lewisville'],"[(33.014442, -97.096664) (32.810555, -97.079094)]"
+Ratchasimasaurus suranareae,Ratchasimasaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Khok Kruat'],"[(14.8873, 101.973801)]"
+Shuangmiaosaurus gilmorei,Shuangmiaosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,106.2,100.5,5.700000000000003,['Sunjiawan'],"[(41.772778, 120.792221)]"
+Sirindhorna khoratensis,Sirindhorna,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Khok Kruat'],"[(14.866667, 102.733299)]"
+Tanius chingkankouensis,Tanius,,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Jingangkou'],"[(36.886551, 120.658951)]"
+Tanius sinensis,Tanius,,Ornithopoda,,Ornithischia,False,Herbivore,Coniacian,Campanian,Upper Cretaceous,Upper Cretaceous,89.8,72.1,17.700000000000003,['Jiangjunding' 'Jingangkou'],"[(36.920399, 120.622902) (36.597801, 120.767799)]"
+Telmatosaurus transsylvanicus,Telmatosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Densuş-Ciula' 'Sînpetru' 'Şard' nan],"[(45.603615, 22.845142) (45.549999, 22.916668) (46.043896, 23.521614)
  (45.616669, 22.783333) (46.027943, 23.552959) (43.60339, 6.106587)
  (45.493622, 23.092192) (45.547501, 22.9158)]"
-Tethyshadros insularis,Tethyshadros,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Aurisina'],"[(45.77861, 13.588611)]"
-Xuwulong yueluni,Xuwulong,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Xiagou'],"[(40.27861, 98.143608)]"
-Yunganglong datongensis,Yunganglong,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous,100.5,83.6,16.900000000000006,['Zhumapu'],"[(40.013611, 112.703056)]"
-Zhanghenglong yangchengensis,Zhanghenglong,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Majiacun'],"[(33.289169, 111.474403)]"
-Zuoyunlong huangi,Zuoyunlong,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous,100.5,83.6,16.900000000000006,['Zhumapu'],"[(40.013611, 112.703056)]"
-Brighstoneus simmondsi,Brighstoneus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Wessex'],"[(50.635109, -1.41035)]"
-Comptonatus chasei,Comptonatus,Iguanodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Wessex'],"[(50.659, -1.473)]"
-Proa valdearinnoensis,Proa,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Escucha'],"[(41.022659, -0.566268)]"
-Siamodon nimngami,Siamodon,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Khok Kruat'],"[(14.866667, 102.733299)]"
-Calvarius rapidus,Calvarius,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Talarn'],"[(42.113609, 0.984722)]"
-Cumnoria prestwichii,Cumnoria,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Kimmeridgian,Upper Jurassic,Upper Jurassic,152.2,149.2,3.0,['Kimmeridge Clay'],"[(51.735279, -1.313611)]"
-Dakotadon lakotaensis,Dakotadon,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous,139.8,132.6,7.200000000000017,['Lakota'],"[(44.474701, -103.621002)]"
-Delapparentia turolensis,Delapparentia,Iguanodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Camarillas'],"[(40.654675, -0.861015)]"
-Draconyx loureiroi,Draconyx,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic,152.2,146.3,5.899999999999977,['Lourinhã'],"[(39.283611, -9.334167) (39.283333, -9.333333)]"
-Hippodraco scutodens,Hippodraco,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous,139.8,132.6,7.200000000000017,['Cedar Mountain'],"[(38.8293, -109.470901)]"
-Iguanacolossus fortis,Iguanacolossus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Berriasian,Valanginian,Lower Cretaceous,Lower Cretaceous,140.6,132.6,8.0,['Cedar Mountain'],"[(38.910923, -110.113594)]"
-Lanzhousaurus magnidens,Lanzhousaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,113.0,12.769999999999996,[nan],"[(36.700001, 103.900002)]"
-Magnamanus soriaensis,Magnamanus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Hauterivian,Barremian,Lower Cretaceous,Lower Cretaceous,132.6,121.4,11.199999999999989,['Golmayo'],"[(41.766701, -2.5333)]"
-Napaisaurus guangxiensis,Napaisaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Xinlong'],"[(22.369699, 107.993401)]"
-Riabininohadros weberae,Riabininohadros,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,[nan],"[(44.74609, 33.861565)]"
-Theiophytalia kerri,Theiophytalia,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,100.5,20.900000000000006,['Purgatoire'],"[(38.870712, -104.874298)]"
-Callovosaurus leedsi,Callovosaurus,Dryosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Callovian,Callovian,Middle Jurassic,Middle Jurassic,165.3,161.5,3.8000000000000114,['Oxford Clay'],"[(52.552071, -0.241701)]"
-Dryosaurus altus,Dryosaurus,Dryosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic,154.8,145.0,9.800000000000011,['Morrison'],"[(41.9077, -105.963402) (41.878601, -106.078903) (38.583099, -108.397202)
+Tethyshadros insularis,Tethyshadros,,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Aurisina'],"[(45.77861, 13.588611)]"
+Xuwulong yueluni,Xuwulong,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Xiagou'],"[(40.27861, 98.143608)]"
+Yunganglong datongensis,Yunganglong,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous,100.5,83.6,16.900000000000006,['Zhumapu'],"[(40.013611, 112.703056)]"
+Zhanghenglong yangchengensis,Zhanghenglong,,Ornithopoda,,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Majiacun'],"[(33.289169, 111.474403)]"
+Zuoyunlong huangi,Zuoyunlong,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Santonian,Upper Cretaceous,Upper Cretaceous,100.5,83.6,16.900000000000006,['Zhumapu'],"[(40.013611, 112.703056)]"
+Brighstoneus simmondsi,Brighstoneus,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Wessex'],"[(50.635109, -1.41035)]"
+Comptonatus chasei,Comptonatus,Iguanodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Wessex'],"[(50.659, -1.473)]"
+Proa valdearinnoensis,Proa,,Ornithopoda,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Escucha'],"[(41.022659, -0.566268)]"
+Siamodon nimngami,Siamodon,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Khok Kruat'],"[(14.866667, 102.733299)]"
+Calvarius rapidus,Calvarius,,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Talarn'],"[(42.113609, 0.984722)]"
+Cumnoria prestwichii,Cumnoria,,Ornithopoda,,Ornithischia,False,Herbivore,Kimmeridgian,Kimmeridgian,Upper Jurassic,Upper Jurassic,152.2,149.2,3.0,['Kimmeridge Clay'],"[(51.735279, -1.313611)]"
+Dakotadon lakotaensis,Dakotadon,,Ornithopoda,,Ornithischia,False,Herbivore,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous,139.8,132.6,7.200000000000017,['Lakota'],"[(44.474701, -103.621002)]"
+Delapparentia turolensis,Delapparentia,Iguanodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Camarillas'],"[(40.654675, -0.861015)]"
+Draconyx loureiroi,Draconyx,,Ornithopoda,,Ornithischia,False,Herbivore,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic,152.2,146.3,5.899999999999977,['Lourinhã'],"[(39.283611, -9.334167) (39.283333, -9.333333)]"
+Hippodraco scutodens,Hippodraco,,Ornithopoda,,Ornithischia,False,Herbivore,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous,139.8,132.6,7.200000000000017,['Cedar Mountain'],"[(38.8293, -109.470901)]"
+Iguanacolossus fortis,Iguanacolossus,,Ornithopoda,,Ornithischia,False,Herbivore,Berriasian,Valanginian,Lower Cretaceous,Lower Cretaceous,140.6,132.6,8.0,['Cedar Mountain'],"[(38.910923, -110.113594)]"
+Lanzhousaurus magnidens,Lanzhousaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,113.0,12.769999999999996,[nan],"[(36.700001, 103.900002)]"
+Magnamanus soriaensis,Magnamanus,,Ornithopoda,,Ornithischia,False,Herbivore,Hauterivian,Barremian,Lower Cretaceous,Lower Cretaceous,132.6,121.4,11.199999999999989,['Golmayo'],"[(41.766701, -2.5333)]"
+Napaisaurus guangxiensis,Napaisaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Xinlong'],"[(22.369699, 107.993401)]"
+Riabininohadros weberae,Riabininohadros,,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,[nan],"[(44.74609, 33.861565)]"
+Theiophytalia kerri,Theiophytalia,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,100.5,20.900000000000006,['Purgatoire'],"[(38.870712, -104.874298)]"
+Callovosaurus leedsi,Callovosaurus,Dryosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Callovian,Callovian,Middle Jurassic,Middle Jurassic,165.3,161.5,3.8000000000000114,['Oxford Clay'],"[(52.552071, -0.241701)]"
+Dryosaurus altus,Dryosaurus,Dryosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic,154.8,145.0,9.800000000000011,['Morrison'],"[(41.9077, -105.963402) (41.878601, -106.078903) (38.583099, -108.397202)
  (42.017776, -106.048615) (38.316418, -108.827545)
  (40.455929, -108.391647)]"
-Dryosaurus elderae,Dryosaurus,Dryosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic,149.2,146.3,2.8999999999999773,['Morrison'],"[(40.441387, -109.300552)]"
-Dysalotosaurus lettowvorbecki,Dysalotosaurus,Dryosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Kimmeridgian,Upper Jurassic,Upper Jurassic,152.2,149.2,3.0,['Tendaguru'],"[(-9.684436, 39.221272)]"
-Elrhazosaurus nigeriensis,Elrhazosaurus,Dryosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Elrhaz'],"[(16.466667, 9.166667)]"
-Valdosaurus canaliculatus,Valdosaurus,Dryosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Hauterivian,Barremian,Lower Cretaceous,Lower Cretaceous,132.6,121.4,11.199999999999989,['Wessex'],"[(50.640491, -1.433957) (50.659, -1.473)]"
-Eousdryosaurus nanohallucis,Eousdryosaurus,Dryosauridae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic,152.2,146.3,5.899999999999977,['Lourinhã'],"[(39.231667, -9.338611)]"
-Hesperonyx martinhotomasorum,Hesperonyx,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Kimmeridgian,Upper Jurassic,Upper Jurassic,152.2,149.2,3.0,['Lourinhã'],"[(39.216, -9.344)]"
-Owenodon hoggii,Owenodon,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Tithonian,Berriasian,Upper Jurassic,Lower Cretaceous,149.2,140.6,8.599999999999994,['Lulworth' nan],"[(50.602222, -1.949167) (51.801109, -0.846389)]"
-Anabisetia saldiviai,Anabisetia,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Turonian,Turonian,Upper Cretaceous,Upper Cretaceous,93.9,89.8,4.1000000000000085,['Cerro Lisandro'],"[(-39.07045, -69.15123)]"
-Atlascopcosaurus loadsi,Atlascopcosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Albian,Lower Cretaceous,Lower Cretaceous,125.77,109.9,15.86999999999999,['Eumeralla'],"[(-38.781387, 143.403885) (-38.781387, 143.402496) (-38.835835, 143.58194)
+Dryosaurus elderae,Dryosaurus,Dryosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic,149.2,146.3,2.8999999999999773,['Morrison'],"[(40.441387, -109.300552)]"
+Dysalotosaurus lettowvorbecki,Dysalotosaurus,Dryosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Kimmeridgian,Kimmeridgian,Upper Jurassic,Upper Jurassic,152.2,149.2,3.0,['Tendaguru'],"[(-9.684436, 39.221272)]"
+Elrhazosaurus nigeriensis,Elrhazosaurus,Dryosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Elrhaz'],"[(16.466667, 9.166667)]"
+Valdosaurus canaliculatus,Valdosaurus,Dryosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Hauterivian,Barremian,Lower Cretaceous,Lower Cretaceous,132.6,121.4,11.199999999999989,['Wessex'],"[(50.640491, -1.433957) (50.659, -1.473)]"
+Eousdryosaurus nanohallucis,Eousdryosaurus,Dryosauridae,Ornithopoda,,Ornithischia,False,Herbivore,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic,152.2,146.3,5.899999999999977,['Lourinhã'],"[(39.231667, -9.338611)]"
+Hesperonyx martinhotomasorum,Hesperonyx,,Ornithopoda,,Ornithischia,False,Herbivore,Kimmeridgian,Kimmeridgian,Upper Jurassic,Upper Jurassic,152.2,149.2,3.0,['Lourinhã'],"[(39.216, -9.344)]"
+Owenodon hoggii,Owenodon,,Ornithopoda,,Ornithischia,False,Herbivore,Tithonian,Berriasian,Upper Jurassic,Lower Cretaceous,149.2,140.6,8.599999999999994,['Lulworth' nan],"[(50.602222, -1.949167) (51.801109, -0.846389)]"
+Anabisetia saldiviai,Anabisetia,,Ornithopoda,,Ornithischia,False,Herbivore,Turonian,Turonian,Upper Cretaceous,Upper Cretaceous,93.9,89.8,4.1000000000000085,['Cerro Lisandro'],"[(-39.07045, -69.15123)]"
+Atlascopcosaurus loadsi,Atlascopcosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Albian,Lower Cretaceous,Lower Cretaceous,125.77,109.9,15.86999999999999,['Eumeralla'],"[(-38.781387, 143.403885) (-38.781387, 143.402496) (-38.835835, 143.58194)
  (-36.698055, 143.40416) (-38.855278, 143.531387)]"
-Chakisaurus nekul,Chakisaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Turonian,Upper Cretaceous,Upper Cretaceous,100.5,89.8,10.700000000000003,['Huincul'],"[(-39.397778, -68.617775)]"
-Diluvicursor pickeringi,Diluvicursor,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Eumeralla'],"[(-38.855278, 143.531387)]"
-Galleonosaurus dorisae,Galleonosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Albian,Lower Cretaceous,Lower Cretaceous,125.77,109.9,15.86999999999999,['Wonthaggi'],"[(-38.66111, 145.681107) (-38.6628, 145.680099)]"
-Isasicursor santacrucensis,Isasicursor,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Chorrillo'],"[(-50.503613, -72.547218) (-50.514442, -72.555)]"
-Kangnasaurus coetzeei,Kangnasaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,100.5,66.0,34.5,[nan],"[(-29.520279, 18.419443)]"
-Leaellynasaura amicagraphica,Leaellynasaura,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Eumeralla'],"[(-38.781387, 143.403885) (-38.781387, 143.402496) (-36.698055, 143.40416)
+Chakisaurus nekul,Chakisaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Turonian,Upper Cretaceous,Upper Cretaceous,100.5,89.8,10.700000000000003,['Huincul'],"[(-39.397778, -68.617775)]"
+Diluvicursor pickeringi,Diluvicursor,,Ornithopoda,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Eumeralla'],"[(-38.855278, 143.531387)]"
+Galleonosaurus dorisae,Galleonosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Albian,Lower Cretaceous,Lower Cretaceous,125.77,109.9,15.86999999999999,['Wonthaggi'],"[(-38.66111, 145.681107) (-38.6628, 145.680099)]"
+Isasicursor santacrucensis,Isasicursor,,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Chorrillo'],"[(-50.503613, -72.547218) (-50.514442, -72.555)]"
+Kangnasaurus coetzeei,Kangnasaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,100.5,66.0,34.5,[nan],"[(-29.520279, 18.419443)]"
+Leaellynasaura amicagraphica,Leaellynasaura,,Ornithopoda,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,109.9,3.0999999999999943,['Eumeralla'],"[(-38.781387, 143.403885) (-38.781387, 143.402496) (-36.698055, 143.40416)
  (-38.855278, 143.531387)]"
-Macrogryphosaurus gondwanicus,Macrogryphosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Coniacian,Coniacian,Upper Cretaceous,Upper Cretaceous,89.8,86.3,3.5,['Sierra Barrosa'],"[(-38.612, -68.643997)]"
-Mahuidacursor lipanglef,Mahuidacursor,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Bajo de la Carpa'],"[(-37.609722, -69.316391)]"
-Morrosaurus antarcticus,Morrosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Snow Hill Island'],"[(-63.927776, -57.504166)]"
-Talenkauen santacrucensis,Talenkauen,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Cerro Fortaleza'],"[(-49.854443, -72.107224) (-49.964001, -72.071999)]"
-Tietasaura derbyiana,Tietasaura,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Valanginian,Hauterivian,Lower Cretaceous,Lower Cretaceous,139.8,125.77,14.030000000000015,['Marfim'],"[(-12.901111, -38.485558)]"
-Trinisaura santamartaensis,Trinisaura,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Snow Hill Island'],"[(-63.926666, -57.814167)]"
-Matheronodon provincialis,Matheronodon,Rhabdodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,[nan],"[(43.606697, 6.106141)]"
-Mochlodon vorosi,Mochlodon,Rhabdodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Csehbánya'],"[(47.216702, 17.6)]"
-Rhabdodon suessi,Mochlodon,Rhabdodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Grünbach' 'Sînpetru' 'Jibou'],"[(47.82, 16.24) (45.549999, 22.916668) (47.321762, 23.255066)]"
-Pareisactus evrostos,Pareisactus,Rhabdodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Conques'],"[(42.150387, -1.006834)]"
-Rhabdodon priscus,Rhabdodon,Rhabdodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,"['Grünbach' nan 'Marnes Rouges Inférieures' 'Sierra Perenchiza'
+Macrogryphosaurus gondwanicus,Macrogryphosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Coniacian,Coniacian,Upper Cretaceous,Upper Cretaceous,89.8,86.3,3.5,['Sierra Barrosa'],"[(-38.612, -68.643997)]"
+Mahuidacursor lipanglef,Mahuidacursor,,Ornithopoda,,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Bajo de la Carpa'],"[(-37.609722, -69.316391)]"
+Morrosaurus antarcticus,Morrosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Snow Hill Island'],"[(-63.927776, -57.504166)]"
+Talenkauen santacrucensis,Talenkauen,,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Cerro Fortaleza'],"[(-49.854443, -72.107224) (-49.964001, -72.071999)]"
+Tietasaura derbyiana,Tietasaura,,Ornithopoda,,Ornithischia,False,Herbivore,Valanginian,Hauterivian,Lower Cretaceous,Lower Cretaceous,139.8,125.77,14.030000000000015,['Marfim'],"[(-12.901111, -38.485558)]"
+Trinisaura santamartaensis,Trinisaura,,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Snow Hill Island'],"[(-63.926666, -57.814167)]"
+Matheronodon provincialis,Matheronodon,Rhabdodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,[nan],"[(43.606697, 6.106141)]"
+Mochlodon vorosi,Mochlodon,Rhabdodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Santonian,Santonian,Upper Cretaceous,Upper Cretaceous,86.3,83.6,2.700000000000003,['Csehbánya'],"[(47.216702, 17.6)]"
+Rhabdodon suessi,Mochlodon,Rhabdodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Grünbach' 'Sînpetru' 'Jibou'],"[(47.82, 16.24) (45.549999, 22.916668) (47.321762, 23.255066)]"
+Pareisactus evrostos,Pareisactus,Rhabdodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Conques'],"[(42.150387, -1.006834)]"
+Rhabdodon priscus,Rhabdodon,Rhabdodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,"['Grünbach' nan 'Marnes Rouges Inférieures' 'Sierra Perenchiza'
  'Grès de Labarre' 'Sînpetru' 'Grès à Reptiles' 'Figuerola']","[(47.82, 16.24) (43.431667, 5.719722) (42.9137, 2.2) (39.599998, -0.9667)
  (43.383301, 5.3) (42.938679, 1.86345) (42.929893, 2.259428)
  (42.926857, 2.210945) (45.549999, 22.916668) (43.60339, 6.106587)
  (43.61409, 6.081011) (42.164314, 0.991546) (41.996845, 0.931948)
  (41.856098, -3.3879)]"
-Rhabdodon septimanicus,Rhabdodon,Rhabdodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,[nan],"[(43.338146, 2.905978)]"
-Transylvanosaurus platycephalus,Transylvanosaurus,Rhabdodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,[nan],"[(45.493622, 23.092192)]"
-Zalmoxes robustus,Zalmoxes,Rhabdodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Sînpetru' 'Densuş-Ciula'],"[(45.493622, 23.092192) (45.616669, 22.783331) (45.549999, 22.916668)
+Rhabdodon septimanicus,Rhabdodon,Rhabdodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,[nan],"[(43.338146, 2.905978)]"
+Transylvanosaurus platycephalus,Transylvanosaurus,Rhabdodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,[nan],"[(45.493622, 23.092192)]"
+Zalmoxes robustus,Zalmoxes,Rhabdodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Sînpetru' 'Densuş-Ciula'],"[(45.493622, 23.092192) (45.616669, 22.783331) (45.549999, 22.916668)
  (45.994545, 23.438856) (45.603615, 22.845142)]"
-Zalmoxes shqiperorum,Zalmoxes,Rhabdodontidae,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Şard' 'Sînpetru' 'Densuş-Ciula' 'Jibou' 'Râul Mare'],"[(46.043896, 23.521614) (45.616669, 22.783333) (45.603615, 22.845142)
+Zalmoxes shqiperorum,Zalmoxes,Rhabdodontidae,Ornithopoda,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Şard' 'Sînpetru' 'Densuş-Ciula' 'Jibou' 'Râul Mare'],"[(46.043896, 23.521614) (45.616669, 22.783333) (45.603615, 22.845142)
  (45.616669, 22.783331) (45.548698, 22.910601) (47.321762, 23.255066)
  (45.613491, 22.795643) (45.580002, 22.93)]"
-Emiliasaura alessandrii,Emiliasaura,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous,139.8,132.6,7.200000000000017,['Mulichinco'],"[(-38.5, -70.264168)]"
-Fostoria dhimbangunmal,Fostoria,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Griman Creek'],"[(-29.686899, 147.630295)]"
-Iani smithi,Iani,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Cedar Mountain'],"[(38.720798, -111.185402)]"
-Muttaburrasaurus langdoni,Muttaburrasaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Albian,Cenomanian,Lower Cretaceous,Upper Cretaceous,106.2,93.9,12.299999999999997,['Mackunda'],"[(-22.6675, 144.600555)]"
-Craspedodon lonzeensis,Craspedodon,,Ceratopsia,Neornithischia,Ornithischia,False,Herbivore,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous,89.8,83.6,6.200000000000003,['Glauconie de Lonzée'],"[(50.549999, 4.7333)]"
-Lurdusaurus arenatus,Lurdusaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,100.5,12.5,['Elrhaz'],"[(16.700001, 9.333333)]"
-Choyrodon barsboldi,Choyrodon,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,109.9,100.5,9.400000000000006,['Khuren Dukh'],"[(45.849724, 108.397499) (45.830276, 108.446671)]"
-Convolosaurus marri,Convolosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,119.5,113.0,6.5,['Twin Mountains'],"[(31.9722, -98.476303)]"
+Emiliasaura alessandrii,Emiliasaura,,Ornithopoda,,Ornithischia,False,Herbivore,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous,139.8,132.6,7.200000000000017,['Mulichinco'],"[(-38.5, -70.264168)]"
+Fostoria dhimbangunmal,Fostoria,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Griman Creek'],"[(-29.686899, 147.630295)]"
+Iani smithi,Iani,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Cedar Mountain'],"[(38.720798, -111.185402)]"
+Muttaburrasaurus langdoni,Muttaburrasaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Albian,Cenomanian,Lower Cretaceous,Upper Cretaceous,106.2,93.9,12.299999999999997,['Mackunda'],"[(-22.6675, 144.600555)]"
+Craspedodon lonzeensis,Craspedodon,,Ceratopsia,,Ornithischia,False,Herbivore,Coniacian,Santonian,Upper Cretaceous,Upper Cretaceous,89.8,83.6,6.200000000000003,['Glauconie de Lonzée'],"[(50.549999, 4.7333)]"
+Lurdusaurus arenatus,Lurdusaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,100.5,12.5,['Elrhaz'],"[(16.700001, 9.333333)]"
+Choyrodon barsboldi,Choyrodon,,Ornithopoda,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,109.9,100.5,9.400000000000006,['Khuren Dukh'],"[(45.849724, 108.397499) (45.830276, 108.446671)]"
+Convolosaurus marri,Convolosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,119.5,113.0,6.5,['Twin Mountains'],"[(31.9722, -98.476303)]"
 Fulgurotherium australe,Fulgurotherium,,,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Griman Creek'],"[(-29.4333, 147.983307) (-29.604099, 147.697296) (-29.426945, 147.978882)]"
-Iyuku raathi,Iyuku,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous,139.8,132.6,7.200000000000017,['Kirkwood'],"[(-33.441299, 25.4501)]"
-Mantellisaurus atherfieldensis,Mantellisaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Berriasian,Aptian,Lower Cretaceous,Lower Cretaceous,145.0,119.5,25.5,"['Vectis' 'Wessex' 'Hythe' 'Calcaires à Spatangues' 'Weald Clay'
+Iyuku raathi,Iyuku,,Ornithopoda,,Ornithischia,False,Herbivore,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous,139.8,132.6,7.200000000000017,['Kirkwood'],"[(-33.441299, 25.4501)]"
+Mantellisaurus atherfieldensis,Mantellisaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Berriasian,Aptian,Lower Cretaceous,Lower Cretaceous,145.0,119.5,25.5,"['Vectis' 'Wessex' 'Hythe' 'Calcaires à Spatangues' 'Weald Clay'
  'Arcillas de Morella' 'Sainte-Barbe Clays' nan 'Papo Seco']","[(50.618999, -1.352) (50.635109, -1.41035) (51.189999, 0.732222)
  (48.5, 4.95) (51.133331, -0.35) (40.618889, -0.097778)
  (50.466667, 3.633333) (40.243057, -0.739722) (38.414165, -9.222222)
  (50.6488, -1.4565)]"
-Osmakasaurus depressus,Osmakasaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Kimmeridgian,Barremian,Upper Jurassic,Lower Cretaceous,154.8,121.4,33.400000000000006,['Lakota'],"[(43.441601, -103.390999) (43.508888, -103.336945)]"
-Planicoxa venenica,Planicoxa,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Cedar Mountain'],"[(38.8293, -109.470901)]"
-Sektensaurus sanjuanboscoi,Sektensaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Lago Colhué Huapi'],"[(-45.597778, -68.622223)]"
-Tenontosaurus dossi,Tenontosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,119.5,113.0,6.5,['Twin Mountains'],"[(32.755554, -97.89389)]"
-Tenontosaurus tilletti,Tenontosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Aptian,Cenomanian,Lower Cretaceous,Upper Cretaceous,121.4,93.9,27.5,['Cloverly' 'Antlers'],"[(45.438999, -108.141403) (45.441387, -108.161667)
+Osmakasaurus depressus,Osmakasaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Kimmeridgian,Barremian,Upper Jurassic,Lower Cretaceous,154.8,121.4,33.400000000000006,['Lakota'],"[(43.441601, -103.390999) (43.508888, -103.336945)]"
+Planicoxa venenica,Planicoxa,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,121.4,113.0,8.400000000000006,['Cedar Mountain'],"[(38.8293, -109.470901)]"
+Sektensaurus sanjuanboscoi,Sektensaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Lago Colhué Huapi'],"[(-45.597778, -68.622223)]"
+Tenontosaurus dossi,Tenontosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous,119.5,113.0,6.5,['Twin Mountains'],"[(32.755554, -97.89389)]"
+Tenontosaurus tilletti,Tenontosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Aptian,Cenomanian,Lower Cretaceous,Upper Cretaceous,121.4,93.9,27.5,['Cloverly' 'Antlers'],"[(45.438999, -108.141403) (45.441387, -108.161667)
  (46.337502, -109.685501) (45.485699, -108.516899)
  (44.964001, -108.302002) (44.978199, -108.322403)
  (45.409698, -108.203201) (45.3951, -108.223801) (45.380501, -108.203201)
@@ -479,21 +479,21 @@ Tenontosaurus tilletti,Tenontosaurus,,Ornithopoda,Neornithischia,Ornithischia,Fa
  (46.323002, -109.706398) (45.341301, -108.811302) (44.6586, -107.893501)
  (44.513332, -107.902222) (45.19278, -108.805275) (45.239166, -108.797501)
  (34.164001, -95.82) (46.332401, -109.564201)]"
-Yueosaurus tiantaiensis,Yueosaurus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Albian,Cenomanian,Lower Cretaceous,Upper Cretaceous,113.0,93.9,19.099999999999994,['Liangtoutang'],"[(29.152113, 121.027649)]"
-Thescelosaurus assiniboiensis,Thescelosaurus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Frenchman'],"[(49.3601, -108.460197)]"
-Thescelosaurus edmontonensis,Thescelosaurus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Scollard'],"[(50.870098, -112.993599)]"
-Thescelosaurus neglectus,Thescelosaurus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Hell Creek' 'Frenchman' 'Lance'],"[(45.948799, -103.9617) (46.099998, -103.300003) (45.977699, -103.753899)
+Yueosaurus tiantaiensis,Yueosaurus,Thescelosauridae,,,Ornithischia,False,Herbivore,Albian,Cenomanian,Lower Cretaceous,Upper Cretaceous,113.0,93.9,19.099999999999994,['Liangtoutang'],"[(29.152113, 121.027649)]"
+Thescelosaurus assiniboiensis,Thescelosaurus,Thescelosauridae,,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Frenchman'],"[(49.3601, -108.460197)]"
+Thescelosaurus edmontonensis,Thescelosaurus,Thescelosauridae,,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Scollard'],"[(50.870098, -112.993599)]"
+Thescelosaurus neglectus,Thescelosaurus,Thescelosauridae,,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Hell Creek' 'Frenchman' 'Lance'],"[(45.948799, -103.9617) (46.099998, -103.300003) (45.977699, -103.753899)
  (46.406399, -103.939697) (46.381901, -103.964401) (46.334, -103.897903)
  (45.93903, -103.946098) (49.036098, -106.596603) (43.272221, -104.570831)
  (47.93972, -106.188797) (44.998001, -103.182999) (47.812222, -106.277779)
  (47.682777, -105.977776) (47.799999, -106.099998)
  (45.482071, -104.192398) (45.5, -103.099998) (45.644169, -103.488052)
  (45.000481, -103.188957)]"
-Ampelognathus coheni,Ampelognathus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Lewisville'],"[(32.980507, -97.057213)]"
-Burianosaurus augustai,Burianosaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Peruc-Korycany'],"[(49.9333, 15.1833)]"
-Changchunsaurus parvus,Changchunsaurus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,100.5,20.900000000000006,['Quantou'],"[(43.585079, 124.894295)]"
-Changmiania liaoningensis,Changmiania,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.783817, 120.764221)]"
-Gideonmantellia amosanjuanae,Gideonmantellia,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Camarillas'],"[(40.647625, -0.883291)]"
+Ampelognathus coheni,Ampelognathus,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Lewisville'],"[(32.980507, -97.057213)]"
+Burianosaurus augustai,Burianosaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Peruc-Korycany'],"[(49.9333, 15.1833)]"
+Changchunsaurus parvus,Changchunsaurus,Thescelosauridae,,,Ornithischia,False,Herbivore,Aptian,Albian,Lower Cretaceous,Lower Cretaceous,121.4,100.5,20.900000000000006,['Quantou'],"[(43.585079, 124.894295)]"
+Changmiania liaoningensis,Changmiania,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.783817, 120.764221)]"
+Gideonmantellia amosanjuanae,Gideonmantellia,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Camarillas'],"[(40.647625, -0.883291)]"
 Nanosaurus agilis,Nanosaurus,Nanosauridae,,Neornithischia,Ornithischia,False,Herbivore,Oxfordian,Tithonian,Upper Jurassic,Upper Jurassic,157.9,145.0,12.900000000000006,['Morrison'],"[(38.539501, -105.224701) (41.878601, -106.099098) (41.893055, -106.00222)
  (44.650002, -107.816666) (38.731667, -111.270554)
  (38.546501, -105.231598) (38.547501, -105.231598) (41.9077, -105.963402)
@@ -501,8 +501,8 @@ Nanosaurus agilis,Nanosaurus,Nanosauridae,,Neornithischia,Ornithischia,False,Her
  (42.520729, -106.740685) (44.051388, -107.458336)
  (41.878601, -105.885803) (39.2383, -108.995796) (41.893055, -105.979721)
  (41.9081, -105.985603) (41.9081, -105.985497)]"
-Qantassaurus intrepidus,Qantassaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Wonthaggi'],"[(-38.66111, 145.681107)]"
-Weewarrasaurus pobeni,Weewarrasaurus,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Griman Creek'],"[(-29.742399, 147.719299) (-29.467489, 147.957535)]"
+Qantassaurus intrepidus,Qantassaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Barremian,Barremian,Lower Cretaceous,Lower Cretaceous,125.77,121.4,4.36999999999999,['Wonthaggi'],"[(-38.66111, 145.681107)]"
+Weewarrasaurus pobeni,Weewarrasaurus,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Griman Creek'],"[(-29.742399, 147.719299) (-29.467489, 147.957535)]"
 Stegouros elengassen,Stegouros,,Ankylosauria,Thyreophora,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Dorotea'],"[(-50.711945, -72.541389)]"
 Akainacephalus johnsoni,Akainacephalus,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kaiparowits'],"[(37.6875, -111.446114)]"
 Ziapelta sanjuanensis,Ziapelta,Ankylosauridae,Ankylosauria,Thyreophora,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Kirtland'],"[(36.343899, -108.209099)]"
@@ -660,24 +660,24 @@ Eocursor parvus,Eocursor,,,,Ornithischia,False,Herbivore,Hettangian,Sinemurian,L
 Hexinlusaurus multidens,Hexinlusaurus,,,Neornithischia,Ornithischia,False,Herbivore,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic,170.9,154.8,16.099999999999994,['Shaximiao'],"[(29.411388, 104.852501)]"
 Jeholosaurus shangyuanensis,Jeholosaurus,Jeholosauridae,,Neornithischia,Ornithischia,False,Herbivore,Barremian,Aptian,Lower Cretaceous,Lower Cretaceous,125.77,119.5,6.269999999999996,['Yixian'],"[(41.603352, 120.913269)]"
 Kulindapteryx ukureica,Kulindapteryx,,,Neornithischia,Ornithischia,False,Herbivore,Bathonian,Tithonian,Middle Jurassic,Upper Jurassic,168.2,145.0,23.19999999999999,['Ukureyskaya'],"[(52.51004, 116.651314)]"
-Albertadromeus syntarsus,Albertadromeus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Oldman'],"[(49.179443, -110.682777)]"
-Koreanosaurus boseongensis,Koreanosaurus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Seonso Conglomerate'],"[(34.706188, 127.197456) (34.693111, 127.180458)]"
-Orodromeus makelai,Orodromeus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Two Medicine' 'Hell Creek' 'Judith River'],"[(47.8125, -112.182777) (48.633301, -113.75) (48.650002, -112.966667)
+Albertadromeus syntarsus,Albertadromeus,Thescelosauridae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Oldman'],"[(49.179443, -110.682777)]"
+Koreanosaurus boseongensis,Koreanosaurus,Thescelosauridae,,,Ornithischia,False,Herbivore,Campanian,Campanian,Upper Cretaceous,Upper Cretaceous,83.6,72.1,11.5,['Seonso Conglomerate'],"[(34.706188, 127.197456) (34.693111, 127.180458)]"
+Orodromeus makelai,Orodromeus,Thescelosauridae,,,Ornithischia,False,Herbivore,Campanian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,83.6,66.0,17.599999999999994,['Two Medicine' 'Hell Creek' 'Judith River'],"[(47.8125, -112.182777) (48.633301, -113.75) (48.650002, -112.966667)
  (47.799999, -106.099998) (47.808201, -109.589699) (47.8214, -112.664299)]"
-Oryctodromeus cubicularis,Oryctodromeus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,106.2,100.5,5.700000000000003,['Blackleaf'],"[(44.537224, -112.59861)]"
-Zephyrosaurus schaffi,Zephyrosaurus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,100.5,12.5,['Cloverly'],"[(45.487, -108.729599)]"
-Fona herzogae,Fona,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Cedar Mountain'],"[(38.706299, -111.1978) (38.701111, -111.206108) (38.658054, -111.23333)]"
-Nevadadromeus schmitti,Nevadadromeus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Willow Tank'],"[(36.417606, -114.551567)]"
-Notohypsilophodon comodorensis,Notohypsilophodon,,Ornithopoda,Neornithischia,Ornithischia,False,Herbivore,Cenomanian,Turonian,Upper Cretaceous,Upper Cretaceous,100.5,89.8,10.700000000000003,['Bajo Barreal'],"[(-44.914669, -69.288971)]"
-Parksosaurus warreni,Parksosaurus,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Horseshoe Canyon'],"[(50.900002, -111.800003) (51.995834, -112.883331)
+Oryctodromeus cubicularis,Oryctodromeus,Thescelosauridae,,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,106.2,100.5,5.700000000000003,['Blackleaf'],"[(44.537224, -112.59861)]"
+Zephyrosaurus schaffi,Zephyrosaurus,Thescelosauridae,,,Ornithischia,False,Herbivore,Albian,Albian,Lower Cretaceous,Lower Cretaceous,113.0,100.5,12.5,['Cloverly'],"[(45.487, -108.729599)]"
+Fona herzogae,Fona,Thescelosauridae,,,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Cedar Mountain'],"[(38.706299, -111.1978) (38.701111, -111.206108) (38.658054, -111.23333)]"
+Nevadadromeus schmitti,Nevadadromeus,Thescelosauridae,,,Ornithischia,False,Herbivore,Cenomanian,Cenomanian,Upper Cretaceous,Upper Cretaceous,100.5,93.9,6.599999999999994,['Willow Tank'],"[(36.417606, -114.551567)]"
+Notohypsilophodon comodorensis,Notohypsilophodon,,Ornithopoda,,Ornithischia,False,Herbivore,Cenomanian,Turonian,Upper Cretaceous,Upper Cretaceous,100.5,89.8,10.700000000000003,['Bajo Barreal'],"[(-44.914669, -69.288971)]"
+Parksosaurus warreni,Parksosaurus,Thescelosauridae,,,Ornithischia,False,Herbivore,Maastrichtian,Maastrichtian,Upper Cretaceous,Upper Cretaceous,72.1,66.0,6.099999999999994,['Horseshoe Canyon'],"[(50.900002, -111.800003) (51.995834, -112.883331)
  (51.709999, -112.933998)]"
-Haya griva,Haya,Thescelosauridae,,Neornithischia,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Javkhlant' 'Djadokhta'],"[(44.393677, 109.35318) (43.664444, 100.901947)]"
+Haya griva,Haya,Thescelosauridae,,,Ornithischia,False,Herbivore,Santonian,Campanian,Upper Cretaceous,Upper Cretaceous,86.3,72.1,14.200000000000003,['Javkhlant' 'Djadokhta'],"[(44.393677, 109.35318) (43.664444, 100.901947)]"
 Kulindadromeus zabaikalicus,Kulindadromeus,,,Neornithischia,Ornithischia,False,Herbivore,Bathonian,Tithonian,Middle Jurassic,Upper Jurassic,168.2,145.0,23.19999999999999,['Ukureyskaya'],"[(52.51004, 116.651314)]"
 Minimocursor phunoiensis,Minimocursor,,,Neornithischia,Ornithischia,False,Herbivore,Tithonian,Berriasian,Upper Jurassic,Lower Cretaceous,149.2,139.8,9.399999999999977,['Phu Kradung'],"[(16.65, 102.25)]"
 Sanxiasaurus modaoxiensis,Sanxiasaurus,,,Neornithischia,Ornithischia,False,Herbivore,Toarcian,Aalenian,Lower Jurassic,Middle Jurassic,184.2,170.9,13.299999999999983,['Xintiangou'],"[(30.931389, 108.730553)]"
-Yandusaurus hongheensis,Yandusaurus,,,Neornithischia,Ornithischia,False,Herbivore,Bajocian,Bajocian,Middle Jurassic,Middle Jurassic,170.9,168.2,2.700000000000017,['Shaximiao'],"[(29.4, 104.783302)]"
-Gongbusaurus shiyii,Gongbusaurus,,,Neornithischia,Ornithischia,False,Herbivore,Bathonian,Callovian,Middle Jurassic,Middle Jurassic,168.2,161.5,6.699999999999989,['Shaximiao'],"[(29.483299, 104.366699)]"
-Gongbusaurus wucaiwanensis,Gongbusaurus,,,Neornithischia,Ornithischia,False,Herbivore,Callovian,Oxfordian,Middle Jurassic,Upper Jurassic,165.3,154.8,10.5,['Shishugou'],"[(45.191288, 88.919884)]"
+Yandusaurus hongheensis,Yandusaurus,,,,Ornithischia,False,Herbivore,Bajocian,Bajocian,Middle Jurassic,Middle Jurassic,170.9,168.2,2.700000000000017,['Shaximiao'],"[(29.4, 104.783302)]"
+Gongbusaurus shiyii,Gongbusaurus,,,,Ornithischia,False,Herbivore,Bathonian,Callovian,Middle Jurassic,Middle Jurassic,168.2,161.5,6.699999999999989,['Shaximiao'],"[(29.483299, 104.366699)]"
+Gongbusaurus wucaiwanensis,Gongbusaurus,,,,Ornithischia,False,Herbivore,Callovian,Oxfordian,Middle Jurassic,Upper Jurassic,165.3,154.8,10.5,['Shishugou'],"[(45.191288, 88.919884)]"
 Xiaosaurus dashanpensis,Xiaosaurus,,,Neornithischia,Ornithischia,False,Herbivore,Bajocian,Oxfordian,Middle Jurassic,Upper Jurassic,170.9,154.8,16.099999999999994,['Shaximiao'],"[(29.411388, 104.852501)]"
 Abrictosaurus consors,Abrictosaurus,Heterodontosauridae,,,Ornithischia,False,Herbivore,Hettangian,Sinemurian,Lower Jurassic,Lower Jurassic,201.4,192.9,8.5,['Elliot'],"[(-30.049999, 28.533333)]"
 Fruitadens haagarorum,Fruitadens,Heterodontosauridae,,,Ornithischia,False,Herbivore,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic,149.2,145.0,4.199999999999989,['Morrison'],"[(39.146, -108.769997) (39.149235, -108.769501) (39.148617, -108.770508)]"
