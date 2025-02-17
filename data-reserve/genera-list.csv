@@ -497,7 +497,7 @@ Kaatedocus,,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,154.8,149.2,5
 Lingwulong,Dicraeosauridae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,174.7,161.5,13.199999999999989,Aalenian,Callovian,Middle Jurassic,Middle Jurassic
 Pilmatueia,Dicraeosauridae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,139.8,132.6,7.200000000000017,Valanginian,Valanginian,Lower Cretaceous,Lower Cretaceous
 Smitanosaurus,Dicraeosauridae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,152.2,146.3,5.899999999999977,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic
-Suuwassea,Dicraeosauridae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,152.2,149.2,3.0,Kimmeridgian,Kimmeridgian,Upper Jurassic,Upper Jurassic
+Suuwassea,Dicraeosauridae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,154.8,145.0,9.800000000000011,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic
 Tharosaurus,Dicraeosauridae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,168.2,165.3,2.8999999999999773,Bathonian,Bathonian,Middle Jurassic,Middle Jurassic
 Ardetosaurus,Diplodocidae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,154.8,149.2,5.600000000000023,Kimmeridgian,Kimmeridgian,Upper Jurassic,Upper Jurassic
 Barosaurus,Diplodocidae,Sauropoda,Sauropodomorpha,Saurischia,False,1,Herbivore,157.9,145.0,12.900000000000006,Oxfordian,Tithonian,Upper Jurassic,Upper Jurassic
@@ -978,6 +978,7 @@ Neimengornis,,Avialae,Theropoda,Saurischia,False,1,Carnivore,121.4,113.0,8.40000
 Alcmonavis,,Avialae,Theropoda,Saurischia,False,1,Carnivore,149.2,146.3,2.8999999999999773,Tithonian,Tithonian,Upper Jurassic,Upper Jurassic
 Archaeopteryx,Archaeopterygidae,Non-Avian,Theropoda,Saurischia,False,3,"Piscivore, insectivore",149.2,121.4,27.799999999999983,Tithonian,Barremian,Upper Jurassic,Lower Cretaceous
 Aurornis,Anchiornithidae,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,168.2,152.2,16.0,Bathonian,Kimmeridgian,Middle Jurassic,Upper Jurassic
+Baminornis,,Avialae,Theropoda,Saurischia,False,1,Carnivore,152.2,146.3,5.899999999999977,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic
 Dalianraptor,,Avialae,Theropoda,Saurischia,False,1,Carnivore,121.4,113.0,8.400000000000006,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
 Fujianvenator,Anchiornithidae,Non-Avian,Theropoda,Saurischia,False,1,Carnivore,152.2,146.3,5.899999999999977,Kimmeridgian,Tithonian,Upper Jurassic,Upper Jurassic
 Fukuipteryx,,Avialae,Theropoda,Saurischia,False,1,Carnivore,121.4,113.0,8.400000000000006,Aptian,Aptian,Lower Cretaceous,Lower Cretaceous
