@@ -19,4 +19,4 @@ These files are preserved for reference and historical context. While not active
 
 ## Note
 
-No scripts in this folder are actively maintained or expected to run without modification. For current functionality, refer to the `scripts/` and `web/ `directories along with the main application codebase.
+No scripts in this folder are actively maintained or expected to run without modification. For current functionality, refer to the `scripts/` and `web/` directories along with the main application codebase.
