@@ -60,25 +60,28 @@ def sort_taxa_ages(taxa):
                     (taxa[x].isin(constants.JURASSIC_AGES)),
                     (taxa[x].isin(constants.CRETACEOUS_AGES))]
 
-    eps = lambda x: [(taxa[x].isin(constants.LOW_EP)),
-                    (taxa[x].isin(constants.MID_EP)),
-                    (taxa[x].isin(constants.UPP_EP))]
+    #eps = lambda x: [(taxa[x].isin(constants.LOW_EP)),
+    #                (taxa[x].isin(constants.MID_EP)),
+    #                (taxa[x].isin(constants.UPP_EP))]
 
 
     # Adding the Period and Age columns
-    taxa['Early Age'] = np.select(mya_args('Max MYA'), ages, default=pd.NaT)
+    taxa['EarlyAge'] = np.select(mya_args('MaxMYA'), ages, default=pd.NaT)
 
     # We add 0.01 to accomodate for edge cases where a dinosaur is estimated to have lived at the cusp of two mesozoic ages
-    taxa['Min MYA'] += 0.01
-    taxa['Late Age'] = np.select(mya_args('Min MYA'), ages, default=pd.NaT)
-    taxa['Min MYA'] -= 0.01
-    taxa['Late Age'] = taxa['Late Age'].fillna(taxa['Early Age'])
+    taxa['MinMYA'] += 0.01
+    taxa['LateAge'] = np.select(mya_args('MinMYA'), ages, default=pd.NaT)
+    taxa['MinMYA'] -= 0.01
+    taxa['LateAge'] = taxa['LateAge'].fillna(taxa['EarlyAge'])
 
-    taxa['Early Period'] = np.select(eps('Early Age'), constants.EPOCHS, default=pd.NaT) + ' ' + np.select(pers('Early Age'), constants.PERIODS, default=pd.NaT)
-    taxa['Late Period'] = np.select(eps('Late Age'), constants.EPOCHS, default=pd.NaT) + ' ' + np.select(pers('Late Age'), constants.PERIODS, default=pd.NaT)
+    #taxa['EarlyPeriod'] = np.select(eps('EarlyAge'), constants.EPOCHS, default=pd.NaT) + ' ' + np.select(pers('EarlyAge'), constants.PERIODS, default=pd.NaT)
+    #taxa['LatePeriod'] = np.select(eps('LateAge'), constants.EPOCHS, default=pd.NaT) + ' ' + np.select(pers('LateAge'), constants.PERIODS, default=pd.NaT)
 
+    taxa['EarlyPeriod'] = np.select(pers('EarlyAge'), constants.PERIODS, default=pd.NaT)
+    taxa['LatePeriod'] = np.select(pers('LateAge'), constants.PERIODS, default=pd.NaT)
+    
     # Adding a lifespan column to show how long each species/genus lived
-    taxa['Lifespan (MYA)'] = taxa['Max MYA'] - taxa['Min MYA']
+    taxa['LifespanMYA'] = taxa['MaxMYA'] - taxa['MinMYA']
 
     return taxa
 
