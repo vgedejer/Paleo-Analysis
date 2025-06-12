@@ -2,7 +2,6 @@
 
 **Paleo-Analysis** is a FastAPI-powered web application for querying, analyzing, and serving paleobiological data — starting with dinosaur genera and expanding into broader taxa datasets.
 
----
 
 ## Overview
 
