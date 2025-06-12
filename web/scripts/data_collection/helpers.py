@@ -57,8 +57,8 @@ def sort_taxa_ages(taxa):
                     
     # Arguments for Period and Epoch (will combine into one column later)
     pers = lambda x : [(taxa[x].isin(constants.TRIASSIC_AGES)),
-                    (taxa[x].isin(constants.JURASSIC_AGES)),
-                    (taxa[x].isin(constants.CRETACEOUS_AGES))]
+                       (taxa[x].isin(constants.JURASSIC_AGES)),
+                       (taxa[x].isin(constants.CRETACEOUS_AGES))]
 
     #eps = lambda x: [(taxa[x].isin(constants.LOW_EP)),
     #                (taxa[x].isin(constants.MID_EP)),

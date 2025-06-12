@@ -91,7 +91,7 @@ def main():
     print(f'Finished scraping taxa data in {elapsed:.4f}!\nCreating SQL tables...')
 
     conn = sqlite3.connect("paleo.db")
-    print("Database paleo.db formed")
+    print("Database paleo.database formed")
     
     # Push the dataframe to sql 
     occ.to_sql("dino_occurrences", conn, if_exists="replace")
