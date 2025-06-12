@@ -1,13 +1,10 @@
-from typing import Union
 from fastapi import FastAPI
+from api.routers import genera
 
 app = FastAPI()
 
+app.include_router(genera.router)
 @app.get("/")
 async def read_root():
-    return {"message": "🦕 Welcome to the Mesozoic Era! 🦖"}
+    return {"": "🦕 Welcome to the Mesozoic Era! 🦖"}
 
-@app.get("/items/{item_id}")
-async def read_item(item_id: int, q: Union[str, None] = None):
-    return {"item_id": item_id, "q": q}
-    
