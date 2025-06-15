@@ -13,7 +13,7 @@ class DinoGeneraBase(BaseModel):
 class DinoGeneraCreate(DinoGeneraBase):
     pass
 
-class DinoGeneraUpdate(DinoGeneraBase):
+class DinoGeneraUpdate(BaseModel):
     genus: str | None = None
     family: str | None = None
     infraorder: str | None = None
@@ -23,3 +23,8 @@ class DinoGeneraUpdate(DinoGeneraBase):
     early_period: str | None = None
     late_period: str | None = None
 
+class DinoGeneraOut(DinoGeneraBase):
+    id: int
+
+    class Config:
+        orm_mode = True

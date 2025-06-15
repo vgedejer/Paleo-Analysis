@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from models.dino_genera import DinoGenera
 from schema.dino_genera import DinoGeneraBase
@@ -14,5 +14,5 @@ def get_dino_genera(db: Session = Depends(get_db)):
 def get_dino_genus(genus: str, db: Session = Depends(get_db)):
     dino_genus = db.query(DinoGenera).filter(DinoGenera.Genus == genus).first()
     if not dino_genus:
-        return {"error": "Genus not found"}
+        raise HTTPException(status_code=404, detail="User not found")
     return dino_genus
