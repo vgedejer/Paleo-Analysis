@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Float, Boolean
 from database.db_connection import Base
 
-class DinoGenera(Base):
+class DinoGenus(Base):
     __tablename__ = "dino_genera"
 
     index = Column(Integer, primary_key=True, index=True)
@@ -25,4 +25,4 @@ class DinoGenera(Base):
         fields = ['id', 'genus', 'family', 'diet', 'early_period', 'late_period']
         values = {field: getattr(self, field) for field in fields if getattr(self, field) is not None}
         field_str = ', '.join(f"{k}={v!r}" for k, v in values.items())
-        return f"<DinoGenera({field_str})>"
+        return f"<DinoGenus({field_str})>"

@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class DinoGeneraBase(BaseModel):
+class DinoGenusBase(BaseModel):
     genus: str
     family: str
     infraorder: str
@@ -10,7 +10,7 @@ class DinoGeneraBase(BaseModel):
     early_period: str
     late_period: str
 
-class DinoGeneraCreate(DinoGeneraBase):
+class DinoGenusCreate(DinoGenusBase):
     pass
 
 class DinoGeneraUpdate(BaseModel):
@@ -23,7 +23,7 @@ class DinoGeneraUpdate(BaseModel):
     early_period: str | None = None
     late_period: str | None = None
 
-class DinoGeneraOut(DinoGeneraBase):
+class DinoGenusOut(DinoGenusBase):
     id: int
 
     class Config:
