@@ -1,6 +1,5 @@
 from database.db_connection import SessionLocal
 
-
 def get_db():
 
     print("getting database session..")
