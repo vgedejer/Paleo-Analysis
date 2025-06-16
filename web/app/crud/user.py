@@ -21,3 +21,9 @@ def remove_user(db: Session, username: str):
         db.commit()
         return True
     return False
+
+def get_user(db: Session, username: str):
+    user = db.query(User).filter(User.username == username).first()
+    if not user:
+        return False
+    return user

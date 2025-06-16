@@ -1,17 +1,12 @@
 from sqlalchemy import Column, Integer, String, Float, Boolean
 from database.db_connection import Base
 
-class DinoGenus(Base):
-    __tablename__ = "dino_genera"
+class DinoSpecies(Base):
+    __tablename__ = "dino_species"
 
     index = Column(Integer, primary_key=True, index=True)
+    Species = Column(String, index=True)
     Genus = Column(String, index=True)
-    Family = Column(String, index=True)
-    Infraorder = Column(String, index=True)
-    Suborder = Column(String, index=True)
-    Order = Column(String, index=True)
-    Informal = Column(Integer, index=True)
-    TaxonSize = Column(String, index=False)
     Diet = Column(String, index=True)
     MaxMYA = Column(Integer, index=True)
     MinMYA = Column(Integer, index=True)

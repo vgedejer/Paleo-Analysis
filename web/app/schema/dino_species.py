@@ -1,27 +1,19 @@
 from pydantic import BaseModel
 
-class DinoGenusBase(BaseModel):
+class DinoSpeciesBase(BaseModel):
+    Species: str
     Genus: str
-    Family: str
-    Infraorder: str
-    Suborder: str
-    Order: str
     Diet: str
     EarlyPeriod: str
     LatePeriod: str
 
-class DinoGenusCreate(DinoGenusBase):
+class DinoSpeciesCreate(DinoSpeciesBase):
     pass
 
-class DinoGeneraUpdate(BaseModel):
+class DinoSpeciesUpdate(BaseModel):
+    Species: str | None = None
     Genus: str | None = None
-    Family: str | None = None
-    Infraorder: str | None = None
-    Suborder: str | None = None
-    Order: str | None = None
-    Informal: int | None = None
-    TaxonSize: str | None = None
-    Diet: str | None = None
+    Diet: str  | None = None
     MaxMYA: int | None = None
     MinMYA: int | None = None
     LifespanMYA: float | None = None
@@ -30,7 +22,7 @@ class DinoGeneraUpdate(BaseModel):
     EarlyPeriod: str | None = None
     LatePeriod: str | None = None
 
-class DinoGenusOut(DinoGenusBase):
+class DinoSpeciesOut(DinoSpeciesBase):
     index: int
 
     class Config:

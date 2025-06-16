@@ -13,10 +13,10 @@ def get_all_users(db: Session = Depends(get_db)):
 
 @router.get("/{user}", response_model=UserOut)
 def get_user(user: str, db: Session = Depends(get_db)):
-    user_data = db.query(User).filter(User.username == user).first()
-    if not user_data:
+    success = user_crud.get_user(db, user)
+    if not success:
         raise HTTPException(status_code=404, detail="User not found")
-    return user_data
+    return success
 
 @router.post("/create", response_model=UserOut)
 def register_user(user: UserCreate, db: Session = Depends(get_db)):

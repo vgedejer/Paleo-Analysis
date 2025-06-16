@@ -1,4 +1,5 @@
-from sqlalchemy import Column, Integer, String
+from datetime import datetime
+from sqlalchemy import Column, Integer, String, DateTime
 from database.db_connection import Base
 
 class User(Base):
@@ -10,3 +11,5 @@ class User(Base):
     full_name = Column(String)
     favorite_dino = Column(String, index=True)
 
+    created_at = Column(DateTime, index=True)
+    last_modified = Column(DateTime, index=True)
