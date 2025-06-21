@@ -9,13 +9,16 @@ router = APIRouter()
 
 @router.get("/all")
 def get_all_users(db: Session = Depends(get_db)):
-    return db.query(User).all()
+    return user_crud.get_all_users(db)
 
 @router.get("/{user}", response_model=UserOut)
 def get_user(user: str, db: Session = Depends(get_db)):
     success = user_crud.get_user(db, user)
     if not success:
         raise HTTPException(status_code=404, detail="User not found")
+
+    # This line probably should be put in the services folder once I start developing the BLL
+    success.full_name = f"{success.last_name}, {success.first_name} {success.middle_initial or ''}".strip()
     return success
 
 @router.post("/create", response_model=UserOut)

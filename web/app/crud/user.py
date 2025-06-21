@@ -1,13 +1,22 @@
 from sqlalchemy.orm import Session
 from models.user import User
 from schema.user import UserCreate
+from datetime import datetime, timezone
+
+def get_all_users(db: Session):
+    return db.query(User).all()
 
 def create_user(db: Session, user: UserCreate):
     db_user = User(
         username=user.username,
         email=str(user.email),
-        full_name=user.full_name,
-        favorite_dino=user.favorite_dino
+        favorite_dino=user.favorite_dino,
+        first_name=user.first_name,
+        last_name=user.last_name,
+        middle_initial=user.middle_initial,
+
+        created_on= datetime.now(timezone.utc),
+        last_modified=datetime.now(timezone.utc),
     )
     db.add(db_user)
     db.commit()
@@ -27,3 +36,4 @@ def get_user(db: Session, username: str):
     if not user:
         return False
     return user
+
