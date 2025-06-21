@@ -7,7 +7,7 @@ from api.dependencies.db import get_db
 
 router = APIRouter()
 
-@router.get("/all")
+@router.get("/all/users")
 def get_all_users(db: Session = Depends(get_db)):
     return user_crud.get_all_users(db)
 
