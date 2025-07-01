@@ -1,19 +1,25 @@
 from fastapi import HTTPException
-from crud import dino_occurrence as fossil_crud
-from models.dino_occurrence import DinoFossil
-from schema.dino_occurrence import DinoFossilOut, DinoFossilOutFull
+from crud import dino_fossils as fossil_crud
+from models.dino_fossil import DinoFossil
+from schema.dino_fossil import DinoFossilOut, DinoFossilOutFull
 from sqlalchemy.orm import Session
 import constants
 
 def get_all_fossils(db: Session):
     fossils = fossil_crud.get_all_fossils(db)
 
+    if not fossils:
+        raise HTTPException(status_code=404, detail="...why the fuck is the fossil db empty")
+
     san_fossils = sanitize_fossils(fossils)
 
     return san_fossils
 
-def get_fossil(db: Session, fossil: str):
-    fossils = fossil_crud.get_fossil(db, fossil)
+def get_fossil(db: Session, species: str):
+    fossils = fossil_crud.get_fossil(db, species)
+
+    if not fossils:
+        raise HTTPException(status_code=404, detail=f"Fossils for {species} not found")
 
     san_fossils = sanitize_fossils_full(fossils)
 
@@ -22,8 +28,8 @@ def get_fossil(db: Session, fossil: str):
 def get_fossil_by_id(db: Session, fossil_id: int):
     fossil = fossil_crud.get_fossil_by_id(db, fossil_id)
 
-    if fossil is None:
-        return HTTPException(status_code=404, detail="Fossil not found")
+    if not fossil:
+        return HTTPException(status_code=404, detail="Fossil not found or ID does not exist")
 
     purell_fossil = sanitize_fossils_full([fossil])
 
@@ -32,9 +38,14 @@ def get_fossil_by_id(db: Session, fossil_id: int):
 def get_fossil_by_genus(db: Session, genus: str):
     fossils = fossil_crud.get_fossil_by_genus(db, genus)
 
+    if not fossils:
+        raise HTTPException(status_code=404, detail=f"Fossils for {genus} not found")
+
     san_fossils = sanitize_fossils_full(fossils)
 
     return san_fossils
+
+##### Sanitization Functions #####
 
 def sanitize_fossils(fossils: list[DinoFossil]):
     purell = []

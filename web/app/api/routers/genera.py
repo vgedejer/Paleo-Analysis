@@ -15,5 +15,5 @@ def get_all_dino_genera(db: Session = Depends(get_db)):
 def get_dino_genus(genus: str, db: Session = Depends(get_db)):
     dino_genus = dino_genera_crud.get_genus(db, genus)
     if not dino_genus:
-        raise HTTPException(status_code=404, detail="User not found")
+        raise HTTPException(status_code=404, detail="Dinosaur not found")
     return dino_genus

@@ -90,11 +90,11 @@ def main():
             
     print(f'Finished scraping taxa data in {elapsed:.4f}!\nCreating SQL tables...')
 
-    conn = sqlite3.connect("paleo.db")
+    conn = sqlite3.connect("../../paleo.db")
     print("Database paleo.database formed")
     
     # Push the dataframe to sql 
-    occ.to_sql("dino_occurrences", conn, if_exists="replace")
+    occ.to_sql("dino_fossils", conn, if_exists="replace")
     genus.to_sql("dino_genera", conn, if_exists="replace")
     species.to_sql("dino_species", conn, if_exists="replace")
     
