@@ -9,8 +9,8 @@ def main():
     print('Creating occurrences dataframe...')
     
     occ = helpers.get_df('https://paleobiodb.org/data1.2/occs/list.csv?base_name=Dinosauria&taxon_reso=species&idqual=certain&pres=regular&max_ma=252&min_ma=65&show=class,coords,loc,strat,acconly,paleoloc')
-    occ = occ[['accepted_name', 'lng', 'lat', 'formation', 'cc', 'state', 'county', 'collection_no', 'geogcomments', 'paleolng', 'paleolat', 'geoplate', 'stratgroup', 'member', 'paleomodel']]
-    occ.columns = ['Fossil', 'Longitude', 'Latitude', 'Formation', 'Country', 'State', 'County', 'Collection', 'GeoComments', 'PaleoLongitude', 'PaleoLatitude', 'GeoPlate', 'StratGroup', 'Member', 'PaleoModel']
+    occ = occ[['accepted_name', 'lng', 'lat', 'formation', 'cc', 'state', 'county', 'collection_no', 'geogcomments', 'paleolng', 'paleolat', 'geoplate', 'geological_group', 'member', 'paleomodel']]
+    occ.columns = ['Fossil', 'Longitude', 'Latitude', 'Formation', 'Country', 'State', 'County', 'Collection', 'GeoComments', 'PaleoLongitude', 'PaleoLatitude', 'GeoPlate', 'GeoGroup', 'Member', 'PaleoModel']
     
     print('Finished creating occurrences dataframe!\nCreating taxa dataframes...')
     
@@ -57,8 +57,11 @@ def main():
     print('Finished creating taxa dataframes!\nScraping taxa data...')
     
     start_time = time.perf_counter()
+    
+    print(start_time)
 
     for i, row in genus.iterrows():
+        print(f'Scraping data for {i+1}/{len(genus)}: {genus.iloc[i]["Name"]}')
         
         try:
             dino = genus.iloc[i]['Name']
@@ -90,7 +93,7 @@ def main():
             
     print(f'Finished scraping taxa data in {elapsed:.4f}!\nCreating SQL tables...')
 
-    conn = sqlite3.connect("../../paleo.db")
+    conn = sqlite3.connect("../paleo.db")
     print("Database paleo.database formed")
     
     # Push the dataframe to sql 

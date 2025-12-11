@@ -9,3 +9,11 @@ def get_genus(db: Session, genus: str):
     if not dino_genus:
         return False
     return dino_genus
+
+def get_genus_by_id(db: Session, genus_id: int):
+    dino_genus = db.query(DinoGenus).filter(DinoGenus.ID == genus_id).first()
+    if not dino_genus:
+        return False
+    return dino_genus
+
+

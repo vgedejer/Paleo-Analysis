@@ -8,7 +8,7 @@ from crud import dino_species as dino_species_crud
 router = APIRouter()
 
 #### DINOSAURS ####
-@router.get("/all/dinosaurs")
+@router.get("/all")
 def get_all_dino_species(db: Session = Depends(get_db)):
     return dino_species_crud.get_all_species(db)
 

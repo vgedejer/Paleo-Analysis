@@ -7,7 +7,7 @@ from api.dependencies.db import get_db
 
 router = APIRouter()
 
-@router.get("/all/users")
+@router.get("/all")
 def get_all_users(db: Session = Depends(get_db)):
     return user_crud.get_all_users(db)
 
@@ -21,6 +21,15 @@ def get_user(user: str, db: Session = Depends(get_db)):
     success.full_name = f"{success.last_name}, {success.first_name} {success.middle_initial or ''}".strip()
     return success
 
+@router.get("/{id}", response_model=UserOut)
+def get_user_by_id(id: int, db: Session = Depends(get_db)):
+    user = db.query(User).filter(User.id == id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    user.full_name = f"{user.last_name}, {user.first_name} {user.middle_initial or ''}".strip()
+    return user
+
 @router.post("/create", response_model=UserOut)
 def register_user(user: UserCreate, db: Session = Depends(get_db)):
     return user_crud.create_user(db, user)
@@ -31,5 +40,4 @@ def delete_user(username: str, db: Session = Depends(get_db)):
     if not success:
         raise HTTPException(status_code=404, detail="User not found")
     return {"detail": "User deleted successfully"}
-
 

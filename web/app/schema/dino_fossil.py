@@ -16,7 +16,7 @@ class DinoFossilExtendedBase(DinoFossilBase):
     Collection: int
     GeoComments: str
     GeoPlate: str
-    StratGroup: str
+    GeoGroup: str
     Member: str
     PaleoModel: str
 
@@ -36,7 +36,7 @@ class DinoFossilUpdate(BaseModel):
     PaleoLongitude: float | None = None
     PaleoLatitude: float | None = None
     GeoPlate: str | None = None
-    StratGroup: str | None = None
+    GeoGroup: str | None = None
     Member: str | None = None
     PaleoModel: str | None = None
 

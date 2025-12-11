@@ -18,7 +18,7 @@ class DinoFossil(Base):
     PaleoLongitude = Column(Float, index=True)
     PaleoLatitude = Column(Float, index=True)
     GeoPlate = Column(String, index=True)
-    StratGroup = Column(String, index=True)
+    GeoGroup = Column(String, index=True)
     Member = Column(String, index=True)
     PaleoModel = Column(String, index=True)
 
