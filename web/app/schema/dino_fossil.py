@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+
 class DinoFossilBase(BaseModel):
     Fossil: str
     Longitude: float
@@ -7,10 +8,19 @@ class DinoFossilBase(BaseModel):
     Formation: str
     Country: str
     State: str
+
+class DinoFossilExtendedBase(DinoFossilBase):
+    County: str
     PaleoLongitude: float
     PaleoLatitude: float
+    Collection: int
+    GeoComments: str
+    GeoPlate: str
+    GeoGroup: str
+    Member: str
+    PaleoModel: str
 
-class DinoFossilCreate(DinoFossilBase):
+class DinoFossilCreate(DinoFossilExtendedBase):
     pass
 
 class DinoFossilUpdate(BaseModel):
@@ -26,11 +36,18 @@ class DinoFossilUpdate(BaseModel):
     PaleoLongitude: float | None = None
     PaleoLatitude: float | None = None
     GeoPlate: str | None = None
-    StratGroup: str | None = None
+    GeoGroup: str | None = None
     Member: str | None = None
     PaleoModel: str | None = None
 
 class DinoFossilOut(DinoFossilBase):
+    index: int
+
+    class Config:
+        orm_mode = True
+
+
+class DinoFossilOutFull(DinoFossilExtendedBase):
     index: int
 
     class Config:

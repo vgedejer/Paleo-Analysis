@@ -1,8 +1,9 @@
-from sqlalchemy import Column, Integer, String, Float, Boolean
+from sqlalchemy import Column, Integer, String, Float, ForeignKey
+from sqlalchemy.orm import relationship
 from database.db_connection import Base
 
 class DinoFossil(Base):
-    __tablename__ = "dino_occurrences"
+    __tablename__ = "dino_fossils"
 
     index = Column(Integer, primary_key=True, index=True)
     Fossil = Column(String, index=True)
@@ -17,6 +18,9 @@ class DinoFossil(Base):
     PaleoLongitude = Column(Float, index=True)
     PaleoLatitude = Column(Float, index=True)
     GeoPlate = Column(String, index=True)
-    StratGroup = Column(String, index=True)
+    GeoGroup = Column(String, index=True)
     Member = Column(String, index=True)
     PaleoModel = Column(String, index=True)
+
+    genus_id = Column(Integer, ForeignKey('dino_genus.index'), index=True)
+    genus = relationship("DinoGenus", back_populates="fossils")

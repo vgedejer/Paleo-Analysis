@@ -1,4 +1,5 @@
-from sqlalchemy import Column, Integer, String, Float, Boolean
+from sqlalchemy import Column, Integer, String, Float, ForeignKey
+from sqlalchemy.orm import relationship
 from database.db_connection import Base
 
 class DinoSpecies(Base):
@@ -15,3 +16,6 @@ class DinoSpecies(Base):
     LateAge = Column(String, index=True)
     EarlyPeriod = Column(String, index=True)
     LatePeriod = Column(String, index=True)
+
+    genus_id = Column(Integer, ForeignKey('dino_genus.index'), index=True)
+    genus = relationship("DinoGenus", back_populates="species")
