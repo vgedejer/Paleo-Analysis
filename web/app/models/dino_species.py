@@ -17,5 +17,5 @@ class DinoSpecies(Base):
     EarlyPeriod = Column(String, index=True)
     LatePeriod = Column(String, index=True)
 
-    genus_id = Column(Integer, ForeignKey('dino_genus.index'), index=True)
+    genus_id = Column(Integer, ForeignKey('dino_genera.index'), index=True)
     genus = relationship("DinoGenus", back_populates="species")

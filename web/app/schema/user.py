@@ -5,7 +5,7 @@ from datetime import datetime
 class UserBase(BaseModel):
     username: str
     email: EmailStr
-    favorite_dinos: list | None = None
+    favorite_dino: str | None = None
     
 
 # User Create Schema - properties for creating a user

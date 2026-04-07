@@ -83,7 +83,7 @@ def sanitize_fossils_full(fossils: list[DinoFossil]):
             PaleoLongitude=fossil.PaleoLongitude or constants.INVALID_COORDINATE,
             PaleoLatitude=fossil.PaleoLatitude or constants.INVALID_COORDINATE,
             GeoPlate=fossil.GeoPlate or constants.NOT_SPECIFIED,
-            StratGroup=fossil.StratGroup or constants.NOT_SPECIFIED,
+            GeoGroup=fossil.GeoGroup or constants.NOT_SPECIFIED,
             Member=fossil.Member or constants.NOT_SPECIFIED,
             PaleoModel=fossil.PaleoModel or constants.NOT_SPECIFIED
         )

@@ -10,7 +10,7 @@ def create_user(db: Session, user: UserCreate):
     db_user = User(
         username=user.username,
         email=str(user.email),
-        favorite_dinos=user.favorite_dinos,
+        favorite_dino=user.favorite_dino,
         first_name=user.first_name,
         last_name=user.last_name,
         middle_initial=user.middle_initial,
