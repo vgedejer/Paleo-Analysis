@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Float, ForeignKey
+from sqlalchemy import Boolean, Column, Integer, String, Float, ForeignKey
 from sqlalchemy.orm import relationship
 from database.db_connection import Base
 
@@ -11,11 +11,11 @@ class DinoGenus(Base):
     Infraorder = Column(String, index=True)
     Suborder = Column(String, index=True)
     Order = Column(String, index=True)
-    Informal = Column(Integer, index=True)
-    TaxonSize = Column(String, index=False)
+    Informal = Column(Boolean, index=True)
+    TaxonSize = Column(Integer, index=False)
     Diet = Column(String, index=True)
-    MaxMYA = Column(Integer, index=True)
-    MinMYA = Column(Integer, index=True)
+    MaxMYA = Column(Float, index=True)
+    MinMYA = Column(Float, index=True)
     LifespanMYA = Column(Float, index=True)
     EarlyAge = Column(String, index=True)
     LateAge = Column(String, index=True)

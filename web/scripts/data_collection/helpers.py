@@ -7,6 +7,9 @@ import io
 import re
 
 # an ORGANIZED kitchen drawer of helper methods for the Main function
+UserAgentHeader = {
+    'User-Agent': 'PaleonixMVP/1.0 (swedejer@proton.me)'
+}
 
 # Get PaleoDB data
 # Returns a dataframe from the PaleoDB
@@ -97,7 +100,7 @@ def get_webpage(genus):
    # Web scraping each genus name to figure out classification
     try:
         page = f'https://en.wikipedia.org/wiki/{genus}'
-        response = rq.get(page)
+        response = rq.get(page, headers=UserAgentHeader)
       
         biota = soup.BeautifulSoup(response.text, 'html.parser')
         
@@ -112,7 +115,7 @@ def get_webpage(genus):
       # Covering case where the genus is named after an existing topic
         try:
             page = f'https://en.wikipedia.org/wiki/{genus}_(dinosaur)'
-            response = rq.get(page)
+            response = rq.get(page, headers=UserAgentHeader)
       
             biota = soup.BeautifulSoup(response.text, 'html.parser').find('table', {'class': 'infobox biota'}).find_all('tr')
       

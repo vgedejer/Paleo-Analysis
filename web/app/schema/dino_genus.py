@@ -10,6 +10,15 @@ class DinoGenusBase(BaseModel):
     EarlyPeriod: str
     LatePeriod: str
 
+class DinoGenusExtendedBase(DinoGenusBase):
+    Informal: bool
+    TaxonSize: int
+    MaxMYA: float
+    MinMYA: float
+    LifespanMYA: float
+    EarlyAge: str
+    LateAge: str
+
 class DinoGenusCreate(DinoGenusBase):
     pass
 
@@ -19,11 +28,11 @@ class DinoGeneraUpdate(BaseModel):
     Infraorder: str | None = None
     Suborder: str | None = None
     Order: str | None = None
-    Informal: int | None = None
+    Informal: bool | None = None
     TaxonSize: str | None = None
     Diet: str | None = None
-    MaxMYA: int | None = None
-    MinMYA: int | None = None
+    MaxMYA: float | None = None
+    MinMYA: float | None = None
     LifespanMYA: float | None = None
     EarlyAge: str | None = None
     LateAge: str | None = None
@@ -32,6 +41,12 @@ class DinoGeneraUpdate(BaseModel):
 
 class DinoGenusOut(DinoGenusBase):
     index: int
-
+    
     class Config:
         orm_mode = True
+        
+class DinoGenusOutFull(DinoGenusExtendedBase):
+    index: int
+    
+    class Config:
+        orm_mode = True      
