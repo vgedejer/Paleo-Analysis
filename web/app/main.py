@@ -1,15 +1,20 @@
+"""FastAPI entry point.
+
+Thin composition root: create app, mount v1 router, install central
+exception handlers.
+"""
 from fastapi import FastAPI
-from api.routers import genera, users, fossils, species
 
-app = FastAPI()
+from api.v1 import api_router
+from core.config import settings
+from core.exceptions import register_exception_handlers
 
-app.include_router(fossils.router, prefix="/fossils", tags=["Fossils"])
-app.include_router(genera.router, prefix="/genera", tags=["Genera"])
-app.include_router(species.router, prefix="/species", tags=["Species"])
-app.include_router(users.router, prefix="/users", tags=["Users"])
+app = FastAPI(title=settings.app_name)
+
+register_exception_handlers(app)
+app.include_router(api_router, prefix=settings.api_v1_prefix)
+
 
 @app.get("/")
-
-async def read_root():
-    return {"": "🦕 Welcome to the Mesozoic Era! 🦖"}
-
+async def read_root() -> dict[str, str]:
+    return {"message": "🦕 Welcome to the Mesozoic Era! 🦖"}
