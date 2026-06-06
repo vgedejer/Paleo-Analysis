@@ -10,7 +10,7 @@ const DIET_OPTIONS: DietFilter[] = ["All", "Herbivore", "Carnivore", "Omnivore"]
 
 /**
  * ============================================================================
- *  DinosaurDashboard — the feature's container/"smart" component.
+ *  GenusList — the feature's container/"smart" component.
  * ============================================================================
  *
  *  This component orchestrates: it pulls server data (useGenera), reads shared
@@ -30,7 +30,7 @@ const DIET_OPTIONS: DietFilter[] = ["All", "Herbivore", "Carnivore", "Omnivore"]
  *  DOM. Internalize this and hooks stop being mysterious: they're how a function
  *  that re-runs constantly can still "remember" things between runs.
  */
-export function DinosaurDashboard() {
+export function GenusList() {
   // --- SERVER STATE: fetched, cached, and kept fresh by React Query. ---
   // `isPending` = first load, no data yet. `isFetching` = any in-flight request
   // (including background refetches while showing stale data).

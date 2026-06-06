@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { DinosaurDashboard } from "@/features/genera/components/DinosaurDashboard";
-import { FossilList } from "@/features/fossils/components/FossilList";
+import { GenusList } from "@/features/components/GenusList";
+import { FossilList } from "@/features/components/FossilList";
+import { UserDashboard } from "@/features/components/UserDashboard";
 
-type Tab = "genera" | "fossils";
+type Tab = "genera" | "fossils" | "dashboard";
 
 /**
  * App shell + a tiny local tab switcher.
@@ -14,11 +15,12 @@ type Tab = "genera" | "fossils";
  * support for free. That's called out as a next step in the README.
  */
 export default function App() {
-  const [tab, setTab] = useState<Tab>("genera");
+  const [tab, setTab] = useState<Tab>("dashboard");
 
   const tabs: { id: Tab; label: string }[] = [
-    { id: "genera", label: "🦕 Genera" },
-    { id: "fossils", label: "🦴 Fossils" },
+    { id: "dashboard", label: "Dashboard" },
+    { id: "genera", label: "Genera" },
+    { id: "fossils", label: "Fossils" },
   ];
 
   return (
@@ -45,7 +47,15 @@ export default function App() {
         </nav>
       </header>
 
-      <main>{tab === "genera" ? <DinosaurDashboard /> : <FossilList />}</main>
+      <main>
+        {tab === "dashboard" ? (
+          <UserDashboard />
+        ) : tab === "genera" ? (
+          <GenusList />
+        ) : (
+          <FossilList />
+        )}
+      </main>
     </div>
   );
 }
