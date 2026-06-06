@@ -22,10 +22,11 @@ DetailLevel = Literal["basic", "full"]
 @router.get("", response_model=list[GenusRead])
 def list_genera(
     name: str | None = None,
+    detail: DetailLevel = "full",
     db: Session = Depends(get_db),
 ) -> list[GenusRead]:
     if name is not None:
-        return [genus_service.get_genus_by_name(db, name, detail=False)]
+        return [genus_service.get_genus_by_name(db, name, detail=(detail == "full"))]
     return genus_service.list_genera(db)
 
 

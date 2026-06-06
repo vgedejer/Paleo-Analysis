@@ -1,0 +1,12 @@
+/* These three directives are where Tailwind injects its generated styles:
+   `base`     — sensible cross-browser resets and element defaults
+   `components` — class-based component styles (and any @layer components you add)
+   `utilities`  — the atomic utility classes (p-4, flex, text-sm, …) you use in JSX
+   PostCSS expands them at build time (see postcss.config.js). */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-fossil-50 text-fossil-900 antialiased;
+}
