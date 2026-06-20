@@ -1,8 +1,3 @@
-"""Fossils router.
-
-- GET /fossils             (list, optional ?species= or ?genus= filter)
-- GET /fossils/{id}
-"""
 from __future__ import annotations
 
 from fastapi import APIRouter, Depends

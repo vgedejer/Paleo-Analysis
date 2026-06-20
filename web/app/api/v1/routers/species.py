@@ -1,8 +1,3 @@
-"""Species router.
-
-- GET /species             (list, optional ?name= or ?genus= filter)
-- GET /species/{id}
-"""
 from __future__ import annotations
 
 from fastapi import APIRouter, Depends

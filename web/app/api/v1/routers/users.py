@@ -1,10 +1,3 @@
-"""Users router — RESTful conventions.
-
-- GET    /users                 (list, optional ?username= filter)
-- POST   /users                 -> 201
-- GET    /users/{id}
-- DELETE /users/{id}            -> 204
-"""
 from __future__ import annotations
 
 from fastapi import APIRouter, Depends, Response, status

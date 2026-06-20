@@ -1,8 +1,3 @@
-"""Genera router.
-
-- GET /genera              (list, optional ?name= filter, returns GenusRead)
-- GET /genera/{id}         (detail=full by default, ?detail=basic shrinks it)
-"""
 from __future__ import annotations
 
 from typing import Literal
