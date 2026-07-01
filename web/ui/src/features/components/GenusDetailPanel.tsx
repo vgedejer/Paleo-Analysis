@@ -15,9 +15,9 @@ interface Props {
 /** A labeled stat row — tiny local helper component, co-located for clarity. */
 function Stat({ label, value }: { label: string; value: string | number }) {
   return (
-    <div className="flex justify-between border-b border-fossil-100 py-1.5 text-sm last:border-0">
-      <span className="text-fossil-700/60">{label}</span>
-      <span className="font-medium text-fossil-900">{value}</span>
+    <div className="flex justify-between gap-4 border-b border-paleo-line py-2 font-mono text-xs last:border-0">
+      <span className="uppercase tracking-widest text-paleo-dim">{label}</span>
+      <span className="text-right text-paleo-cream">{value}</span>
     </div>
   );
 }
@@ -42,9 +42,13 @@ export function GenusDetailPanel({ query, isOpen, onClose }: Props) {
         <ErrorState message={error.message} onRetry={() => refetch()} />
       ) : (
         <div>
-          <div className="mb-3 flex items-center gap-2">
-            <h3 className="text-xl font-bold italic text-fossil-900">{data.Genus}</h3>
-            <DietBadge diet={data.Diet} />
+          <div className="mb-4">
+            <h3 className="font-cinzel text-2xl uppercase tracking-wide text-paleo-accent [overflow-wrap:anywhere]">
+              {data.Genus}
+            </h3>
+            <div className="mt-2">
+              <DietBadge diet={data.Diet} />
+            </div>
           </div>
           <Stat label="Family" value={data.Family} />
           <Stat label="Suborder" value={data.Suborder} />

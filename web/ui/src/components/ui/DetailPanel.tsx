@@ -20,25 +20,29 @@ interface Props {
  *  "Detail / Close" header, the empty-state placeholder, and — the reason this
  *  exists — the scroll behavior.
  *
- *  `sticky top-6` makes the panel follow the page as you scroll a long list:
- *  it scrolls normally until it reaches 1.5rem from the top, then pins there.
- *  `self-start` is what makes that possible inside the parent CSS grid — without
- *  it the panel would stretch to the full row height and have no room to travel.
+ *  `sticky top-24` makes the panel follow the page as you scroll a long list:
+ *  it scrolls normally until it reaches 6rem from the top — clearing the sticky
+ *  app header — then pins there. `self-start` is what makes that possible inside
+ *  the parent CSS grid — without it the panel would stretch to the full row
+ *  height and have no room to travel.
  */
 export function DetailPanel({ isOpen, onClose, placeholder, title = "Detail", children }: Props) {
   if (!isOpen) {
     return (
-      <aside className="sticky top-6 hidden self-start rounded-xl border border-dashed border-fossil-100 p-6 text-center text-sm text-fossil-700/50 lg:block">
+      <aside className="sticky top-24 hidden self-start border border-dashed border-paleo-line p-6 text-center font-mono text-xs uppercase tracking-[0.25em] text-paleo-dim lg:block">
         {placeholder}
       </aside>
     );
   }
 
   return (
-    <aside className="sticky top-6 self-start rounded-xl border border-fossil-100 bg-white p-5 shadow-sm">
-      <div className="mb-3 flex items-center justify-between">
-        <h2 className="text-lg font-semibold text-fossil-900">{title}</h2>
-        <button onClick={onClose} className="text-sm text-fossil-700/60 hover:text-fossil-900">
+    <aside className="sticky top-24 self-start border border-paleo-line bg-paleo-panel p-5">
+      <div className="mb-4 flex items-center justify-between border-b border-paleo-line pb-3">
+        <h2 className="font-cinzel text-lg uppercase tracking-wide text-paleo-cream">{title}</h2>
+        <button
+          onClick={onClose}
+          className="font-mono text-xs uppercase tracking-[0.2em] text-paleo-dim transition-colors hover:text-paleo-accent"
+        >
           Close ✕
         </button>
       </div>

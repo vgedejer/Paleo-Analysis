@@ -1,20 +1,24 @@
 import type { Diet } from "@/types/paleo";
 
 /**
- * Maps a diet to Tailwind classes. Defined as a plain lookup object outside the
+ * Maps a diet to its swatch color. Defined as a plain lookup object outside the
  * component so it isn't re-created on every render — a small but real habit:
  * keep static data out of the render path.
+ *
+ * Echoes the diet color-coding on the landing page's specimen cards: a small
+ * square swatch beside a mono, uppercase label rather than a filled pill.
  */
-const DIET_STYLES: Record<string, string> = {
-  Carnivore: "bg-red-100 text-red-800",
-  Herbivore: "bg-green-100 text-green-800",
-  Omnivore: "bg-amber-100 text-amber-800",
+const DIET_SWATCH: Record<string, string> = {
+  Carnivore: "bg-paleo-carnivore",
+  Herbivore: "bg-paleo-herbivore",
+  Omnivore: "bg-paleo-jurassic",
 };
 
 export function DietBadge({ diet }: { diet: Diet }) {
-  const styles = DIET_STYLES[diet] ?? "bg-fossil-100 text-fossil-700";
+  const swatch = DIET_SWATCH[diet] ?? "bg-paleo-dim";
   return (
-    <span className={`inline-flex rounded-full px-2 py-0.5 text-xs font-medium ${styles}`}>
+    <span className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest text-paleo-dim">
+      <span className={`inline-block h-1.5 w-1.5 ${swatch}`} />
       {diet}
     </span>
   );

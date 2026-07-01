@@ -98,17 +98,17 @@ export function GenusList() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search genera…"
-          className="w-full rounded-lg border border-fossil-100 px-3 py-2 text-sm outline-none focus:border-fossil-700/50 sm:max-w-xs"
+          className="w-full border border-paleo-line bg-paleo-panel px-3 py-2 font-mono text-sm text-paleo-cream outline-none transition-colors placeholder:text-paleo-dim focus:border-paleo-accent sm:max-w-xs"
         />
-        <div className="flex gap-1.5">
+        <div className="flex flex-wrap gap-1.5">
           {DIET_OPTIONS.map((option) => (
             <button
               key={option}
               onClick={() => setDietFilter(option)}
-              className={`rounded-full px-3 py-1 text-xs font-medium transition ${
+              className={`border px-3 py-1 font-mono text-[11px] uppercase tracking-[0.2em] transition-colors ${
                 dietFilter === option
-                  ? "bg-fossil-700 text-white"
-                  : "bg-fossil-100 text-fossil-700 hover:bg-fossil-100/70"
+                  ? "border-paleo-accent bg-paleo-accent text-paleo-bg"
+                  : "border-paleo-line text-paleo-dim hover:border-paleo-dim hover:text-paleo-cream"
               }`}
             >
               {option}
@@ -127,13 +127,15 @@ export function GenusList() {
         <ErrorState message={error.message} onRetry={() => refetch()} />
       ) : (
         <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
-          {/* Results grid */}
-          <div>
-            <p className="mb-3 text-xs text-fossil-700/60">
+          {/* Results grid — `min-w-0` lets the 1fr track shrink so long single-
+              word genus names wrap inside the cards instead of forcing the whole
+              layout wider than the viewport. */}
+          <div className="min-w-0">
+            <p className="mb-3 font-mono text-xs uppercase tracking-[0.25em] text-paleo-dim">
               {filteredGenera.length} of {genera.length} genera
             </p>
             {filteredGenera.length === 0 ? (
-              <p className="rounded-lg border border-dashed border-fossil-100 p-8 text-center text-sm text-fossil-700/60">
+              <p className="border border-dashed border-paleo-line p-8 text-center font-mono text-xs uppercase tracking-[0.25em] text-paleo-dim">
                 No genera match your filters.
               </p>
             ) : (
