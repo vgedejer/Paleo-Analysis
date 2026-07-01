@@ -138,7 +138,7 @@ function Hero() {
         <button
           type="button"
           onClick={() => scrollToSection("repository")}
-          className="mt-12 w-fit font-mono text-xs uppercase tracking-[0.3em] text-paleo-dim transition-colors hover:text-paleo-accent"
+          className="mt-10 w-fit font-mono text-xs uppercase tracking-[0.3em] text-paleo-dim transition-colors hover:text-paleo-accent"
         >
           ▼ Scroll to explore
         </button>
