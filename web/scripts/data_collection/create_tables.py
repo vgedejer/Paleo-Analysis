@@ -47,7 +47,7 @@ def scrape_genus_row(i, name, family):
 
 
 def main():
-    logging.basicConfig(filename='../logs/create_tables.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    logging.basicConfig(filename='../Paleo-Analysis/web/logs/create_tables.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     
     if test==1:
         logger.info('Running in TEST MODE - only processing one webpage to verify scraping works')
@@ -118,7 +118,6 @@ def main():
             for count, future in enumerate(as_completed(futures), 1):
                 i, result = future.result()
                 name = genus.at[i, 'Name']
-                print(f'Scraped {count}/{len(genus)}: {name}')
                 if result == 'informal':
                     genus.at[i, 'Informal'] = True
                 elif result is not None:
@@ -141,7 +140,7 @@ def main():
                 
         logger.info(f'Finished scraping taxa data in {elapsed:.4f}s!\nCreating SQL tables...')
 
-        conn = sqlite3.connect("../paleo.db")
+        conn = sqlite3.connect("/Users/vgedejer/GitHub/Paleo-Analysis/web/paleo.db")
         try:
             occ.to_sql("dino_fossils", conn, if_exists="replace")
             genus.to_sql("dino_genera", conn, if_exists="replace")
