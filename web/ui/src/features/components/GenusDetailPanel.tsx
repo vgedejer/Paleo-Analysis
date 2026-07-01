@@ -3,6 +3,7 @@ import type { GenusDetail } from "@/types/paleo";
 import { Spinner } from "@/components/ui/Spinner";
 import { ErrorState } from "@/components/ui/ErrorState";
 import { DietBadge } from "@/components/ui/DietBadge";
+import { DetailPanel } from "@/components/ui/DetailPanel";
 
 interface Props {
   /** The whole query object is passed in so this panel renders any state. */
@@ -31,25 +32,10 @@ function Stat({ label, value }: { label: string; value: string | number }) {
  * handing it a fake query object.
  */
 export function GenusDetailPanel({ query, isOpen, onClose }: Props) {
-  if (!isOpen) {
-    return (
-      <aside className="hidden rounded-xl border border-dashed border-fossil-100 p-6 text-center text-sm text-fossil-700/50 lg:block">
-        Select a genus to see details.
-      </aside>
-    );
-  }
-
   const { data, isPending, isError, error, refetch } = query;
 
   return (
-    <aside className="rounded-xl border border-fossil-100 bg-white p-5 shadow-sm">
-      <div className="mb-3 flex items-center justify-between">
-        <h2 className="text-lg font-semibold text-fossil-900">Detail</h2>
-        <button onClick={onClose} className="text-sm text-fossil-700/60 hover:text-fossil-900">
-          Close ✕
-        </button>
-      </div>
-
+    <DetailPanel isOpen={isOpen} onClose={onClose} placeholder="Select a genus to see details.">
       {isPending ? (
         <Spinner label="Loading detail…" />
       ) : isError ? (
@@ -71,6 +57,6 @@ export function GenusDetailPanel({ query, isOpen, onClose }: Props) {
           <Stat label="Late age" value={data.LateAge} />
         </div>
       )}
-    </aside>
+    </DetailPanel>
   );
 }
