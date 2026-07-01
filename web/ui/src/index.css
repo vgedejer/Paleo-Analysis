@@ -8,5 +8,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-fossil-50 text-fossil-900 antialiased;
+  @apply bg-paleo-bg font-crimson text-paleo-cream antialiased;
 }
