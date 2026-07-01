@@ -1,9 +1,10 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchFossils, type FossilFilter } from "../api/fossilsApi";
+import { fetchFossils, fetchFossilById, type FossilFilter } from "../api/fossilsApi";
 
 export const fossilKeys = {
   all: ["fossils"] as const,
   list: (filter: FossilFilter) => [...fossilKeys.all, "list", filter ?? "none"] as const,
+  detail: (id: number) => [...fossilKeys.all, "detail", id] as const,
 };
 
 /**
@@ -20,5 +21,17 @@ export function useFossils(filter: FossilFilter) {
   return useQuery({
     queryKey: fossilKeys.list(filter),
     queryFn: ({ signal }) => fetchFossils(filter, signal),
+  });
+}
+
+/**
+ * Fetch one fossil's full detail by id. Mirrors `useGenusDetail`: the query
+ * stays idle until a row is selected (`enabled`), then fetches + caches it.
+ */
+export function useFossilDetail(id: number | null) {
+  return useQuery({
+    queryKey: fossilKeys.detail(id ?? -1),
+    queryFn: ({ signal }) => fetchFossilById(id as number, signal),
+    enabled: id !== null,
   });
 }

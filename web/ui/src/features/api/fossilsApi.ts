@@ -1,5 +1,5 @@
 import { apiGet } from "@/lib/apiClient";
-import type { Fossil } from "@/types/paleo";
+import type { Fossil, FossilDetail } from "@/types/paleo";
 
 /**
  * FOSSILS — API LAYER.  Maps to api/v1/routers/fossils.py.
@@ -16,4 +16,9 @@ export type FossilFilter =
 export function fetchFossils(filter: FossilFilter, signal?: AbortSignal): Promise<Fossil[]> {
   const params = filter ? { [filter.by]: filter.value } : undefined;
   return apiGet<Fossil[]>("/fossils", { params, signal });
+}
+
+/** GET /fossils/{id}  → the full FossilDetail record (geolocation + metadata). */
+export function fetchFossilById(id: number, signal?: AbortSignal): Promise<FossilDetail> {
+  return apiGet<FossilDetail>(`/fossils/${id}`, { signal });
 }

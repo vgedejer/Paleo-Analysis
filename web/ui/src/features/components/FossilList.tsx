@@ -1,7 +1,8 @@
 import { useMemo, useState } from "react";
-import { useFossils } from "../hooks/useFossils";
+import { useFossils, useFossilDetail } from "../hooks/useFossils";
 import { useGenera } from "../hooks/useGenera";
 import type { FossilFilter } from "../api/fossilsApi";
+import { FossilDetailPanel } from "./FossilDetailPanel";
 import { Spinner } from "@/components/ui/Spinner";
 import { ErrorState } from "@/components/ui/ErrorState";
 
@@ -24,8 +25,13 @@ export function FossilList() {
   const [showSuggestions, setShowSuggestions] = useState(false);
   // Which suggestion the arrow keys have highlighted; -1 = none highlighted.
   const [activeIndex, setActiveIndex] = useState(-1);
+  // Which fossil row is selected for the detail panel (local, like GenusList).
+  const [selectedId, setSelectedId] = useState<number | null>(null);
 
   const { data: fossils, isPending, isFetching, isError, error, refetch } = useFossils(filter);
+
+  // Dependent query: idle until a row is selected, then fetches that fossil.
+  const detailQuery = useFossilDetail(selectedId);
 
   // Autocomplete source: the full genus list, fetched (and cached) once. We
   // derive prefix-matched suggestions from it rather than hitting the backend
@@ -137,31 +143,46 @@ export function FossilList() {
           No fossils found.
         </p>
       ) : (
-        <div className="overflow-hidden rounded-xl border border-fossil-100">
-          <table className="w-full text-sm">
-            <thead className="bg-fossil-50 text-left text-xs uppercase tracking-wide text-fossil-700/70">
-              <tr>
-                <th className="px-4 py-2 font-medium">Fossil</th>
-                <th className="px-4 py-2 font-medium">Formation</th>
-                <th className="px-4 py-2 font-medium">Location</th>
-                <th className="px-4 py-2 text-right font-medium">Lat / Lon</th>
-              </tr>
-            </thead>
-            <tbody>
-              {fossils.map((f) => (
-                <tr key={f.id} className="border-t border-fossil-100 hover:bg-fossil-50/50">
-                  <td className="px-4 py-2 font-medium text-fossil-900">{f.Fossil}</td>
-                  <td className="px-4 py-2 text-fossil-700">{f.Formation}</td>
-                  <td className="px-4 py-2 text-fossil-700">
-                    {f.State}, {f.Country}
-                  </td>
-                  <td className="px-4 py-2 text-right font-mono text-xs text-fossil-700/70">
-                    {f.Latitude.toFixed(2)}, {f.Longitude.toFixed(2)}
-                  </td>
+        <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
+          <div className="overflow-hidden rounded-xl border border-fossil-100">
+            <table className="w-full text-sm">
+              <thead className="bg-fossil-50 text-left text-xs uppercase tracking-wide text-fossil-700/70">
+                <tr>
+                  <th className="px-4 py-2 font-medium">Fossil</th>
+                  <th className="px-4 py-2 font-medium">Formation</th>
+                  <th className="px-4 py-2 font-medium">Location</th>
+                  <th className="px-4 py-2 text-right font-medium">Lat / Lon</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {fossils.map((f) => (
+                  <tr
+                    key={f.id}
+                    onClick={() => setSelectedId(f.id)}
+                    className={`cursor-pointer border-t border-fossil-100 ${
+                      f.id === selectedId ? "bg-fossil-100" : "hover:bg-fossil-50/50"
+                    }`}
+                  >
+                    <td className="px-4 py-2 font-medium text-fossil-900">{f.Fossil}</td>
+                    <td className="px-4 py-2 text-fossil-700">{f.Formation}</td>
+                    <td className="px-4 py-2 text-fossil-700">
+                      {f.State}, {f.Country}
+                    </td>
+                    <td className="px-4 py-2 text-right font-mono text-xs text-fossil-700/70">
+                      {f.Latitude.toFixed(2)}, {f.Longitude.toFixed(2)}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Detail side panel — driven by the dependent query. */}
+          <FossilDetailPanel
+            query={detailQuery}
+            isOpen={selectedId !== null}
+            onClose={() => setSelectedId(null)}
+          />
         </div>
       )}
     </section>
