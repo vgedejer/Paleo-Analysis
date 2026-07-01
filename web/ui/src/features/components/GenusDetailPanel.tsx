@@ -33,7 +33,7 @@ function Stat({ label, value }: { label: string; value: string | number }) {
 export function GenusDetailPanel({ query, isOpen, onClose }: Props) {
   if (!isOpen) {
     return (
-      <aside className="hidden rounded-xl border border-dashed border-fossil-100 p-6 text-center text-sm text-fossil-700/50 lg:block">
+      <aside className="hidden self-start rounded-xl border border-dashed border-fossil-100 p-6 text-center text-sm text-fossil-700/50 lg:block">
         Select a genus to see details.
       </aside>
     );
@@ -42,7 +42,7 @@ export function GenusDetailPanel({ query, isOpen, onClose }: Props) {
   const { data, isPending, isError, error, refetch } = query;
 
   return (
-    <aside className="rounded-xl border border-fossil-100 bg-white p-5 shadow-sm">
+    <aside className="self-start rounded-xl border border-fossil-100 bg-white p-5 shadow-sm">
       <div className="mb-3 flex items-center justify-between">
         <h2 className="text-lg font-semibold text-fossil-900">Detail</h2>
         <button onClick={onClose} className="text-sm text-fossil-700/60 hover:text-fossil-900">

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useFossils } from "../hooks/useFossils";
 import type { FossilFilter } from "../api/fossilsApi";
 import { Spinner } from "@/components/ui/Spinner";
@@ -15,37 +15,34 @@ import { ErrorState } from "@/components/ui/ErrorState";
  *  is a real architecture decision — see the README trade-offs section.
  */
 export function FossilList() {
-  // Local, uncommitted input text vs. the committed filter we actually query
-  // with. Separating them means we fetch on submit, not on every keystroke —
-  // avoiding a request per character against the backend.
+  // Local input text vs. the committed filter we actually query with. The list
+  // auto-updates as you type: a debounce delays committing the filter until
+  // typing pauses, so we don't fire a request per keystroke against the backend.
   const [genusInput, setGenusInput] = useState("");
   const [filter, setFilter] = useState<FossilFilter>(undefined);
 
   const { data: fossils, isPending, isFetching, isError, error, refetch } = useFossils(filter);
 
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault(); // Stop the browser's default full-page form reload — a
-    // habit you'll need constantly: in an SPA the JS handles submission.
-    const value = genusInput.trim();
-    setFilter(value === "" ? undefined : { by: "genus", value });
-  }
+  // Debounce: whenever the input changes, schedule the filter update 300ms out.
+  // If the user keeps typing, the cleanup cancels the pending timer and a fresh
+  // one is scheduled — so the filter only commits once typing settles.
+  useEffect(() => {
+    const id = setTimeout(() => {
+      const value = genusInput.trim();
+      setFilter(value === "" ? undefined : { by: "genus", value });
+    }, 300);
+    return () => clearTimeout(id);
+  }, [genusInput]);
 
   return (
     <section className="space-y-4">
-      <form onSubmit={handleSubmit} className="flex gap-2">
-        <input
-          value={genusInput}
-          onChange={(e) => setGenusInput(e.target.value)}
-          placeholder="Filter fossils by genus (e.g. Tyrannosaurus)…"
-          className="w-full rounded-lg border border-fossil-100 px-3 py-2 text-sm outline-none focus:border-fossil-700/50"
-        />
-        <button
-          type="submit"
-          className="rounded-lg bg-fossil-700 px-4 py-2 text-sm font-medium text-white transition hover:bg-fossil-900"
-        >
-          Search
-        </button>
-      </form>
+      <input
+        type="search"
+        value={genusInput}
+        onChange={(e) => setGenusInput(e.target.value)}
+        placeholder="Filter fossils by genus (e.g. Tyrannosaurus)…"
+        className="w-full rounded-lg border border-fossil-100 px-3 py-2 text-sm outline-none focus:border-fossil-700/50"
+      />
 
       {/* `isFetching` (vs `isPending`) lets us show a subtle refetch indicator
           while still displaying the previous results — a smoother UX than
