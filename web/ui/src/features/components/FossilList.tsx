@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useMemo, useState } from "react";
 import { useFossils } from "../hooks/useFossils";
+import { useGenera } from "../hooks/useGenera";
 import type { FossilFilter } from "../api/fossilsApi";
 import { Spinner } from "@/components/ui/Spinner";
 import { ErrorState } from "@/components/ui/ErrorState";
@@ -15,34 +16,112 @@ import { ErrorState } from "@/components/ui/ErrorState";
  *  is a real architecture decision — see the README trade-offs section.
  */
 export function FossilList() {
-  // Local input text vs. the committed filter we actually query with. The list
-  // auto-updates as you type: a debounce delays committing the filter until
-  // typing pauses, so we don't fire a request per keystroke against the backend.
+  // Local, uncommitted input text vs. the committed filter we actually query
+  // with. Separating them means we fetch on submit, not on every keystroke —
+  // avoiding a request per character against the backend.
   const [genusInput, setGenusInput] = useState("");
   const [filter, setFilter] = useState<FossilFilter>(undefined);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  // Which suggestion the arrow keys have highlighted; -1 = none highlighted.
+  const [activeIndex, setActiveIndex] = useState(-1);
 
   const { data: fossils, isPending, isFetching, isError, error, refetch } = useFossils(filter);
 
-  // Debounce: whenever the input changes, schedule the filter update 300ms out.
-  // If the user keeps typing, the cleanup cancels the pending timer and a fresh
-  // one is scheduled — so the filter only commits once typing settles.
-  useEffect(() => {
-    const id = setTimeout(() => {
-      const value = genusInput.trim();
-      setFilter(value === "" ? undefined : { by: "genus", value });
-    }, 300);
-    return () => clearTimeout(id);
-  }, [genusInput]);
+  // Autocomplete source: the full genus list, fetched (and cached) once. We
+  // derive prefix-matched suggestions from it rather than hitting the backend
+  // for every keystroke.
+  const { data: genera } = useGenera();
+
+  const suggestions = useMemo(() => {
+    const needle = genusInput.trim().toLowerCase();
+    if (needle === "" || !genera) return [];
+    const matches = genera
+      .map((g) => g.Genus)
+      .filter((name) => name.toLowerCase().startsWith(needle))
+      .slice(0, 8);
+    // Nothing useful to suggest if the sole match is exactly what's typed.
+    if (matches.length === 1 && matches[0]?.toLowerCase() === needle) return [];
+    return matches;
+  }, [genera, genusInput]);
+
+  function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setFilter(genusInput.trim() === "" ? undefined : { by: "genus", value: genusInput.trim() });
+  }
+
+  // Selecting a suggestion both fills the input and commits the filter — same
+  // effect as submitting the form. Used by both click and keyboard (Enter).
+  function selectSuggestion(name: string) {
+    setGenusInput(name);
+    setFilter({ by: "genus", value: name });
+    setShowSuggestions(false);
+    setActiveIndex(-1);
+  }
+
+  function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (!showSuggestions || suggestions.length === 0) return;
+    if (e.key === "ArrowDown") {
+      e.preventDefault(); // keep the cursor from jumping to the input's end
+      setActiveIndex((i) => (i + 1) % suggestions.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveIndex((i) => (i - 1 + suggestions.length) % suggestions.length);
+    } else if (e.key === "Enter" && activeIndex >= 0) {
+      // A suggestion is highlighted — pick it instead of submitting raw input.
+      e.preventDefault();
+      const name = suggestions[activeIndex];
+      if (name) selectSuggestion(name);
+    } else if (e.key === "Escape") {
+      setShowSuggestions(false);
+      setActiveIndex(-1);
+    }
+  }
 
   return (
     <section className="space-y-4">
-      <input
-        type="search"
-        value={genusInput}
-        onChange={(e) => setGenusInput(e.target.value)}
-        placeholder="Filter fossils by genus (e.g. Tyrannosaurus)…"
-        className="w-full rounded-lg border border-fossil-100 px-3 py-2 text-sm outline-none focus:border-fossil-700/50"
-      />
+      <div className="relative">
+        <form onSubmit={handleSubmit}>
+        <input
+          type="search"
+          value={genusInput}
+          onChange={(e) => {
+            setGenusInput(e.target.value);
+            setShowSuggestions(true);
+            setActiveIndex(-1); // typing invalidates the highlighted row
+          }}
+          onKeyDown={handleKeyDown}
+          onFocus={() => setShowSuggestions(true)}
+          onBlur={() => setShowSuggestions(false)}
+          placeholder="Filter fossils by genus (e.g. Tyrannosaurus)…"
+          className="w-full rounded-lg border border-fossil-100 px-3 py-2 text-sm outline-none focus:border-fossil-700/50"
+        />
+        </form>
+
+        {showSuggestions && suggestions.length > 0 && (
+          // `onMouseDown` fires before the input's `blur`, so preventing its
+          // default keeps focus on the input long enough for the click below to
+          // register (otherwise blur would unmount this list first).
+          <ul
+            onMouseDown={(e) => e.preventDefault()}
+            className="absolute z-10 mt-1 w-full overflow-hidden rounded-lg border border-fossil-100 bg-white shadow-sm"
+          >
+            {suggestions.map((name, i) => (
+              <li key={name}>
+                <button
+                  type="button"
+                  onClick={() => selectSuggestion(name)}
+                  onMouseEnter={() => setActiveIndex(i)}
+                  className={`block w-full px-3 py-2 text-left text-sm text-fossil-900 ${
+                    i === activeIndex ? "bg-fossil-100" : "hover:bg-fossil-50"
+                  }`}
+                >
+                  {name}
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
 
       {/* `isFetching` (vs `isPending`) lets us show a subtle refetch indicator
           while still displaying the previous results — a smoother UX than
