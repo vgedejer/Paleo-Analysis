@@ -4,6 +4,7 @@ import { Spinner } from "@/components/ui/Spinner";
 import { ErrorState } from "@/components/ui/ErrorState";
 import { DietBadge } from "@/components/ui/DietBadge";
 import { DetailPanel } from "@/components/ui/DetailPanel";
+import { GenusFossils } from "./GenusFossils";
 
 interface Props {
   /** The whole query object is passed in so this panel renders any state. */
@@ -59,6 +60,9 @@ export function GenusDetailPanel({ query, isOpen, onClose }: Props) {
           <Stat label="Range (MYA)" value={`${data.MaxMYA} – ${data.MinMYA}`} />
           <Stat label="Early age" value={data.EarlyAge} />
           <Stat label="Late age" value={data.LateAge} />
+
+          {/* Corresponding fossil specimens, fetched on demand by genus name. */}
+          <GenusFossils genus={data.Genus} />
         </div>
       )}
     </DetailPanel>
