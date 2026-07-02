@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { Diet } from "@/types/paleo";
+import type { DietFilter } from "@/lib/diet";
 
 /**
  * ============================================================================
@@ -26,8 +26,12 @@ import type { Diet } from "@/types/paleo";
  *  your default — global state you don't need is just hidden coupling.
  */
 
-/** "All" means no filter applied. Kept distinct from a specific Diet value. */
-export type DietFilter = Diet | "All";
+/**
+ * The diet filter value. Its type — the recognised diet categories plus "Misc"
+ * and "All" — lives with the rest of the diet logic in `@/lib/diet`; re-exported
+ * here so existing importers of the store keep working.
+ */
+export type { DietFilter };
 
 interface UiState {
   /** Free-text search bound to the dashboard's search input. */

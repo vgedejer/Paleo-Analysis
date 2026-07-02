@@ -1,12 +1,11 @@
 import { useCallback, useMemo, useState } from "react";
 import { useGenera, useGenusDetail } from "../hooks/useGenera";
-import { useUiStore, type DietFilter } from "@/app/store";
+import { useUiStore } from "@/app/store";
+import { DIET_FILTER_OPTIONS, matchesDietFilter } from "@/lib/diet";
 import { GenusCard } from "./GenusCard";
 import { GenusDetailPanel } from "./GenusDetailPanel";
 import { Spinner } from "@/components/ui/Spinner";
 import { ErrorState } from "@/components/ui/ErrorState";
-
-const DIET_OPTIONS: DietFilter[] = ["All", "Herbivore", "Carnivore", "Omnivore"];
 
 /**
  * ============================================================================
@@ -70,8 +69,9 @@ export function GenusList() {
     const needle = search.trim().toLowerCase();
     return genera.filter((g) => {
       const matchesSearch = needle === "" || g.Genus.toLowerCase().includes(needle);
-      const matchesDiet = dietFilter === "All" || g.Diet === dietFilter;
-      return matchesSearch && matchesDiet;
+      // A genus with a combined diet (e.g. "Carnivore, omnivore") matches every
+      // category it names, so it appears under both Carnivore and Omnivore.
+      return matchesSearch && matchesDietFilter(g.Diet, dietFilter);
     });
   }, [genera, search, dietFilter]);
 
@@ -101,7 +101,7 @@ export function GenusList() {
           className="w-full border border-paleo-line bg-paleo-panel px-3 py-2 font-mono text-sm text-paleo-cream outline-none transition-colors placeholder:text-paleo-dim focus:border-paleo-accent sm:max-w-xs"
         />
         <div className="flex flex-wrap gap-1.5">
-          {DIET_OPTIONS.map((option) => (
+          {DIET_FILTER_OPTIONS.map((option) => (
             <button
               key={option}
               onClick={() => setDietFilter(option)}
