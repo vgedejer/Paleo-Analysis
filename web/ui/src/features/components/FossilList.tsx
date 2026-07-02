@@ -5,6 +5,7 @@ import type { FossilFilter } from "../api/fossilsApi";
 import { FossilDetailPanel } from "./FossilDetailPanel";
 import { Spinner } from "@/components/ui/Spinner";
 import { ErrorState } from "@/components/ui/ErrorState";
+import { Pagination, usePagination } from "@/components/ui/Pagination";
 
 /**
  * ============================================================================
@@ -29,6 +30,20 @@ export function FossilList() {
   const [selectedId, setSelectedId] = useState<number | null>(null);
 
   const { data: fossils, isPending, isFetching, isError, error, refetch } = useFossils(filter);
+
+  // Paginate the fetched fossils client-side. Resets to page 1 when the genus
+  // filter changes (a new server result set).
+  const {
+    pageItems,
+    page,
+    pageCount,
+    pageSize,
+    setPage,
+    setPageSize,
+    total,
+    rangeStart,
+    rangeEnd,
+  } = usePagination(fossils ?? [], filter ? `${filter.by}:${filter.value}` : "all");
 
   // Dependent query: idle until a row is selected, then fetches that fossil.
   const detailQuery = useFossilDetail(selectedId);
@@ -148,37 +163,50 @@ export function FossilList() {
         </p>
       ) : (
         <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
-          <div className="overflow-hidden border border-paleo-line">
-            <table className="w-full text-sm">
-              <thead className="border-b border-paleo-line bg-paleo-panel2 text-left font-mono text-[10px] uppercase tracking-[0.2em] text-paleo-dim">
-                <tr>
-                  <th className="px-4 py-3 font-normal">Fossil</th>
-                  <th className="px-4 py-3 font-normal">Formation</th>
-                  <th className="px-4 py-3 font-normal">Location</th>
-                  <th className="px-4 py-3 text-right font-normal">Lat / Lon</th>
-                </tr>
-              </thead>
-              <tbody>
-                {fossils.map((f) => (
-                  <tr
-                    key={f.id}
-                    onClick={() => setSelectedId(f.id)}
-                    className={`cursor-pointer border-t border-paleo-line transition-colors ${
-                      f.id === selectedId ? "bg-paleo-panel2" : "hover:bg-paleo-panel"
-                    }`}
-                  >
-                    <td className="px-4 py-2.5 font-crimson italic text-paleo-cream">{f.Fossil}</td>
-                    <td className="px-4 py-2.5 text-paleo-dim">{f.Formation}</td>
-                    <td className="px-4 py-2.5 text-paleo-dim">
-                      {f.State}, {f.Country}
-                    </td>
-                    <td className="px-4 py-2.5 text-right font-mono text-xs text-paleo-dim">
-                      {f.Latitude.toFixed(2)}, {f.Longitude.toFixed(2)}
-                    </td>
+          <div className="min-w-0">
+            <div className="overflow-hidden border border-paleo-line">
+              <table className="w-full text-sm">
+                <thead className="border-b border-paleo-line bg-paleo-panel2 text-left font-mono text-[10px] uppercase tracking-[0.2em] text-paleo-dim">
+                  <tr>
+                    <th className="px-4 py-3 font-normal">Fossil</th>
+                    <th className="px-4 py-3 font-normal">Formation</th>
+                    <th className="px-4 py-3 font-normal">Location</th>
+                    <th className="px-4 py-3 text-right font-normal">Lat / Lon</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {pageItems.map((f) => (
+                    <tr
+                      key={f.id}
+                      onClick={() => setSelectedId(f.id)}
+                      className={`cursor-pointer border-t border-paleo-line transition-colors ${
+                        f.id === selectedId ? "bg-paleo-panel2" : "hover:bg-paleo-panel"
+                      }`}
+                    >
+                      <td className="px-4 py-2.5 font-crimson italic text-paleo-cream">{f.Fossil}</td>
+                      <td className="px-4 py-2.5 text-paleo-dim">{f.Formation}</td>
+                      <td className="px-4 py-2.5 text-paleo-dim">
+                        {f.State}, {f.Country}
+                      </td>
+                      <td className="px-4 py-2.5 text-right font-mono text-xs text-paleo-dim">
+                        {f.Latitude.toFixed(2)}, {f.Longitude.toFixed(2)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <Pagination
+              page={page}
+              pageCount={pageCount}
+              pageSize={pageSize}
+              total={total}
+              rangeStart={rangeStart}
+              rangeEnd={rangeEnd}
+              onPageChange={setPage}
+              onPageSizeChange={setPageSize}
+              unit="fossils"
+            />
           </div>
 
           {/* Detail side panel — driven by the dependent query. */}

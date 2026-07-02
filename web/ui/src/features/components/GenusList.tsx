@@ -6,6 +6,7 @@ import { GenusCard } from "./GenusCard";
 import { GenusDetailPanel } from "./GenusDetailPanel";
 import { Spinner } from "@/components/ui/Spinner";
 import { ErrorState } from "@/components/ui/ErrorState";
+import { Pagination, usePagination } from "@/components/ui/Pagination";
 
 /**
  * ============================================================================
@@ -86,6 +87,20 @@ export function GenusList() {
    */
   const handleSelect = useCallback((id: number) => setSelectedId(id), []);
 
+  // Paginate the filtered results. Resets to page 1 whenever the search or diet
+  // filter changes so you never land on a now-nonexistent page.
+  const {
+    pageItems,
+    page,
+    pageCount,
+    pageSize,
+    setPage,
+    setPageSize,
+    total,
+    rangeStart,
+    rangeEnd,
+  } = usePagination(filteredGenera, `${search}|${dietFilter}`);
+
   return (
     <section className="space-y-6">
       {/* ----------------------------- Toolbar ----------------------------- */}
@@ -139,15 +154,28 @@ export function GenusList() {
                 No genera match your filters.
               </p>
             ) : (
-              <div className="grid gap-3 sm:grid-cols-2">
-                {/* Lists need a stable, unique `key` per item. React uses keys to
-                    match elements across renders so it can move/update rather than
-                    destroy + rebuild them. Use a real id — NEVER the array index
-                    for dynamic/reorderable lists (a classic source of subtle bugs). */}
-                {filteredGenera.map((genus) => (
-                  <GenusCard key={genus.id} genus={genus} onSelect={handleSelect} />
-                ))}
-              </div>
+              <>
+                <div className="grid gap-3 sm:grid-cols-2">
+                  {/* Lists need a stable, unique `key` per item. React uses keys to
+                      match elements across renders so it can move/update rather than
+                      destroy + rebuild them. Use a real id — NEVER the array index
+                      for dynamic/reorderable lists (a classic source of subtle bugs). */}
+                  {pageItems.map((genus) => (
+                    <GenusCard key={genus.id} genus={genus} onSelect={handleSelect} />
+                  ))}
+                </div>
+                <Pagination
+                  page={page}
+                  pageCount={pageCount}
+                  pageSize={pageSize}
+                  total={total}
+                  rangeStart={rangeStart}
+                  rangeEnd={rangeEnd}
+                  onPageChange={setPage}
+                  onPageSizeChange={setPageSize}
+                  unit="genera"
+                />
+              </>
             )}
           </div>
 
