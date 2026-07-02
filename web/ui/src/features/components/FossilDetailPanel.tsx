@@ -15,9 +15,9 @@ interface Props {
 /** A labeled stat row — mirrors the one in GenusDetailPanel for visual parity. */
 function Stat({ label, value }: { label: string; value: string | number }) {
   return (
-    <div className="flex justify-between border-b border-fossil-100 py-1.5 text-sm last:border-0">
-      <span className="text-fossil-700/60">{label}</span>
-      <span className="font-medium text-fossil-900">{value}</span>
+    <div className="flex justify-between gap-4 border-b border-paleo-line py-2 font-mono text-xs last:border-0">
+      <span className="uppercase tracking-widest text-paleo-dim">{label}</span>
+      <span className="text-right text-paleo-cream">{value}</span>
     </div>
   );
 }
@@ -38,7 +38,9 @@ export function FossilDetailPanel({ query, isOpen, onClose }: Props) {
         <ErrorState message={error.message} onRetry={() => refetch()} />
       ) : (
         <div>
-          <h3 className="mb-3 text-xl font-bold text-fossil-900">{data.Fossil}</h3>
+          <h3 className="mb-4 font-cinzel text-2xl uppercase tracking-wide text-paleo-accent [overflow-wrap:anywhere]">
+            {data.Fossil}
+          </h3>
           <Stat label="Formation" value={data.Formation} />
           <Stat label="Member" value={data.Member} />
           <Stat label="Geological group" value={data.GeoGroup} />
@@ -53,7 +55,9 @@ export function FossilDetailPanel({ query, isOpen, onClose }: Props) {
           <FindMap lat={data.Latitude} lon={data.Longitude} label={data.Fossil} />
 
           {data.GeoComments && (
-            <p className="mt-3 text-xs leading-relaxed text-fossil-700/70">{data.GeoComments}</p>
+            <p className="mt-4 font-crimson text-sm italic leading-relaxed text-paleo-dim">
+              {data.GeoComments}
+            </p>
           )}
         </div>
       )}

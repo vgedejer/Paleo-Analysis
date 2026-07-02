@@ -27,19 +27,23 @@ export const GenusCard = memo(function GenusCard({ genus, onSelect }: GenusCardP
   return (
     <button
       onClick={() => onSelect(genus.id)}
-      className="flex w-full flex-col items-start gap-2 rounded-xl border border-fossil-100 bg-white p-4 text-left shadow-sm transition hover:border-fossil-700/40 hover:shadow-md"
+      className="group flex w-full min-w-0 flex-col items-start gap-3 border border-paleo-line bg-paleo-panel p-5 text-left transition-colors hover:bg-paleo-panel2 focus:outline-none focus-visible:ring-1 focus-visible:ring-paleo-accent"
     >
-      <div className="flex w-full items-center justify-between gap-2">
-        <h3 className="font-semibold italic text-fossil-900">{genus.Genus}</h3>
-        <DietBadge diet={genus.Diet} />
+      <div className="w-full">
+        <h3 className="font-cinzel text-lg uppercase tracking-wide text-paleo-cream transition-colors [overflow-wrap:anywhere] group-hover:text-paleo-accent">
+          {genus.Genus}
+        </h3>
+        <div className="mt-1.5">
+          <DietBadge diet={genus.Diet} />
+        </div>
       </div>
-      <dl className="grid w-full grid-cols-2 gap-x-3 gap-y-1 text-xs text-fossil-700">
-        <dt className="text-fossil-700/60">Family</dt>
-        <dd className="text-right">{genus.Family}</dd>
-        <dt className="text-fossil-700/60">Order</dt>
-        <dd className="text-right">{genus.Order}</dd>
-        <dt className="text-fossil-700/60">Period</dt>
-        <dd className="text-right">
+      <dl className="grid w-full grid-cols-2 gap-x-3 gap-y-2 font-mono text-xs">
+        <dt className="text-[10px] uppercase tracking-widest text-paleo-dim">Family</dt>
+        <dd className="text-right text-paleo-cream">{genus.Family}</dd>
+        <dt className="text-[10px] uppercase tracking-widest text-paleo-dim">Order</dt>
+        <dd className="text-right text-paleo-cream">{genus.Order}</dd>
+        <dt className="text-[10px] uppercase tracking-widest text-paleo-dim">Period</dt>
+        <dd className="text-right text-paleo-cream">
           {genus.EarlyPeriod} – {genus.LatePeriod}
         </dd>
       </dl>

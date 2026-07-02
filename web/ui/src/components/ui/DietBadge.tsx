@@ -1,21 +1,20 @@
 import type { Diet } from "@/types/paleo";
+import { dietLabel, dietSwatchClass } from "@/lib/diet";
 
 /**
- * Maps a diet to Tailwind classes. Defined as a plain lookup object outside the
- * component so it isn't re-created on every render — a small but real habit:
- * keep static data out of the render path.
+ * Shows a genus's diet: a small square swatch (colored by the primary diet
+ * category) beside the ACTUAL diet text from the DB. Combined diets render their
+ * full label ("Carnivore, Omnivore"); an unspecified diet shows as "Unknown".
+ *
+ * Echoes the diet color-coding on the landing page's specimen cards. All diet
+ * logic — categories, labels, colors — lives in `@/lib/diet` so the filter and
+ * every badge stay in lockstep.
  */
-const DIET_STYLES: Record<string, string> = {
-  Carnivore: "bg-red-100 text-red-800",
-  Herbivore: "bg-green-100 text-green-800",
-  Omnivore: "bg-amber-100 text-amber-800",
-};
-
-export function DietBadge({ diet }: { diet: Diet }) {
-  const styles = DIET_STYLES[diet] ?? "bg-fossil-100 text-fossil-700";
+export function DietBadge({ diet }: { diet: Diet | null | undefined }) {
   return (
-    <span className={`inline-flex rounded-full px-2 py-0.5 text-xs font-medium ${styles}`}>
-      {diet}
+    <span className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest text-paleo-dim">
+      <span className={`inline-block h-1.5 w-1.5 shrink-0 ${dietSwatchClass(diet)}`} />
+      {dietLabel(diet)}
     </span>
   );
 }

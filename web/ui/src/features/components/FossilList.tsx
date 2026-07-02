@@ -5,6 +5,7 @@ import type { FossilFilter } from "../api/fossilsApi";
 import { FossilDetailPanel } from "./FossilDetailPanel";
 import { Spinner } from "@/components/ui/Spinner";
 import { ErrorState } from "@/components/ui/ErrorState";
+import { Pagination, usePagination } from "@/components/ui/Pagination";
 
 /**
  * ============================================================================
@@ -29,6 +30,20 @@ export function FossilList() {
   const [selectedId, setSelectedId] = useState<number | null>(null);
 
   const { data: fossils, isPending, isFetching, isError, error, refetch } = useFossils(filter);
+
+  // Paginate the fetched fossils client-side. Resets to page 1 when the genus
+  // filter changes (a new server result set).
+  const {
+    pageItems,
+    page,
+    pageCount,
+    pageSize,
+    setPage,
+    setPageSize,
+    total,
+    rangeStart,
+    rangeEnd,
+  } = usePagination(fossils ?? [], filter ? `${filter.by}:${filter.value}` : "all");
 
   // Dependent query: idle until a row is selected, then fetches that fossil.
   const detailQuery = useFossilDetail(selectedId);
@@ -99,7 +114,7 @@ export function FossilList() {
           onFocus={() => setShowSuggestions(true)}
           onBlur={() => setShowSuggestions(false)}
           placeholder="Filter fossils by genus (e.g. Tyrannosaurus)…"
-          className="w-full rounded-lg border border-fossil-100 px-3 py-2 text-sm outline-none focus:border-fossil-700/50"
+          className="w-full border border-paleo-line bg-paleo-panel px-3 py-2 font-mono text-sm text-paleo-cream outline-none transition-colors placeholder:text-paleo-dim focus:border-paleo-accent"
         />
         </form>
 
@@ -109,7 +124,7 @@ export function FossilList() {
           // register (otherwise blur would unmount this list first).
           <ul
             onMouseDown={(e) => e.preventDefault()}
-            className="absolute z-10 mt-1 w-full overflow-hidden rounded-lg border border-fossil-100 bg-white shadow-sm"
+            className="absolute z-10 mt-1 w-full overflow-hidden border border-paleo-line bg-paleo-panel"
           >
             {suggestions.map((name, i) => (
               <li key={name}>
@@ -117,8 +132,10 @@ export function FossilList() {
                   type="button"
                   onClick={() => selectSuggestion(name)}
                   onMouseEnter={() => setActiveIndex(i)}
-                  className={`block w-full px-3 py-2 text-left text-sm text-fossil-900 ${
-                    i === activeIndex ? "bg-fossil-100" : "hover:bg-fossil-50"
+                  className={`block w-full px-3 py-2 text-left font-mono text-sm transition-colors ${
+                    i === activeIndex
+                      ? "bg-paleo-panel2 text-paleo-accent"
+                      : "text-paleo-cream hover:bg-paleo-panel2"
                   }`}
                 >
                   {name}
@@ -132,49 +149,64 @@ export function FossilList() {
       {/* `isFetching` (vs `isPending`) lets us show a subtle refetch indicator
           while still displaying the previous results — a smoother UX than
           blanking the list on every new query. */}
-      {isFetching && !isPending && <p className="text-xs text-fossil-700/60">Updating…</p>}
+      {isFetching && !isPending && (
+        <p className="font-mono text-xs uppercase tracking-[0.25em] text-paleo-dim">Updating…</p>
+      )}
 
       {isPending ? (
         <Spinner label="Sifting sediment…" />
       ) : isError ? (
         <ErrorState message={error.message} onRetry={() => refetch()} />
       ) : fossils.length === 0 ? (
-        <p className="rounded-lg border border-dashed border-fossil-100 p-8 text-center text-sm text-fossil-700/60">
+        <p className="border border-dashed border-paleo-line p-8 text-center font-mono text-xs uppercase tracking-[0.25em] text-paleo-dim">
           No fossils found.
         </p>
       ) : (
         <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
-          <div className="overflow-hidden rounded-xl border border-fossil-100">
-            <table className="w-full text-sm">
-              <thead className="bg-fossil-50 text-left text-xs uppercase tracking-wide text-fossil-700/70">
-                <tr>
-                  <th className="px-4 py-2 font-medium">Fossil</th>
-                  <th className="px-4 py-2 font-medium">Formation</th>
-                  <th className="px-4 py-2 font-medium">Location</th>
-                  <th className="px-4 py-2 text-right font-medium">Lat / Lon</th>
-                </tr>
-              </thead>
-              <tbody>
-                {fossils.map((f) => (
-                  <tr
-                    key={f.id}
-                    onClick={() => setSelectedId(f.id)}
-                    className={`cursor-pointer border-t border-fossil-100 ${
-                      f.id === selectedId ? "bg-fossil-100" : "hover:bg-fossil-50/50"
-                    }`}
-                  >
-                    <td className="px-4 py-2 font-medium text-fossil-900">{f.Fossil}</td>
-                    <td className="px-4 py-2 text-fossil-700">{f.Formation}</td>
-                    <td className="px-4 py-2 text-fossil-700">
-                      {f.State}, {f.Country}
-                    </td>
-                    <td className="px-4 py-2 text-right font-mono text-xs text-fossil-700/70">
-                      {f.Latitude.toFixed(2)}, {f.Longitude.toFixed(2)}
-                    </td>
+          <div className="min-w-0">
+            <div className="overflow-hidden border border-paleo-line">
+              <table className="w-full text-sm">
+                <thead className="border-b border-paleo-line bg-paleo-panel2 text-left font-mono text-[10px] uppercase tracking-[0.2em] text-paleo-dim">
+                  <tr>
+                    <th className="px-4 py-3 font-normal">Fossil</th>
+                    <th className="px-4 py-3 font-normal">Formation</th>
+                    <th className="px-4 py-3 font-normal">Location</th>
+                    <th className="px-4 py-3 text-right font-normal">Lat / Lon</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {pageItems.map((f) => (
+                    <tr
+                      key={f.id}
+                      onClick={() => setSelectedId(f.id)}
+                      className={`cursor-pointer border-t border-paleo-line transition-colors ${
+                        f.id === selectedId ? "bg-paleo-panel2" : "hover:bg-paleo-panel"
+                      }`}
+                    >
+                      <td className="px-4 py-2.5 font-crimson italic text-paleo-cream">{f.Fossil}</td>
+                      <td className="px-4 py-2.5 text-paleo-dim">{f.Formation}</td>
+                      <td className="px-4 py-2.5 text-paleo-dim">
+                        {f.State}, {f.Country}
+                      </td>
+                      <td className="px-4 py-2.5 text-right font-mono text-xs text-paleo-dim">
+                        {f.Latitude.toFixed(2)}, {f.Longitude.toFixed(2)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <Pagination
+              page={page}
+              pageCount={pageCount}
+              pageSize={pageSize}
+              total={total}
+              rangeStart={rangeStart}
+              rangeEnd={rangeEnd}
+              onPageChange={setPage}
+              onPageSizeChange={setPageSize}
+              unit="fossils"
+            />
           </div>
 
           {/* Detail side panel — driven by the dependent query. */}

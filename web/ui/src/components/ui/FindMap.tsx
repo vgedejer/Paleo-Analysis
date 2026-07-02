@@ -31,7 +31,7 @@ const pinIcon = L.icon({
 
 export function FindMap({ lat, lon, label }: { lat: number; lon: number; label: string }) {
   return (
-    <div className="mt-3 overflow-hidden rounded-lg border border-fossil-100">
+    <div className="mt-4 overflow-hidden border border-paleo-line">
       <MapContainer
         // MapContainer ignores `center`/`zoom` changes after mount. Keying by the
         // coordinates remounts it when a different item is selected, so the map

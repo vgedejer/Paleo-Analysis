@@ -1,92 +1,51 @@
-import { useEffect, useState } from "react";
-import { GenusList } from "@/features/components/GenusList";
-import { FossilList } from "@/features/components/FossilList";
-import { UserDashboard } from "@/features/components/UserDashboard";
-import { LandingPage, type AppTarget } from "@/features/landing/LandingPage";
-
-type Tab = "genera" | "fossils" | "dashboard";
-type View = "landing" | "app";
+import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
+import { LandingPage } from "@/features/landing/LandingPage";
+import { AppLayout } from "@/features/components/AppLayout";
+import { EXPLORER_ROUTES, DEFAULT_EXPLORER_PATH } from "@/app/explorerRoutes";
 
 /**
- * App shell + a tiny local view/tab switcher.
+ * The app's route map.
  *
- * Two top-level views: the marketing `landing` page (shown first) and the
- * data-driven `app` explorer. The landing page's nav and CTA call `onEnter` to
- * cross into the explorer; clicking the "Paleonix" brand in the app header
- * returns to the landing page.
+ * Every view is a real, deep-linkable URL that survives a refresh:
+ *   `/`                      → the marketing landing page
+ *   `/dashboard` /`/genera` /`/fossils` → the explorer, inside a shared layout
  *
- * Within the explorer we use `useState` for the active tab rather than pulling
- * in a router, to keep the boilerplate focused on the data/state story. In a
- * real app this is the natural seam to introduce React Router: landing becomes
- * `/`, each tab a route (/genera, /fossils), giving URL-addressable views, deep
- * links, and back-button support for free. That's called out in the README.
+ * The explorer routes are generated from EXPLORER_ROUTES (the single source of
+ * truth), so adding a page means adding one entry there — not touching this
+ * file. `AppLayout` is a pathless layout route: it renders the shared shell once
+ * and swaps the active page through its <Outlet/>. Both views share the dark
+ * archive theme; the body background is painted `paleo-bg` globally in
+ * index.css so overscroll never reveals a light seam.
+ *
+ * Vite's dev server and `vite preview` both do SPA history fallback, so hitting
+ * `/genera` directly (or reloading on it) serves index.html and the router takes
+ * over — no server config needed.
  */
 export default function App() {
-  const [view, setView] = useState<View>("landing");
-  const [tab, setTab] = useState<Tab>("dashboard");
-
-  // The landing page owns the whole viewport with a dark ground; paint the
-  // document background to match so overscroll doesn't reveal the light app
-  // theme. Restored whenever we're in the explorer.
-  useEffect(() => {
-    document.body.classList.toggle("bg-paleo-bg", view === "landing");
-    return () => document.body.classList.remove("bg-paleo-bg");
-  }, [view]);
-
-  if (view === "landing") {
-    const enter = (target?: AppTarget) => {
-      if (target) setTab(target);
-      setView("app");
-    };
-    return <LandingPage onEnter={enter} />;
-  }
-
-  const tabs: { id: Tab; label: string }[] = [
-    { id: "dashboard", label: "Dashboard" },
-    { id: "genera", label: "Genera" },
-    { id: "fossils", label: "Fossils" },
-  ];
-
   return (
-    <div className="mx-auto max-w-5xl px-4 py-8">
-      <header className="mb-8">
-        <button
-          type="button"
-          onClick={() => setView("landing")}
-          className="text-left text-2xl font-bold text-fossil-900 transition-opacity hover:opacity-70"
-          title="Back to landing page"
-        >
-          Paleonix
-        </button>
-        <p className="text-sm text-fossil-700/70">
-          Dinosaur genera &amp; fossil explorer
-        </p>
-        <nav className="mt-4 flex gap-2">
-          {tabs.map((t) => (
-            <button
-              key={t.id}
-              onClick={() => setTab(t.id)}
-              className={`rounded-lg px-4 py-2 text-sm font-medium transition ${
-                tab === t.id
-                  ? "bg-fossil-900 text-white"
-                  : "bg-white text-fossil-700 hover:bg-fossil-100"
-              }`}
-            >
-              {t.label}
-            </button>
-          ))}
-        </nav>
-      </header>
+    <Routes>
+      <Route path="/" element={<LandingRoute />} />
+      <Route element={<AppLayout />}>
+        {EXPLORER_ROUTES.map((route) => (
+          <Route key={route.path} path={route.path} element={route.element} />
+        ))}
+      </Route>
+      {/* Unknown paths fall back to the landing page. */}
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
+  );
+}
 
-      <main>
-        {tab === "dashboard" ? (
-          <UserDashboard />
-        ) : tab === "genera" ? (
-          <GenusList />
-        ) : (
-          <FossilList />
-        )}
-      </main>
-    </div>
+/**
+ * Bridges the presentational LandingPage (which just reports "enter" intent via
+ * `onEnter`) to the router. Keeping LandingPage router-agnostic leaves it easy
+ * to render in isolation for tests/Storybook.
+ */
+function LandingRoute() {
+  const navigate = useNavigate();
+  return (
+    <LandingPage
+      onEnter={(target) => navigate(`/${target ?? DEFAULT_EXPLORER_PATH}`)}
+    />
   );
 }

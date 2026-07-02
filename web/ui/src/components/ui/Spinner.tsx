@@ -5,9 +5,9 @@
  */
 export function Spinner({ label = "Loading…" }: { label?: string }) {
   return (
-    <div className="flex items-center gap-3 text-fossil-700" role="status">
-      <span className="h-5 w-5 animate-spin rounded-full border-2 border-fossil-100 border-t-fossil-700" />
-      <span className="text-sm">{label}</span>
+    <div className="flex items-center gap-3 text-paleo-dim" role="status">
+      <span className="h-5 w-5 animate-spin rounded-full border-2 border-paleo-line border-t-paleo-accent" />
+      <span className="font-mono text-xs uppercase tracking-[0.25em]">{label}</span>
     </div>
   );
 }

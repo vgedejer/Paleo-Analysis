@@ -1,12 +1,12 @@
 import { useCallback, useMemo, useState } from "react";
 import { useGenera, useGenusDetail } from "../hooks/useGenera";
-import { useUiStore, type DietFilter } from "@/app/store";
+import { useUiStore } from "@/app/store";
+import { DIET_FILTER_OPTIONS, matchesDietFilter } from "@/lib/diet";
 import { GenusCard } from "./GenusCard";
 import { GenusDetailPanel } from "./GenusDetailPanel";
 import { Spinner } from "@/components/ui/Spinner";
 import { ErrorState } from "@/components/ui/ErrorState";
-
-const DIET_OPTIONS: DietFilter[] = ["All", "Herbivore", "Carnivore", "Omnivore"];
+import { Pagination, usePagination } from "@/components/ui/Pagination";
 
 /**
  * ============================================================================
@@ -70,8 +70,9 @@ export function GenusList() {
     const needle = search.trim().toLowerCase();
     return genera.filter((g) => {
       const matchesSearch = needle === "" || g.Genus.toLowerCase().includes(needle);
-      const matchesDiet = dietFilter === "All" || g.Diet === dietFilter;
-      return matchesSearch && matchesDiet;
+      // A genus with a combined diet (e.g. "Carnivore, omnivore") matches every
+      // category it names, so it appears under both Carnivore and Omnivore.
+      return matchesSearch && matchesDietFilter(g.Diet, dietFilter);
     });
   }, [genera, search, dietFilter]);
 
@@ -86,6 +87,20 @@ export function GenusList() {
    */
   const handleSelect = useCallback((id: number) => setSelectedId(id), []);
 
+  // Paginate the filtered results. Resets to page 1 whenever the search or diet
+  // filter changes so you never land on a now-nonexistent page.
+  const {
+    pageItems,
+    page,
+    pageCount,
+    pageSize,
+    setPage,
+    setPageSize,
+    total,
+    rangeStart,
+    rangeEnd,
+  } = usePagination(filteredGenera, `${search}|${dietFilter}`);
+
   return (
     <section className="space-y-6">
       {/* ----------------------------- Toolbar ----------------------------- */}
@@ -98,17 +113,17 @@ export function GenusList() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search genera…"
-          className="w-full rounded-lg border border-fossil-100 px-3 py-2 text-sm outline-none focus:border-fossil-700/50 sm:max-w-xs"
+          className="w-full border border-paleo-line bg-paleo-panel px-3 py-2 font-mono text-sm text-paleo-cream outline-none transition-colors placeholder:text-paleo-dim focus:border-paleo-accent sm:max-w-xs"
         />
-        <div className="flex gap-1.5">
-          {DIET_OPTIONS.map((option) => (
+        <div className="flex flex-wrap gap-1.5">
+          {DIET_FILTER_OPTIONS.map((option) => (
             <button
               key={option}
               onClick={() => setDietFilter(option)}
-              className={`rounded-full px-3 py-1 text-xs font-medium transition ${
+              className={`border px-3 py-1 font-mono text-[11px] uppercase tracking-[0.2em] transition-colors ${
                 dietFilter === option
-                  ? "bg-fossil-700 text-white"
-                  : "bg-fossil-100 text-fossil-700 hover:bg-fossil-100/70"
+                  ? "border-paleo-accent bg-paleo-accent text-paleo-bg"
+                  : "border-paleo-line text-paleo-dim hover:border-paleo-dim hover:text-paleo-cream"
               }`}
             >
               {option}
@@ -127,25 +142,40 @@ export function GenusList() {
         <ErrorState message={error.message} onRetry={() => refetch()} />
       ) : (
         <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
-          {/* Results grid */}
-          <div>
-            <p className="mb-3 text-xs text-fossil-700/60">
+          {/* Results grid — `min-w-0` lets the 1fr track shrink so long single-
+              word genus names wrap inside the cards instead of forcing the whole
+              layout wider than the viewport. */}
+          <div className="min-w-0">
+            <p className="mb-3 font-mono text-xs uppercase tracking-[0.25em] text-paleo-dim">
               {filteredGenera.length} of {genera.length} genera
             </p>
             {filteredGenera.length === 0 ? (
-              <p className="rounded-lg border border-dashed border-fossil-100 p-8 text-center text-sm text-fossil-700/60">
+              <p className="border border-dashed border-paleo-line p-8 text-center font-mono text-xs uppercase tracking-[0.25em] text-paleo-dim">
                 No genera match your filters.
               </p>
             ) : (
-              <div className="grid gap-3 sm:grid-cols-2">
-                {/* Lists need a stable, unique `key` per item. React uses keys to
-                    match elements across renders so it can move/update rather than
-                    destroy + rebuild them. Use a real id — NEVER the array index
-                    for dynamic/reorderable lists (a classic source of subtle bugs). */}
-                {filteredGenera.map((genus) => (
-                  <GenusCard key={genus.id} genus={genus} onSelect={handleSelect} />
-                ))}
-              </div>
+              <>
+                <div className="grid gap-3 sm:grid-cols-2">
+                  {/* Lists need a stable, unique `key` per item. React uses keys to
+                      match elements across renders so it can move/update rather than
+                      destroy + rebuild them. Use a real id — NEVER the array index
+                      for dynamic/reorderable lists (a classic source of subtle bugs). */}
+                  {pageItems.map((genus) => (
+                    <GenusCard key={genus.id} genus={genus} onSelect={handleSelect} />
+                  ))}
+                </div>
+                <Pagination
+                  page={page}
+                  pageCount={pageCount}
+                  pageSize={pageSize}
+                  total={total}
+                  rangeStart={rangeStart}
+                  rangeEnd={rangeEnd}
+                  onPageChange={setPage}
+                  onPageSizeChange={setPageSize}
+                  unit="genera"
+                />
+              </>
             )}
           </div>
 

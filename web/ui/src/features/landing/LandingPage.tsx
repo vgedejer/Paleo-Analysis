@@ -33,7 +33,7 @@ export function LandingPage({ onEnter }: LandingPageProps) {
   return (
     <div className="relative min-h-screen bg-paleo-bg font-crimson text-paleo-cream">
       <GrainOverlay />
-      <TopNav onEnter={onEnter} />
+      <TopNav />
       <Hero />
       <Repository onEnter={onEnter} />
       <Stats />
@@ -63,7 +63,7 @@ const NAV_LINKS = [
   { label: "About", section: "about" },
 ];
 
-function TopNav({ onEnter }: { onEnter: (target?: AppTarget) => void }) {
+function TopNav() {
   return (
     <header className="sticky top-0 z-40 border-b border-paleo-line bg-paleo-bg/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">

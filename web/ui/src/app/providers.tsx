@@ -1,4 +1,5 @@
 import { type ReactNode } from "react";
+import { BrowserRouter } from "react-router-dom";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { queryClient } from "./queryClient";
@@ -18,7 +19,9 @@ import { queryClient } from "./queryClient";
 export function AppProviders({ children }: { children: ReactNode }) {
   return (
     <QueryClientProvider client={queryClient}>
-      {children}
+      {/* BrowserRouter provides the History API context that makes URLs like
+          /genera real, deep-linkable, and refresh-safe. */}
+      <BrowserRouter>{children}</BrowserRouter>
       {/* Devtools render only in dev builds; Vite strips them from production.
           Open the floating panel to watch the cache, query states, and
           refetches in real time — invaluable for understanding React Query. */}
