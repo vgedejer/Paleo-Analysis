@@ -10,6 +10,14 @@ import os
 from dataclasses import dataclass
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+# Load web/.env into the environment before the Settings defaults below are
+# evaluated, so PALEO_DATABASE_URL (e.g. the Supabase URL) is picked up in local
+# dev. A real env var set by the host still wins — load_dotenv doesn't override
+# existing values. config.py → core → app → web, so parents[2] is web/.
+load_dotenv(Path(__file__).resolve().parents[2] / ".env")
+
 
 def _default_db_path() -> str:
     # web/app/core/config.py → web/paleo.db

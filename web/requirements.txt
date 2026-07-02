@@ -1,0 +1,21 @@
+# API runtime dependencies. Kept lean — the data-collection pipeline has its
+# own deps in scripts/data_collection/requirements.txt so pandas/bs4/etc. don't
+# get baked into the API image.
+#
+# Pins are lower bounds; run `pip freeze > requirements.lock.txt` once your venv
+# is settled to capture exact versions for reproducible deploys.
+
+fastapi>=0.110
+uvicorn[standard]>=0.29
+SQLAlchemy>=2.0
+pydantic>=2.6
+
+# PostgreSQL driver (psycopg 3), used via the `postgresql+psycopg://` URL scheme.
+# The [binary] extra ships a prebuilt wheel so no local libpq/build tools needed.
+psycopg[binary]>=3.1
+
+# Schema migrations.
+alembic>=1.13
+
+# Loads web/.env in local dev.
+python-dotenv>=1.0

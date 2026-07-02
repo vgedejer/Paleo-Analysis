@@ -1,12 +1,13 @@
-from sqlalchemy import Column, Float, ForeignKey, Integer, String
+from sqlalchemy import Column, Float, ForeignKey, Integer, String, text
 from sqlalchemy.orm import relationship
 from db.base import Base
 
 
 class Fossil(Base):
-    __tablename__ = "dino_fossils"
+    __tablename__ = "fossils"
 
-    id = Column("index", Integer, primary_key=True, index=True)
+    id = Column(Integer, primary_key=True)
+    clade = Column(String, nullable=False, index=True, server_default=text("'Dinosauria'"))
     Fossil = Column(String, index=True)
     Longitude = Column(Float, index=True)
     Latitude = Column(Float, index=True)
@@ -23,5 +24,5 @@ class Fossil(Base):
     Member = Column(String, index=True)
     PaleoModel = Column(String, index=True)
 
-    genus_id = Column(Integer, ForeignKey("dino_genera.index"), index=True)
+    genus_id = Column(Integer, ForeignKey("genera.id"), index=True)
     genus = relationship("Genus", back_populates="fossils")

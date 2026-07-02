@@ -1,12 +1,16 @@
-from sqlalchemy import Boolean, Column, Float, Integer, String
+from sqlalchemy import Boolean, Column, Float, Integer, String, text
 from sqlalchemy.orm import relationship
 from db.base import Base
 
 
 class Genus(Base):
-    __tablename__ = "dino_genera"
+    __tablename__ = "genera"
 
-    id = Column("index", Integer, primary_key=True, index=True)
+    id = Column(Integer, primary_key=True)
+    # Taxonomic group this row belongs to (e.g. "Dinosauria", "Mammalia").
+    # Lets every clade share one set of tables, so adding a new group is a data
+    # load (one more ingestion run) rather than new tables + endpoints.
+    clade = Column(String, nullable=False, index=True, server_default=text("'Dinosauria'"))
     Genus = Column(String, index=True)
     Family = Column(String, index=True)
     Infraorder = Column(String, index=True)

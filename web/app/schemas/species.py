@@ -18,8 +18,8 @@ class SpeciesUpdate(BaseModel):
     Species: str | None = None
     Genus: str | None = None
     Diet: str | None = None
-    MaxMYA: int | None = None
-    MinMYA: int | None = None
+    MaxMYA: float | None = None
+    MinMYA: float | None = None
     LifespanMYA: float | None = None
     EarlyAge: str | None = None
     LateAge: str | None = None
