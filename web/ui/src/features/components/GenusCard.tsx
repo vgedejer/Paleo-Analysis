@@ -44,7 +44,7 @@ export const GenusCard = memo(function GenusCard({ genus, onSelect }: GenusCardP
         <dd className="text-right text-paleo-cream">{genus.Order}</dd>
         <dt className="text-[10px] uppercase tracking-widest text-paleo-dim">Period</dt>
         <dd className="text-right text-paleo-cream">
-          {genus.EarlyPeriod} – {genus.LatePeriod}
+          {genus.EarlyPeriod == genus.LatePeriod ? genus.EarlyPeriod : `${genus.EarlyPeriod} – ${genus.LatePeriod}`}
         </dd>
       </dl>
     </button>
